@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+class Courses extends Component {
+    
+}
 // provide the "Courses" screen
 // retrieve list of courses from /api/courses
 // render list of courses
