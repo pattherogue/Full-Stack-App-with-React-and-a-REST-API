@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 
 class Courses extends Component {
-    
+    state = {
+        
+    }
 }
 // provide the "Courses" screen
 // retrieve list of courses from /api/courses
