@@ -3,6 +3,6 @@ import React, { Component } from 'react';
 // provides "Sign Up" screen 
 // render form - allow user to sign up
 // render "Sign Up" button
-// cick --> sends a POST request 
+// send post request tp /api/users
 
 export default UserSignUp
