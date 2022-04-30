@@ -5,5 +5,6 @@ import React, { Component } from 'react';
 // render "Sign Up" button
 // send post request tp /api/users
 // sign in user
+// render "Cancel" button
 
 export default UserSignUp
