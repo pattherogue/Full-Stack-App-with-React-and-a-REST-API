@@ -5,3 +5,4 @@ import React, { Component } from 'react';
 // render "Update Course" button
 // send PUT request to /api/courses/:id
 // render "Cancel" button
+// return users to "Course Detail" screen
