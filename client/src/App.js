@@ -7,6 +7,7 @@ import {
 
 import CourseDetail from './components/CourseDetail';
 import Courses from './components/Courses';
+import CreateCourse from './components/CreateCourse';
 
 const App = () => (
   <div>
