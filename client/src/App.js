@@ -4,7 +4,8 @@ import {
   Route,
   Switch
 } from 'react-router-dom'
-import './App.css';
+
+import CourseDetail from './components/CourseDetail';
 
 const App = () => (
   <div>
