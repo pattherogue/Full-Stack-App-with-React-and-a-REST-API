@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom'
 
 import CourseDetail from './components/CourseDetail';
+import Courses from './components/Courses';
 
 const App = () => (
   <div>
