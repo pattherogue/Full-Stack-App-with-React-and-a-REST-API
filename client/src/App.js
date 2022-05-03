@@ -8,6 +8,7 @@ import {
 import CourseDetail from './components/CourseDetail';
 import Courses from './components/Courses';
 import CreateCourse from './components/CreateCourse';
+import UpdateCourse from './components/UpdateCourse';
 
 const App = () => (
   <div>
