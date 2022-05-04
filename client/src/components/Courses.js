@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Courses extends Component {
     state = {
-        
+        courses: [],
     }
 }
 // provide the "Courses" screen
