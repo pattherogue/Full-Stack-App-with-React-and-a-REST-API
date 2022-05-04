@@ -6,8 +6,12 @@ class Courses extends Component {
     };
 
     componentDidMount() {
-        
+        fetch("http://localhost:5000/ap/courses")
     }
+
+
+
+
 }
 // provide the "Courses" screen
 // retrieve list of courses from /api/courses
