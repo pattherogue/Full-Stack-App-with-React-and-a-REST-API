@@ -8,7 +8,9 @@ class Courses extends Component {
     componentDidMount() {
         fetch("http://localhost:5000/ap/courses")
             .then(response => response.json())
-            .then()
+            .then(responseData => {
+                
+            })
     }
 
 
