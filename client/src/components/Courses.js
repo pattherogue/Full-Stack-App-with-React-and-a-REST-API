@@ -9,7 +9,9 @@ class Courses extends Component {
         fetch("http://localhost:5000/ap/courses")
             .then(response => response.json())
             .then(responseData => {
-                this.setState();
+                this.setState({
+                    courses: responseData
+                });
             })
     }
 
