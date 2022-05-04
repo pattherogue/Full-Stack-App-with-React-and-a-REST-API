@@ -4,6 +4,10 @@ class Courses extends Component {
     state = {
         courses: [],
     };
+
+    componentDidMount() {
+        
+    }
 }
 // provide the "Courses" screen
 // retrieve list of courses from /api/courses
