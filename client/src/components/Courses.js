@@ -13,7 +13,7 @@ class Courses extends Component {
                     courses: responseData.data,
                 })
                 .catch(error => {
-                    console.log('Error fetching and parsing data', error)
+                    console.log('Error fetching and parsing data', error);
                 })
             });
     }
