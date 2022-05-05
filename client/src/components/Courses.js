@@ -4,7 +4,8 @@ class Courses extends Component {
     state = {
         courses: [],
     };
-
+    // provide the "Courses" screen
+    // retrieve list of courses from /api/courses
     componentDidMount() {
         fetch("http://localhost:5000/ap/courses")
             .then(response => response.json())
@@ -22,8 +23,7 @@ class Courses extends Component {
 
 
 }
-// provide the "Courses" screen
-// retrieve list of courses from /api/courses
+
 // render list of courses
 // link to respective "Course Detail" screen
 // component render link to "Create Course" screen 
