@@ -12,7 +12,7 @@ class Courses extends Component {
                 this.setState({
                     courses: responseData
                 });
-            })
+            });
     }
 
 
