@@ -10,8 +10,11 @@ class Courses extends Component {
             .then(response => response.json())
             .then(responseData => {
                 this.setState({
-                    courses: responseData,
-                });
+                    courses: responseData.data,
+                })
+                .catch(error => {
+                    
+                })
             });
     }
 
