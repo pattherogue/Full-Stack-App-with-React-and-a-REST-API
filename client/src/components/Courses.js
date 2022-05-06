@@ -47,7 +47,7 @@ class Courses extends Component {
                     </span>
                 </a>
           
-        );
+        
     }
 
 
