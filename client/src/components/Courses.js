@@ -24,14 +24,17 @@ class Courses extends Component {
     render() {
         console.log(this.state.courses);
         const courses = this.state.courses;
+        const coursesList = courses.map(course) => {
+            return (
+                <main>
+                <div className="wrap main--grid">
+                    <a class="course--module course--link" href="course-detail.html">
+                        <h2 class="course--label">Course</h2>
+                        <h3 class="course--title">Build a Basic Bookcase</h3>
+                    </a>
+        }
 
-        return (
-            <main>
-            <div className="wrap main--grid">
-                <a class="course--module course--link" href="course-detail.html">
-                    <h2 class="course--label">Course</h2>
-                    <h3 class="course--title">Build a Basic Bookcase</h3>
-                </a>
+       
           
 
 
