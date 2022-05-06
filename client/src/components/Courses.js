@@ -25,8 +25,8 @@ class Courses extends Component {
         console.log(this.state.courses);
         const courses = this.state.courses;
         const coursesList = courses.map((course) => {
+            
             return (
-                <main>
                 <div className="wrap main--grid">
                     <a class="course--module course--link" href="course-detail.html">
                         <h2 class="course--label">Course</h2>
@@ -47,8 +47,7 @@ class Courses extends Component {
                         New Course
                     </span>
                 </a>
-            </div>
-        </main>
+          
         );
     }
 
