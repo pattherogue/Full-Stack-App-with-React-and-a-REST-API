@@ -28,8 +28,8 @@ class Courses extends Component {
             
             return (
                     <a key={course.id} className="course--module course--link" href={`/courses/${course.id}`}>
-                        <h2 className=''="course--label">Course</h2>
-                        <h3 class="course--title">Build a Basic Bookcase</h3>
+                        <h2 className="course--label">Course</h2>
+                        <h3 className="course--title">Build a Basic Bookcase</h3>
                     </a>
             )
         });
