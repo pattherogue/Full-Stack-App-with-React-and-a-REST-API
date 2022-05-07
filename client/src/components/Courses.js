@@ -27,7 +27,7 @@ class Courses extends Component {
         const coursesList = courses.map((course) => {
             
             return (
-                    <a className="course--module course--link" href="course-detail.html">
+                    <a key={course.id} className="course--module course--link" href={`/courses/${course.id}`}>
                         <h2 class="course--label">Course</h2>
                         <h3 class="course--title">Build a Basic Bookcase</h3>
                     </a>
