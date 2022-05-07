@@ -36,7 +36,7 @@ class Courses extends Component {
 
        
             return (
-                <div class="wrap main--grid">
+                <div className="wrap main--grid">
                     <a class="course--module course--add--module" href="create-course.html">
                         <span class="course--add--title">
                             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
