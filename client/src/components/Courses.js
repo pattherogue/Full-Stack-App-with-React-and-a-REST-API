@@ -24,9 +24,10 @@ class Courses extends Component {
     render() {
         console.log(this.state.courses);
         const courses = this.state.courses;
+
+        // render list of courses
         const coursesList = courses.map((course) => {
-            
-            // render list of courses
+         
             return (
                 <a key={course.id} className="course--module course--link" href={`/courses/${course.id}`}>
                     <h2 className="course--label">Course</h2>
@@ -60,9 +61,9 @@ class Courses extends Component {
 
 }
 
-
-
+   // render list of courses
 // link to respective "Course Detail" screen
+
 // component render link to "Create Course" screen 
 
 
