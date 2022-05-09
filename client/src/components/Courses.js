@@ -37,7 +37,7 @@ class Courses extends Component {
             )
         });
 
-       
+            // component render link to "Create Course" screen
             return (
                 <div className="wrap main--grid">
                     {coursesList}
@@ -61,10 +61,5 @@ class Courses extends Component {
 
 
 }
-
-// link to respective "Course Detail" screen
-
-// component render link to "Create Course" screen 
-
 
 export default Courses
