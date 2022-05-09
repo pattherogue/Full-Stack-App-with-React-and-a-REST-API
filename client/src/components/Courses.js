@@ -50,16 +50,8 @@ class Courses extends Component {
                     </a>
                 </div>
             ) 
-
-
-
-          
-          
         
     }
-
-
-
 }
 
-export default Courses
+export default Courses;
