@@ -11,7 +11,7 @@ class CourseDetail extends Component {
     }
 
     componentDidMount() {
-        
+        axios.get(``)
     }
 }
 // provide the "Course Detail" screen
