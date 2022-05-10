@@ -9,6 +9,10 @@ class CourseDetail extends Component {
 
         };
     }
+
+    componentDidMount() {
+        
+    }
 }
 // provide the "Course Detail" screen
 // retrieve detail fro course from /api/courses/:id
