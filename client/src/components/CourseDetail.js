@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
+class CourseDetail extends Component {
+    
+}
 // provide the "Course Detail" screen
 // retrieve detail fro course from /api/courses/:id
 // render "Delete Course" button
