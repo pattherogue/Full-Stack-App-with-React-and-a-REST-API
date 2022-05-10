@@ -13,7 +13,9 @@ class CourseDetail extends Component {
     componentDidMount() {
         axios.get(``)
             .then(response => {
-                
+                this.setState({
+                    
+                })
             })
     }
 }
