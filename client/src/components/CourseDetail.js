@@ -7,6 +7,7 @@ class CourseDetail extends Component {
         super();
         this.state = {
             course: [],
+            id: this.props.match.params.id,
         };
     }
 
