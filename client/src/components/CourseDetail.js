@@ -12,6 +12,7 @@ class CourseDetail extends Component {
     }
 
     componentDidMount() {
+        const id = this.props.match.params.id;
         axios.get(``)
             .then(response => {
                 this.setState({
