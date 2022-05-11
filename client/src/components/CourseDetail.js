@@ -17,7 +17,7 @@ class CourseDetail extends Component {
         axios.get(`http://localhost:5000/api/courses/${this.state.id}`)
             .then(response => {
                 this.setState({
-
+                    course: response.data,
                 })
             })
     }
