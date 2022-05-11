@@ -13,7 +13,7 @@ class CourseDetail extends Component {
 
     componentDidMount() {
         const id = this.props.match.params.id;
-        axios.get(``)
+        axios.get(`http://localhost:5000/api/courses/${this.state.id}`)
             .then(response => {
                 this.setState({
 
