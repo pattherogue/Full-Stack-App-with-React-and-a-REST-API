@@ -6,7 +6,7 @@ class CourseDetail extends Component {
     constructor() {
         super();
         this.state = {
-
+            course: [],
         };
     }
 
@@ -14,7 +14,7 @@ class CourseDetail extends Component {
         axios.get(``)
             .then(response => {
                 this.setState({
-                    
+
                 })
             })
     }
