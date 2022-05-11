@@ -8,7 +8,7 @@ class CourseDetail extends Component {
         this.state = {
             course: [],
             id: this.props.match.params.id,
-            owner: {}
+            courseOwner: []
         };
     }
 
@@ -18,6 +18,7 @@ class CourseDetail extends Component {
             .then(response => {
                 this.setState({
                     course: response.data,
+                    
                 })
             })
     }
