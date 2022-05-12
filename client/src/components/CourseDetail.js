@@ -25,7 +25,7 @@ class CourseDetail extends Component {
                 } else if (response.status === 500) {
 
                 } else {
-                    
+                    throw new Error();
                 }
 
                 this.setState({
