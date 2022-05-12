@@ -18,7 +18,7 @@ class CourseDetail extends Component {
             .then(response => {
                 this.setState({
                     course: response.data,
-                    courseOwner: rewsponse.data.User
+                    courseOwner: response.data.User
                 })
             })
     }
