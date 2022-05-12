@@ -12,6 +12,8 @@ class CourseDetail extends Component {
         };
     }
 
+    // provide the "Course Detail" screen
+    // retrieve detail from course from /api/courses/:id
     componentDidMount() {
         const id = this.props.match.params.id;
         axios.get(`http://localhost:5000/api/courses/${this.state.id}`)
@@ -23,8 +25,7 @@ class CourseDetail extends Component {
             })
     }
 }
-// provide the "Course Detail" screen
-// retrieve detail from course from /api/courses/:id
+
 // render "Delete Course" button
 // send "DELETE" request to /api/courses/:id
 // render "Update Course" 
