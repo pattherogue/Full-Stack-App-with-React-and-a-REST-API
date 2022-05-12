@@ -18,6 +18,10 @@ class CourseDetail extends Component {
         const id = this.props.match.params.id;
         axios.get(`http://localhost:5000/api/courses/${this.state.id}`)
             .then(response => {
+                if (response.status === 404) {
+                        
+                }
+
                 this.setState({
                     course: response.data,
                     courseOwner: response.data.User
