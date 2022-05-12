@@ -20,8 +20,10 @@ class CourseDetail extends Component {
             .then(response => {
                 if (response.status === 403) {
                         
-                } else if (response.status === 504) {
+                } else if (response.status === 404) {
 
+                } else if (response.status === 500) {
+                    
                 }
 
                 this.setState({
