@@ -18,10 +18,10 @@ class CourseDetail extends Component {
         const id = this.props.match.params.id;
         axios.get(`http://localhost:5000/api/courses/${this.state.id}`)
             .then(response => {
-                if (response.status === 404) {
+                if (response.status === 403) {
                         
-                } else if (response.status === 500) {
-                    
+                } else if (response.status === 504) {
+
                 }
 
                 this.setState({
