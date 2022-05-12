@@ -23,6 +23,8 @@ class CourseDetail extends Component {
                 } else if (response.status === 404) {
 
                 } else if (response.status === 500) {
+
+                } else {
                     
                 }
 
