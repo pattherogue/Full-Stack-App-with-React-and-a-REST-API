@@ -19,7 +19,7 @@ class CourseDetail extends Component {
         axios.get(`http://localhost:5000/api/courses/${this.state.id}`)
             .then(response => {
                 if (response.status === 403) {
-                        
+                    this.props.history.push('/forbidden');
                 } else if (response.status === 404) {
                     this.props.history.push('/notfound');
                 } else if (response.status === 500) {
