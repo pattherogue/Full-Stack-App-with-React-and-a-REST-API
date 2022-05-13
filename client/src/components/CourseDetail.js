@@ -21,7 +21,7 @@ class CourseDetail extends Component {
                 if (response.status === 403) {
                         
                 } else if (response.status === 404) {
-
+                    this.props.history.push('/notfound');
                 } else if (response.status === 500) {
                     this.props.history.push('/error');
                 } else {
