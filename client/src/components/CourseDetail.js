@@ -32,6 +32,8 @@ class CourseDetail extends Component {
                     course: response.data,
                     courseOwner: response.data.User
                 });
+            })
+            .catch(error => {
                 
             })
     }
