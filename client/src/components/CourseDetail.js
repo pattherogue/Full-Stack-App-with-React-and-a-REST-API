@@ -37,6 +37,11 @@ class CourseDetail extends Component {
                 console.log('Error fetching and parsing data', error);
             });
     }
+
+
+
+
+    
 }
 
 // render "Delete Course" button
