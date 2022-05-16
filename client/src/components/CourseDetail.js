@@ -39,7 +39,13 @@ class CourseDetail extends Component {
     }
 
     render() {
-
+        <div class="actions--bar">
+        <div class="wrap">
+            <a class="button" href="update-course.html">Update Course</a>
+            <a class="button" href="#">Delete Course</a>
+            <a class="button button-secondary" href="index.html">Return to List</a>
+        </div>
+    </div>
     }
 
 
