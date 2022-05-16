@@ -34,7 +34,7 @@ class CourseDetail extends Component {
                 });
             })
             .catch(error => {
-                
+                console.log()
             })
     }
 }
