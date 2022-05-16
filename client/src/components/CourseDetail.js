@@ -38,10 +38,12 @@ class CourseDetail extends Component {
             });
     }
 
+    render() {
+        
+    }
 
 
 
-    
 }
 
 // render "Delete Course" button
