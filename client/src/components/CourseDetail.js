@@ -30,7 +30,7 @@ class CourseDetail extends Component {
 
                 this.setState({
                     course: data.course,
-                    courseOwner: response.data.User
+                    courseOwner: data.course.Owner,
                 });
             })
             .catch(error => {
