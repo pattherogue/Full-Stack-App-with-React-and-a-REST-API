@@ -31,7 +31,8 @@ class CourseDetail extends Component {
                 this.setState({
                     course: response.data,
                     courseOwner: response.data.User
-                })
+                });
+                
             })
     }
 }
