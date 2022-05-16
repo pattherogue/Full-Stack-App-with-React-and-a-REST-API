@@ -29,7 +29,7 @@ class CourseDetail extends Component {
                 }
 
                 this.setState({
-                    course: response.data,
+                    course: data.course,
                     courseOwner: response.data.User
                 });
             })
