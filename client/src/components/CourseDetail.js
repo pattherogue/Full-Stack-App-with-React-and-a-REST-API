@@ -43,8 +43,8 @@ class CourseDetail extends Component {
         <div class="wrap">
             <React.Fragment>
                 <a className="button" href="update-course.html">Update Course</a>
-                <a class="button" href="#">Delete Course</a>
-                <a class="button button-secondary" href="index.html">Return to List</a>
+                <a className="button" href="#">Delete Course</a>
+                <a className="button button-secondary" href="index.html">Return to List</a>
             </React.Fragment>
         </div>
     </div>
