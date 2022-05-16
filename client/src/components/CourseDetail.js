@@ -34,7 +34,7 @@ class CourseDetail extends Component {
                 });
             })
             .catch(error => {
-                console.log()
+                console.log('Error fetching and parsing data', error);
             })
     }
 }
