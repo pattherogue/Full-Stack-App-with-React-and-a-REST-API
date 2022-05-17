@@ -40,14 +40,14 @@ class CourseDetail extends Component {
 
     render() {
         <div class="actions--bar">
-        <div class="wrap">
-            <React.Fragment>
-                <a className="button" href={`/courses/${this.state.id}/update`}>Update Course</a>
-                <a className="button" href={`/courses/${this.state.id}/delete`}>Delete Course</a>
-                <a className="button button-secondary" href="/">Return to List</a>
-            </React.Fragment>
+            <div class="wrap">
+                <React.Fragment>
+                    <a className="button" href={`/courses/${this.state.id}/update`}>Update Course</a>
+                    <a className="button" href={`/courses/${this.state.id}/delete`}>Delete Course</a>
+                    <a className="button button-secondary" href="/">Return to List</a>
+                </React.Fragment>
+            </div>
         </div>
-    </div>
     }
 
 
