@@ -55,7 +55,7 @@ class CourseDetail extends Component {
             <div className="main--flex">
                 <div>
                     <h3 className="course--detail--title">Course</h3>
-                    <h4 class="course--name">Build a Basic Bookcase</h4>
+                    <h4 className="course--name">Build a Basic Bookcase</h4>
                     <p>By Joe Smith</p>
 
                     <p>High-end furniture projects are great to dream about. But unless you have a well-equipped shop and some serious woodworking experience to draw on, it can be difficult to turn the dream into a reality.</p>
