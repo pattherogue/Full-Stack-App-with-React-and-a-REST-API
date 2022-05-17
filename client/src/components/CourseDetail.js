@@ -54,7 +54,7 @@ class CourseDetail extends Component {
         <form>
             <div className="main--flex">
                 <div>
-                    <h3 class="course--detail--title">Course</h3>
+                    <h3 className="course--detail--title">Course</h3>
                     <h4 class="course--name">Build a Basic Bookcase</h4>
                     <p>By Joe Smith</p>
 
