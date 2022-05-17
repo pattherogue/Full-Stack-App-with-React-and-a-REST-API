@@ -52,7 +52,7 @@ class CourseDetail extends Component {
         <div className="wrap">
         <h2>Course Detail</h2>
         <form>
-            <div class="main--flex">
+            <div className="main--flex">
                 <div>
                     <h3 class="course--detail--title">Course</h3>
                     <h4 class="course--name">Build a Basic Bookcase</h4>
