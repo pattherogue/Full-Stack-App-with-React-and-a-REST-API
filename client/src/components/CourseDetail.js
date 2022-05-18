@@ -62,7 +62,7 @@ class CourseDetail extends Component {
             </div>
         <div>
                     <h3 class="course--detail--title">Estimated Time</h3>
-                    <p>14 hours</p>
+                    <p> {this.state.estimatedTime} </p>
 
                     <h3 class="course--detail--title">Materials Needed</h3>
                     <ul class="course--detail--list">
