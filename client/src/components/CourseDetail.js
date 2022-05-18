@@ -57,7 +57,7 @@ class CourseDetail extends Component {
                     <h3 className="course--detail--title">Course</h3>
                     <h4 className="course--name">{this.state.title}</h4>
                     <p>By {this.state.firstName} {this.state.lastName}</p>
-
+                    <p> {this.state.description} </p>
                 </div>
                 <div>
                     <h3 class="course--detail--title">Estimated Time</h3>
