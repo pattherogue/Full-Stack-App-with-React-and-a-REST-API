@@ -56,7 +56,7 @@ class CourseDetail extends Component {
                 <div>
                     <h3 className="course--detail--title">Course</h3>
                     <h4 className="course--name">{this.state.title}</h4>
-                    <p>By {this.state.firstName} </p>
+                    <p>By {this.state.firstName} {this.state.lastName}</p>
 
                     <p>High-end furniture projects are great to dream about. But unless you have a well-equipped shop and some serious woodworking experience to draw on, it can be difficult to turn the dream into a reality.</p>
                     
