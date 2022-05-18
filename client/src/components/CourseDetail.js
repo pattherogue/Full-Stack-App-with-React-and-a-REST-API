@@ -52,14 +52,15 @@ class CourseDetail extends Component {
         <div className="wrap">
         <h2>Course Detail</h2>
         <form>
-            <div className="main--flex">
-                <div>
-                    <h3 className="course--detail--title">Course</h3>
-                    <h4 className="course--name">{this.state.title}</h4>
-                    <p>By {this.state.firstName} {this.state.lastName}</p>
-                    <p> {this.state.description} </p>
-                </div>
-                <div>
+        
+        <div className="main--flex">
+            <div>
+                <h3 className="course--detail--title">Course</h3>
+                <h4 className="course--name">{this.state.title}</h4>
+                <p>By {this.state.firstName} {this.state.lastName}</p>
+                <p> {this.state.description} </p>
+            </div>
+            <div>
                     <h3 class="course--detail--title">Estimated Time</h3>
                     <p>14 hours</p>
 
