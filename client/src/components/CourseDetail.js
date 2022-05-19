@@ -67,7 +67,7 @@ class CourseDetail extends Component {
                     <h3 className="course--detail--title">Materials Needed</h3>
                     <ul className="course--detail--list">
                     <ReactMarkdown>
-                        
+                        <p> {this.state.estimatedTime} </p>
                     </ReactMarkdown>
                 </div>
             </div>
