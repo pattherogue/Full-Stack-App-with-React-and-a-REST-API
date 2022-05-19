@@ -64,7 +64,7 @@ class CourseDetail extends Component {
                     <h3 className="course--detail--title">Estimated Time</h3>
                     <p> {this.state.estimatedTime} </p>
 
-                    <h3 class="course--detail--title">Materials Needed</h3>
+                    <h3 className="course--detail--title">Materials Needed</h3>
                     <ul class="course--detail--list">
                         <li>1/2 x 3/4 inch parting strip</li>
                         <li>1 x 2 common pine</li>
