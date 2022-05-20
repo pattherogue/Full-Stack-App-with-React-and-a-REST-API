@@ -52,28 +52,28 @@ class CourseDetail extends Component {
 
             <div className="wrap">
             <h2>Course Detail</h2>
+
             <form>
-            
-            <div className="main--flex">
-                <div>
-                    <h3 className="course--detail--title">Course</h3>
-                    <h4 className="course--name">{this.state.title}</h4>
-                    <p>By {this.state.firstName} {this.state.lastName}</p>
-                    <p> {this.state.description} </p>
-                </div>
-            <div>
-                        <h3 className="course--detail--title">Estimated Time</h3>
-                        <p> {this.state.estimatedTime} </p>
-                            <ReactMarkdown>
-                                {this.state.estimatedTime}
-                            </ReactMarkdown>
-                        <h3 className="course--detail--title">Materials Needed</h3>
-                            <ReactMarkdown>
-                                {this.state.materialsNeeded}
-                            <ReactMarkdown>
-                        
+                <div className="main--flex">
+                    <div>
+                        <h3 className="course--detail--title">Course</h3>
+                        <h4 className="course--name">{this.state.title}</h4>
+                        <p>By {this.state.firstName} {this.state.lastName}</p>
+                        <p> {this.state.description} </p>
                     </div>
-                </div>
+                <div>
+                            <h3 className="course--detail--title">Estimated Time</h3>
+                            <p> {this.state.estimatedTime} </p>
+                                <ReactMarkdown>
+                                    {this.state.estimatedTime}
+                                </ReactMarkdown>
+                            <h3 className="course--detail--title">Materials Needed</h3>
+                                <ReactMarkdown>
+                                    {this.state.materialsNeeded}
+                                <ReactMarkdown>
+                            
+                        </div>
+                    </div>
             </form>
             </div>
         )
