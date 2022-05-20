@@ -72,9 +72,9 @@ class CourseDetail extends Component {
                                 <ReactMarkdown>
 
                             </div>
-                                </></div>
-                    </></form>
-            </div></>
+                        </div>
+                    </form>
+            </div>
         )
     }
 
