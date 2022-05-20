@@ -48,7 +48,9 @@ class CourseDetail extends Component {
                         <a className="button button-secondary" href="/">Return to List</a>
                     </React.Fragment>
                 </div>
-            </div><div className="wrap">
+            </div>
+            
+            <div className="wrap">
                     <h2>Course Detail</h2>
                     <form>
                         <div className="main--flex">
@@ -71,8 +73,8 @@ class CourseDetail extends Component {
 
                                     </div>
                                 </></div>
-                        </></form>
-                </div></>
+                    </></form>
+            </div></>
         )
     }
 
