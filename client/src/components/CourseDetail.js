@@ -63,13 +63,13 @@ class CourseDetail extends Component {
                             <div>
                                 <h3 className="course--detail--title">Estimated Time</h3>
                                 <p> {this.state.estimatedTime} </p>
-                                <ReactMarkdown>
-                                    {this.state.estimatedTime}
-                                </ReactMarkdown>
+                                    <ReactMarkdown>
+                                        {this.state.estimatedTime}
+                                    </ReactMarkdown>
                                 <h3 className="course--detail--title">Materials Needed</h3>
-                                <ReactMarkdown>
-                                    {this.state.materialsNeeded}
-                                <ReactMarkdown>
+                                    <ReactMarkdown>
+                                        {this.state.materialsNeeded}
+                                    <ReactMarkdown>
 
                             </div>
                         </div>
