@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 class UserSignIn extends Commponent {
     state = {
+        emailAddress: '',
         
     }
 }
