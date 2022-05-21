@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 
 class UserSignIn extends Commponent {
-    
+    state = {
+        
+    }
 }
 // provide "Sign In" screen
 // user sign in w/ exisiting account information
