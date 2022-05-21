@@ -4,6 +4,7 @@ class UserSignIn extends Commponent {
     state = {
         emailAddress: '',
         password: '',
+        errors: []
     }
 }
 // provide "Sign In" screen
