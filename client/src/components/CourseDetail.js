@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import ReactMarkdown from 'react-markdown'
 
 class CourseDetail extends Component {
 
