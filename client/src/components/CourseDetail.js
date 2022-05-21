@@ -41,6 +41,9 @@ class CourseDetail extends Component {
 
     render() {
         return (
+            // render "Delete Course" button
+            // send "DELETE" request to /api/courses/:id
+            // render "Update Course" 
             <div>
                 <div className="actions--bar">
                     <div className="wrap">
@@ -85,8 +88,5 @@ class CourseDetail extends Component {
 
 }
 
-// render "Delete Course" button
-// send "DELETE" request to /api/courses/:id
-// render "Update Course" 
 
 export default CourseDetails
