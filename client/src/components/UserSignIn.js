@@ -15,7 +15,7 @@ class UserSignIn extends Commponent {
         } = this.state;
 
         return(
-            <div class="form--centered">
+            <div className="form--centered">
                 <h2>Sign In</h2>
                 
                 <form>
