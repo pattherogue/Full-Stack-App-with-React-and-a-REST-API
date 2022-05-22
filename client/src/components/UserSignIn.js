@@ -8,8 +8,11 @@ class UserSignIn extends Commponent {
     }
 
     render() {
-        
-    }
+        const {
+            emailAddress,
+            password,
+            errors
+        } = this.state;
 }
 // provide "Sign In" screen
 // user sign in w/ exisiting account information
