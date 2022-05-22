@@ -21,6 +21,7 @@ class UserSignIn extends Commponent {
                 <form
                     cancel={this.cancel}
                     errors={errors}
+                    submit={this.submit}
                 >
                     <label for="emailAddress">Email Address</label>
                     <input id="emailAddress" name="emailAddress" type="email" value="">
