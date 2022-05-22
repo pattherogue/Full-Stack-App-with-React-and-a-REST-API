@@ -6,6 +6,10 @@ class UserSignIn extends Commponent {
         password: '',
         errors: []
     }
+
+    render() {
+        
+    }
 }
 // provide "Sign In" screen
 // user sign in w/ exisiting account information
