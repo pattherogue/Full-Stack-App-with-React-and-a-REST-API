@@ -28,6 +28,7 @@ class UserSignIn extends Commponent {
                             <label htmlFor="emailAddress"></label>
                             <input
                                 id="emailAddress"
+                                name="emailAddress"
                             />
                         </React.Fragment>
                     )}
