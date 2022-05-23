@@ -25,7 +25,7 @@ class UserSignIn extends Commponent {
                     submitBUttonText="Sign In"
                     elements={() => (
                         <React.Fragment>
-                            
+                            <label htmlFor="emailAddress"></label>
                         </React.Fragment>
                     )}
                 >
