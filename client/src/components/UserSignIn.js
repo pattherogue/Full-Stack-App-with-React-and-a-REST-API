@@ -29,6 +29,7 @@ class UserSignIn extends Commponent {
                             <input
                                 id="emailAddress"
                                 name="emailAddress"
+                                type="text"
                             />
                         </React.Fragment>
                     )}
