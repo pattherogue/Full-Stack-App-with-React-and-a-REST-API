@@ -38,6 +38,7 @@ class UserSignIn extends Commponent {
                             <input
                                 id="password"
                                 name="password"
+                                type="password"
                             />
                         </React.Fragment>
                     )}
