@@ -37,6 +37,7 @@ class UserSignIn extends Commponent {
                             <label htmlFor="password">Password</label>
                             <input
                                 id="password"
+                                name="password"
                             />
                         </React.Fragment>
                     )}
