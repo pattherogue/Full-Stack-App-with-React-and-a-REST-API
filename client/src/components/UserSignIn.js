@@ -31,6 +31,7 @@ class UserSignIn extends Commponent {
                                 name="emailAddress"
                                 type="text"
                                 value={emailAddress}
+                                onChange={this.change}
                             />
                         </React.Fragment>
                     )}
