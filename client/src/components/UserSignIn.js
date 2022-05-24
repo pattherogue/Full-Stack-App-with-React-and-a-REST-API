@@ -30,6 +30,7 @@ class UserSignIn extends Commponent {
                                 id="emailAddress"
                                 name="emailAddress"
                                 type="text"
+                                value={emailAddress}
                             />
                         </React.Fragment>
                     )}
