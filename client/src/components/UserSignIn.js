@@ -40,6 +40,7 @@ class UserSignIn extends Commponent {
                                 name="password"
                                 type="password"
                                 value={password}
+                                onChange={this.change}
                             />
                         </React.Fragment>
                     )}
