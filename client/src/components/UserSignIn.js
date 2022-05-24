@@ -39,6 +39,7 @@ class UserSignIn extends Commponent {
                                 id="password"
                                 name="password"
                                 type="password"
+                                value={password}
                             />
                         </React.Fragment>
                     )}
