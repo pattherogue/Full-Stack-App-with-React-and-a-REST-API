@@ -34,7 +34,7 @@ class UserSignIn extends Commponent {
                                 onChange={this.change}
                             />
                             
-                            <label htmlFor="password"></label>
+                            <label htmlFor="password">Password</label>
                         </React.Fragment>
                     )}
                 >
