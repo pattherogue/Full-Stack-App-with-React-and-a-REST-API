@@ -44,7 +44,7 @@ class UserSignIn extends Commponent {
                             />
                         </React.Fragment>
                     )}
-                >
+                />
                     <label for="emailAddress">Email Address</label>
                     <input id="emailAddress" name="emailAddress" type="email" value="">
                     <label for="password">Password</label>
