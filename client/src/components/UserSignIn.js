@@ -45,8 +45,6 @@ class UserSignIn extends Commponent {
                         </React.Fragment>
                     )}
                 />
-
-                    <button class="button" type="submit">Sign In</button><button class="button button-secondary" onclick="event.preventDefault(); location.href='index.html';">Cancel</button>
                 </form>
                 <p>Don't have a user account? Click here to <a href="sign-up.html">sign up</a>!</p>
                 
