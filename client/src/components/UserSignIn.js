@@ -67,6 +67,8 @@ class UserSignIn extends Commponent {
         const { context } = this.props;
         const { from } = this.props.location.state;
         const { emailAddress, password } = this.state;
+
+        context.actions.signIn()
     }
 
 
