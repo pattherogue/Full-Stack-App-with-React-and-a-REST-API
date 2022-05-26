@@ -65,6 +65,7 @@ class UserSignIn extends Commponent {
 
     submit = () => {
         const { context } = this.props;
+        const { from } = this.props.location.state;
     }
 
 
