@@ -58,7 +58,7 @@ class UserSignIn extends Commponent {
 
         this.setState( () => {
             return {
-                
+                [ name ]: value
             }
         })
     }
