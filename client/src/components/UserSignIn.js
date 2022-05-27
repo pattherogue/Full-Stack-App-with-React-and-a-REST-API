@@ -70,7 +70,7 @@ class UserSignIn extends Commponent {
 
         context.actions.signIn(emailAddress, password)
             .then( user => {
-                
+                if ( user === null )
             }
 
             )
