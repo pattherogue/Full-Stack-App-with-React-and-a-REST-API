@@ -69,8 +69,10 @@ class UserSignIn extends Commponent {
         const { emailAddress, password } = this.state;
 
         context.actions.signIn(emailAddress, password)
-            .then(
+            .then( user => {
                 
+            }
+
             )
     }
 
