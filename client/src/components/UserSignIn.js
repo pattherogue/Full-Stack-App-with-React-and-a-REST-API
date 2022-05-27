@@ -72,7 +72,7 @@ class UserSignIn extends Commponent {
             .then( user => {
                 if ( user === null ) {
                     this.setState(() => {
-                        return {}
+                        return { errors: []};
                     })
                 }
             }
