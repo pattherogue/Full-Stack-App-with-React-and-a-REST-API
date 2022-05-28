@@ -73,7 +73,7 @@ class UserSignIn extends Commponent {
                 if ( user === null ) {
                     this.setState(() => {
                         return { errors: ['Unsucessful sign-in']};
-                    })
+                    });
                 }
             }
 
