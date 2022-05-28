@@ -77,9 +77,7 @@ class UserSignIn extends Commponent {
                 } else {
                     this.props.history.push(from);
                 }
-            }
-
-            )
+            })
     }
 
 
