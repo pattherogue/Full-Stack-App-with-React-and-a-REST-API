@@ -78,8 +78,10 @@ class UserSignIn extends Commponent {
                     this.props.history.push(from);
                 }
             })
-            .catch(
+            .catch( err => {
                 
+            }
+
             )
     }
 
