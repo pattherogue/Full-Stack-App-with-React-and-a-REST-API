@@ -91,12 +91,6 @@ class UserSignIn extends Commponent {
     cancel = () => {
         this.props.history.push('/');
     }
-
-
 }
-
-
-
-
 
 export default UserSignIn
