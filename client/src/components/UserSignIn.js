@@ -86,6 +86,9 @@ class UserSignIn extends Commponent {
             )
     }
 
+    cancel = () => {
+        
+    }
 
 
 }
