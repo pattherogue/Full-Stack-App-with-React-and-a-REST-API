@@ -86,7 +86,8 @@ class UserSignIn extends Commponent {
 
             )
     }
-
+    // render "Cancel" button 
+    // return user to defualt route
     cancel = () => {
         this.props.history.push('/');
     }
@@ -96,7 +97,6 @@ class UserSignIn extends Commponent {
 
 
 
-// render "Cancel" button 
-// return user to defualt route
+
 
 export default UserSignIn
