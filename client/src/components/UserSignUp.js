@@ -4,6 +4,8 @@ class UserSignUp extends Component {
     state = {
         firstName: '',
         lastName: '',
+        emailAddress: '',
+        
     }
 
 
