@@ -80,6 +80,7 @@ class UserSignIn extends Commponent {
             })
             .catch( error => {
                 console.log(error);
+                this.props.history.push('/error');
             }
 
             )
