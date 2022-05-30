@@ -87,7 +87,7 @@ class UserSignIn extends Commponent {
     }
 
     cancel = () => {
-        
+        this.props.history.push('/');
     }
 
 
