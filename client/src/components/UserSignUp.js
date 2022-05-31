@@ -10,6 +10,7 @@ class UserSignUp extends Component {
     }
 
     render() {
+        firstName,
         
     }
 
