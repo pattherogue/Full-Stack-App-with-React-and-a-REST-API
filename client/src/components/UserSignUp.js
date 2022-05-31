@@ -10,14 +10,17 @@ class UserSignUp extends Component {
     }
 
     render() {
-        firstName,
-        lastName,
-        emailAddress,
-        password,
-        errors
-    } = this.state;
+        const {
+            firstName,
+            lastName,
+            emailAddress,
+            password,
+            error
+        } = this.states;
 
+        return(
 
+        )
 }
 
 
