@@ -14,8 +14,7 @@ class UserSignUp extends Component {
         lastName,
         emailAddress,
         password,
-        
-
+        errors
     }
 
 
