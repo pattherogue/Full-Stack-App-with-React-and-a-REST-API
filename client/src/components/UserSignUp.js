@@ -15,7 +15,7 @@ class UserSignUp extends Component {
         emailAddress,
         password,
         errors
-    }
+    } = this.state;
 
 
 }
