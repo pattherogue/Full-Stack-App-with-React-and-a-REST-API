@@ -27,6 +27,9 @@ class UserSignUp extends Component {
                 errors={errors}
                 submit={this.submit}
                 submitButtonText="Sign Up"
+                elements={() => (
+                    
+                )}
             >
                 <label for="firstName">First Name</label>
                 <input id="firstName" name="firstName" type="text" value="">
