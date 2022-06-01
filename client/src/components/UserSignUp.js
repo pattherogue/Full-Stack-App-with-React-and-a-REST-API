@@ -28,7 +28,9 @@ class UserSignUp extends Component {
                 submit={this.submit}
                 submitButtonText="Sign Up"
                 elements={() => (
-                    
+                    <React.Fragment>
+                        
+                    </React.Fragment>
                 )}
             >
                 <label for="firstName">First Name</label>
