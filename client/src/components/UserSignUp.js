@@ -22,7 +22,9 @@ class UserSignUp extends Component {
             <div className="form--centered">
             <h2>Sign Up</h2>
             
-            <form>
+            <form
+                cancel={this.cancel}
+            >
                 <label for="firstName">First Name</label>
                 <input id="firstName" name="firstName" type="text" value="">
                 <label for="lastName">Last Name</label>
