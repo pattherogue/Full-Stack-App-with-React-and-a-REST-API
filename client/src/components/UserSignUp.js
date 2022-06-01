@@ -24,6 +24,7 @@ class UserSignUp extends Component {
             
             <form
                 cancel={this.cancel}
+                errors={errors}
             >
                 <label for="firstName">First Name</label>
                 <input id="firstName" name="firstName" type="text" value="">
