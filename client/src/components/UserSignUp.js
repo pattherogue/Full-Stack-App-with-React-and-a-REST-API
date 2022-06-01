@@ -26,6 +26,7 @@ class UserSignUp extends Component {
                 cancel={this.cancel}
                 errors={errors}
                 submit={this.submit}
+                submitButtonText="Sign Up"
             >
                 <label for="firstName">First Name</label>
                 <input id="firstName" name="firstName" type="text" value="">
