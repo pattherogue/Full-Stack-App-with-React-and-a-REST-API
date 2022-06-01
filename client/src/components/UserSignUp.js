@@ -19,7 +19,7 @@ class UserSignUp extends Component {
         } = this.states;
 
         return(
-            <div class="form--centered">
+            <div className="form--centered">
             <h2>Sign Up</h2>
             
             <form>
