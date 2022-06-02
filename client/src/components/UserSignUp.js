@@ -31,6 +31,7 @@ class UserSignUp extends Component {
                     <React.Fragment>
                         <input
                             id="firstName"
+                            name="firstName"
                         />
                     </React.Fragment>
                 )}
