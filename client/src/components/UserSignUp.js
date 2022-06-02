@@ -29,7 +29,7 @@ class UserSignUp extends Component {
                 submitButtonText="Sign Up"
                 elements={() => (
                     <React.Fragment>
-                        
+                        <input/>
                     </React.Fragment>
                 )}
             >
