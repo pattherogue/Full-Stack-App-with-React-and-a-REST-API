@@ -38,7 +38,9 @@ class UserSignUp extends Component {
                             placeholder="First Name"
                         />
 
-                        <input/>
+                        <input
+                        
+                        />
                     </React.Fragment>
                 )}
             >
