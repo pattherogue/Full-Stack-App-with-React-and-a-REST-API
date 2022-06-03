@@ -43,6 +43,7 @@ class UserSignUp extends Component {
                             name="lastName"
                             type="text"
                             value={lastName}
+                            onChange={this.change}
 
                         />
                     </React.Fragment>
