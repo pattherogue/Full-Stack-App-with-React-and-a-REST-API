@@ -44,6 +44,7 @@ class UserSignUp extends Component {
                             type="text"
                             value={lastName}
                             onChange={this.change}
+                            placeholder="Last Name"
 
                         />
                     </React.Fragment>
