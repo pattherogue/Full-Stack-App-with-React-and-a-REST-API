@@ -56,8 +56,8 @@ class UserSignUp extends Component {
                         />
                     </React.Fragment>
                 )}
-            >
-                
+            />
+
             <p>Already have a user account? Click here to <a href="sign-in.html">sign in</a>!</p>
         </div>
         )
