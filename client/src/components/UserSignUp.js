@@ -52,6 +52,7 @@ class UserSignUp extends Component {
                             name="password"
                             type="password"
                             onChange={this.change}
+                            placeholder="Password"
                         />
                     </React.Fragment>
                 )}
