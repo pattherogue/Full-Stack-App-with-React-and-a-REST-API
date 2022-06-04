@@ -49,6 +49,7 @@ class UserSignUp extends Component {
 
                         <input
                             id="password"
+                            name="password"
                         />
                     </React.Fragment>
                 )}
