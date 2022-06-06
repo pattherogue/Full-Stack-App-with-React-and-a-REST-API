@@ -64,7 +64,7 @@ class UserSignUp extends Component {
 }
 
 change = e => {
-    
+    const name = event.target.name;
 }
 
 // provides "Sign Up" screen 
