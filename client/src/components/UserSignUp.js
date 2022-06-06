@@ -74,6 +74,10 @@ change = e => {
     })
 }
 
+submit = () => {
+    
+}
+
 // provides "Sign Up" screen 
 // render form - allow user to sign up
 // render "Sign Up" button
