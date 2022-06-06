@@ -68,7 +68,9 @@ change = e => {
     const value = e.target.value;
 
     this.setState(() => {
-        
+        return {
+            
+        }
     })
 }
 
