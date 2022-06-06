@@ -75,7 +75,13 @@ change = e => {
 }
 
 submit = () => {
-    
+    const { context } = this.props
+    const user = {
+        firstName,
+        lastName,
+        emailAddress,
+        password
+    }
 }
 
 // provides "Sign Up" screen 
