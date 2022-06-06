@@ -69,7 +69,7 @@ change = e => {
 
     this.setState(() => {
         return {
-            
+            [ name ]: value
         }
     })
 }
