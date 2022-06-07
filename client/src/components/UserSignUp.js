@@ -82,6 +82,8 @@ submit = () => {
         emailAddress,
         password
     }
+
+    context.data.createUser(user)
 }
 
 // provides "Sign Up" screen 
