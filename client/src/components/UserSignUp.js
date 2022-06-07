@@ -88,7 +88,7 @@ submit = () => {
         if(errors.length) {
             this.setState({ errors })
         } else {
-            
+            context.actions.signIn()
         }
     })
 }
