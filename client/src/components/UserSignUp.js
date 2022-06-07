@@ -85,7 +85,9 @@ submit = () => {
 
     context.data.createUser(user)
     .then(errors => {
-        
+        if(errors.length) {
+            
+        }
     })
 }
 
