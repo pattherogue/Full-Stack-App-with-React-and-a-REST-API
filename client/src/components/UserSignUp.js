@@ -89,7 +89,9 @@ submit = () => {
             this.setState({ errors })
         } else {
             context.actions.signIn(emailAddress, password)
-            .then()
+            .then(() => {
+                
+            })
         }
     })
 }
