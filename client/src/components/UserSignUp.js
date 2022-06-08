@@ -90,8 +90,8 @@ submit = () => {
         } else {
             context.actions.signIn(emailAddress, password)
             .then(() => {
-                this.props.history.push(/);
-            });
+                this.props.history.push('/');
+            })
         }
     })
 }
