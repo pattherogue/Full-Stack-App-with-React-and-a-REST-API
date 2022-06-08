@@ -92,6 +92,9 @@ submit = () => {
             .then(() => {
                 this.props.history.push('/');
             })
+            .catch(error => {
+                
+            })
         }
     })
 }
