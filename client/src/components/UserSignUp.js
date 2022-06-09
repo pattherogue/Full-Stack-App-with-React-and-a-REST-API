@@ -84,7 +84,7 @@ submit = () => {
         emailAddress,
         password
     }
-
+    // sign in user
     context.data.createUser(user)
     .then(errors => {
         if(errors.length) {
@@ -106,7 +106,7 @@ submit = () => {
 }
 
 // send post request tp /api/users
-// sign in user
+
 
 
 export default UserSignUp
