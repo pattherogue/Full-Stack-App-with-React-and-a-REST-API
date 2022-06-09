@@ -98,7 +98,7 @@ submit = () => {
         }
 
         cancel = () => {
-            
+            this.props.history.push('/');
         }
     })
 }
