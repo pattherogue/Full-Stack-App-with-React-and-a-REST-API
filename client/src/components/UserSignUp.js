@@ -10,7 +10,6 @@ class UserSignUp extends Component {
     }
 
     // provides "Sign Up" screen 
-    // render form - allow user to sign up
     render() {
         const {
             firstName,
@@ -20,6 +19,7 @@ class UserSignUp extends Component {
             error
         } = this.states;
 
+        // render form - allow user to sign up
         return(
             <div className="form--centered">
             <h2>Sign Up</h2>
