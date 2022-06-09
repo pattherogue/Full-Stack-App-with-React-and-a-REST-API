@@ -20,10 +20,10 @@ class UserSignUp extends Component {
         } = this.states;
 
         // render form - allow user to sign up
+        // render "Sign Up" button
         return(
             <div className="form--centered">
             <h2>Sign Up</h2>
-            
             <form
                 cancel={this.cancel}
                 errors={errors}
@@ -104,7 +104,6 @@ submit = () => {
     }
 }
 
-// render "Sign Up" button
 // send post request tp /api/users
 // sign in user
 // render "Cancel" button
