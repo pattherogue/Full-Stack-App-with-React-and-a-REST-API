@@ -85,6 +85,7 @@ submit = () => {
         password
     }
     // sign in user
+    // send post request tp /api/users
     context.data.createUser(user)
     .then(errors => {
         if(errors.length) {
@@ -105,7 +106,7 @@ submit = () => {
     }
 }
 
-// send post request tp /api/users
+
 
 
 
