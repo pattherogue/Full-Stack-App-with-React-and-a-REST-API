@@ -96,8 +96,10 @@ submit = () => {
                 this.props.history.push('/error');
             });
         }
-        }
     })
+    cancel = () => {
+        this.props.history.push('/');
+    }
 }
 
 // provides "Sign Up" screen 
