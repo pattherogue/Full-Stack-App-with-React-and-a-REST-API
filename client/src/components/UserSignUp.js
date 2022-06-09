@@ -99,6 +99,7 @@ submit = () => {
             });
         }
     })
+    // render "Cancel" button
     cancel = () => {
         this.props.history.push('/');
     }
@@ -106,6 +107,6 @@ submit = () => {
 
 // send post request tp /api/users
 // sign in user
-// render "Cancel" button
+
 
 export default UserSignUp
