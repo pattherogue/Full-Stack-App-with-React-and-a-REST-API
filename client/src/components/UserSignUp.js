@@ -82,7 +82,8 @@ submit = () => {
         firstName,
         lastName,
         emailAddress,
-        
+        password
+
     }
     const user = {
         firstName,
