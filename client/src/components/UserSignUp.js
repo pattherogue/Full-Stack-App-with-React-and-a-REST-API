@@ -80,6 +80,8 @@ submit = () => {
     const { context } = this.props
     const {
         firstName,
+        lastName,
+        
     }
     const user = {
         firstName,
