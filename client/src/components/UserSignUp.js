@@ -78,13 +78,16 @@ change = e => {
 
 submit = () => {
     const { context } = this.props
+    const {
+        firstName,
+    }
     const user = {
         firstName,
         lastName,
         emailAddress,
         password
-    } = this.state
-    
+    } 
+
     // sign in user
     // send post request tp /api/users
     context.data.createUser(user)
