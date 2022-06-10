@@ -83,8 +83,8 @@ submit = () => {
         lastName,
         emailAddress,
         password
-
-    }
+    } = this.state
+    
     const user = {
         firstName,
         lastName,
