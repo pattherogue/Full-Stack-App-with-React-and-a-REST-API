@@ -81,6 +81,7 @@ submit = () => {
     const {
         firstName,
         lastName,
+        emailAddress,
         
     }
     const user = {
