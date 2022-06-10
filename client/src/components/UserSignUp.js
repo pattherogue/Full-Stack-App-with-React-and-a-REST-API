@@ -84,7 +84,7 @@ submit = () => {
         emailAddress,
         password
     } = this.state
-    
+
     const user = {
         firstName,
         lastName,
@@ -108,14 +108,11 @@ submit = () => {
             });
         }
     })
+}
     // render "Cancel" button
     cancel = () => {
         this.props.history.push('/');
     }
 }
-
-
-
-
 
 export default UserSignUp
