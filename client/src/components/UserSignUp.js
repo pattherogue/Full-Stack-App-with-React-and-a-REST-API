@@ -83,7 +83,8 @@ submit = () => {
         lastName,
         emailAddress,
         password
-    }
+    } = this.state
+    
     // sign in user
     // send post request tp /api/users
     context.data.createUser(user)
