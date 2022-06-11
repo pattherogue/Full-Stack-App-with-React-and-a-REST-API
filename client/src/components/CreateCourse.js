@@ -8,6 +8,10 @@ class CreateCourse extends Comppnent {
         materialsNeeded: '',
         errors: []
     }
+
+    render() {
+        
+    }
 }
 // provides "Create Course" screen
 // render screen that allows user to create a new course
