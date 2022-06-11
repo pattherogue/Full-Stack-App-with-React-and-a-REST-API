@@ -10,7 +10,9 @@ class CreateCourse extends Comppnent {
     }
 
     render() {
-        
+        const {
+            
+        }
     }
 }
 // provides "Create Course" screen
