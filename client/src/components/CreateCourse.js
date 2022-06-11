@@ -3,7 +3,7 @@ import React, { Comppnent } from 'react';
 class CreateCourse extends Comppnent {
     state = {
         title: '',
-        
+        description: '',
     }
 }
 // provides "Create Course" screen
