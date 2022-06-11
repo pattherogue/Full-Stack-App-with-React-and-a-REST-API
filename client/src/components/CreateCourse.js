@@ -6,6 +6,7 @@ class CreateCourse extends Comppnent {
         description: '',
         estimatedTime: '',
         materialsNeeded: '',
+        errors: []
     }
 }
 // provides "Create Course" screen
