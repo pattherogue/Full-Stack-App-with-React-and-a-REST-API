@@ -4,6 +4,7 @@ class CreateCourse extends Comppnent {
     state = {
         title: '',
         description: '',
+        estimatedTime: '',
     }
 }
 // provides "Create Course" screen
