@@ -13,7 +13,7 @@ class CreateCourse extends Comppnent {
         const {
            title,
             description,
-            
+            estimatedTime,
         }
     }
 }
