@@ -12,6 +12,7 @@ class CreateCourse extends Comppnent {
     render() {
         const {
            title,
+            description,
             
         }
     }
