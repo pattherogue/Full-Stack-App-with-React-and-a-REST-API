@@ -15,7 +15,7 @@ class CreateCourse extends Comppnent {
             description,
             estimatedTime,
             materialsNeeded,
-            
+            errors
         }
     }
 }
