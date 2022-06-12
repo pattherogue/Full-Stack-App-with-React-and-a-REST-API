@@ -16,7 +16,7 @@ class CreateCourse extends Comppnent {
             estimatedTime,
             materialsNeeded,
             errors
-        }
+        } = this.state
     }
 }
 // provides "Create Course" screen
