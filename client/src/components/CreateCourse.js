@@ -25,6 +25,7 @@ class CreateCourse extends Comppnent {
                 cancel={this.cancel}
                 errors={errors}
                 sumit={this.submit}
+                submitButtonText="Create Course"
             
             />
             
