@@ -22,7 +22,7 @@ class CreateCourse extends Comppnent {
             <div class="wrap">
             <h2>Create Course</h2>
             <Form
-            
+                cancel={this.cancel}
             
             />
             
