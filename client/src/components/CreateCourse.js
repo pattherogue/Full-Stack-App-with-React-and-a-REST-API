@@ -21,6 +21,12 @@ class CreateCourse extends Comppnent {
         return (
             <div class="wrap">
             <h2>Create Course</h2>
+            <Form
+            
+            
+            />
+            
+            
             <form>
                 <div class="main--flex">
                     <div>
