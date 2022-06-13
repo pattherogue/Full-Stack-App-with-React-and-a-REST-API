@@ -24,6 +24,7 @@ class CreateCourse extends Comppnent {
             <Form
                 cancel={this.cancel}
                 errors={errors}
+                sumit={this.submit}
             
             />
             
