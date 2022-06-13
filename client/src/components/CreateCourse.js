@@ -21,13 +21,6 @@ class CreateCourse extends Comppnent {
         return (
             <div class="wrap">
             <h2>Create Course</h2>
-            <div class="validation--errors">
-                <h3>Validation Errors</h3>
-                <ul>
-                    <li>Please provide a value for "Title"</li>
-                    <li>Please provide a value for "Description"</li>
-                </ul>
-            </div>
             <form>
                 <div class="main--flex">
                     <div>
