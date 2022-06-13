@@ -23,6 +23,7 @@ class CreateCourse extends Comppnent {
             <h2>Create Course</h2>
             <Form
                 cancel={this.cancel}
+                errors={errors}
             
             />
             
