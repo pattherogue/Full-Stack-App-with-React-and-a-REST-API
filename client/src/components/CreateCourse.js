@@ -31,7 +31,12 @@ class CreateCourse extends Comppnent {
                         <div className="main--flex">
                             <div>
                                 <label htmlFor="courseTitle">Course Title</label>
-                                <input id="courseTitle" name="courseTitle" type="text" value="">
+                                <input 
+                                    id="title" 
+                                    name="courseTitle" 
+                                    type="text" 
+                                    value=""
+                                />
 
                                 <p>By Joe Smith</p>
 
