@@ -27,7 +27,9 @@ class CreateCourse extends Comppnent {
                 sumit={this.submit}
                 submitButtonText="Create Course"
                 elements={() => (
-                    
+                    <React.Fragment>
+                        
+                    </React.Fragment>
                 )}
             
             />
