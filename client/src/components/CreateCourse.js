@@ -36,6 +36,7 @@ class CreateCourse extends Comppnent {
                                     name="title" 
                                     type="text" 
                                     value=""
+                                    onChange={this.onChange}
                                 />
 
                                 <p>By Joe Smith</p>
