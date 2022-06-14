@@ -28,7 +28,7 @@ class CreateCourse extends Comppnent {
                 submitButtonText="Create Course"
                 elements={() => (
                     <React.Fragment>
-                        <div class="main--flex">
+                        <div className="main--flex">
                             <div>
                                 <label for="courseTitle">Course Title</label>
                                 <input id="courseTitle" name="courseTitle" type="text" value="">
