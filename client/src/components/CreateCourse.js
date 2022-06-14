@@ -30,7 +30,7 @@ class CreateCourse extends Comppnent {
                     <React.Fragment>
                         <div className="main--flex">
                             <div>
-                                <label for="courseTitle">Course Title</label>
+                                <label htmlFor="courseTitle">Course Title</label>
                                 <input id="courseTitle" name="courseTitle" type="text" value="">
 
                                 <p>By Joe Smith</p>
