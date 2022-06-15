@@ -41,7 +41,7 @@ class CreateCourse extends Comppnent {
 
                                 <label htmlFor="description">Course Description</label>
                                 <textarea 
-                                    id="courseDescription" 
+                                    id="description" 
                                     name="courseDescription"
                                 />
                             </div>
