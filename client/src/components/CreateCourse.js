@@ -39,7 +39,7 @@ class CreateCourse extends Comppnent {
                                     onChange={this.onChange}
                                 />
 
-                                <label for="courseDescription">Course Description</label>
+                                <label htmlFor="description">Course Description</label>
                                 <textarea id="courseDescription" name="courseDescription"></textarea>
                             </div>
                             <div>
