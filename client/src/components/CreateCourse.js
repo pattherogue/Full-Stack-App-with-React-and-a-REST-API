@@ -34,9 +34,9 @@ class CreateCourse extends Comppnent {
                                 <input 
                                     id="title" 
                                     name="title" 
-                                    type="text" 
-                                    value=""
-                                    onChange={this.onChange}
+                                    type="text"
+                                    onChange={this.onChange} 
+                                    value={title}
                                 />
 
                                 <label htmlFor="description">Course Description</label>
@@ -44,6 +44,7 @@ class CreateCourse extends Comppnent {
                                     id="description" 
                                     name="description"
                                     type="text"
+
                                 />
                             </div>
                             <div>
