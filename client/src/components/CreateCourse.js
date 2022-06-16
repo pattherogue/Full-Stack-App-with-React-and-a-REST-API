@@ -45,6 +45,7 @@ class CreateCourse extends Comppnent {
                                     name="description"
                                     type="text"
                                     onChange={this.change}
+                                    value={description}
 
                                 />
                             </div>
