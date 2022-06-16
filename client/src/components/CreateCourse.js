@@ -55,6 +55,7 @@ class CreateCourse extends Comppnent {
                                     id="estimatedTime" 
                                     name="estimatedTime" 
                                     type="text" 
+                                    onChange={this.change}
                                     value="">
 
                                 <label for="materialsNeeded">Materials Needed</label>
