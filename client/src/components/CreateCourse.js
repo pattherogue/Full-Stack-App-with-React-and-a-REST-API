@@ -63,6 +63,7 @@ class CreateCourse extends Comppnent {
                                 <textarea 
                                     id="materialsNeeded" 
                                     name="materialsNeeded"
+                                    type="text"
                                 />
                             </div>
                         </div>
