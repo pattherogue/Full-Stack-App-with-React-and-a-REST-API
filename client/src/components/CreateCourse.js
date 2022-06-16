@@ -60,7 +60,10 @@ class CreateCourse extends Comppnent {
                                 />
 
                                 <label htmlFor="materialsNeeded">Materials Needed</label>
-                                <textarea id="materialsNeeded" name="materialsNeeded"></textarea>
+                                <textarea 
+                                    id="materialsNeeded" 
+                                    name="materialsNeeded"
+                                />
                             </div>
                         </div>
                     </React.Fragment>
