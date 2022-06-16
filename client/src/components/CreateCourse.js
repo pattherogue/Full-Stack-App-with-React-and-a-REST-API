@@ -56,7 +56,8 @@ class CreateCourse extends Comppnent {
                                     name="estimatedTime" 
                                     type="text" 
                                     onChange={this.change}
-                                    value="">
+                                    value={estimatedTime}
+                                />
 
                                 <label for="materialsNeeded">Materials Needed</label>
                                 <textarea id="materialsNeeded" name="materialsNeeded"></textarea>
