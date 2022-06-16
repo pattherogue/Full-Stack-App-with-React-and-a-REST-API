@@ -59,7 +59,7 @@ class CreateCourse extends Comppnent {
                                     value={estimatedTime}
                                 />
 
-                                <label for="materialsNeeded">Materials Needed</label>
+                                <label htmlFor="materialsNeeded">Materials Needed</label>
                                 <textarea id="materialsNeeded" name="materialsNeeded"></textarea>
                             </div>
                         </div>
