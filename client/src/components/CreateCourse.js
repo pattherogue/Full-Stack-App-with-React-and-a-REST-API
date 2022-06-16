@@ -49,7 +49,7 @@ class CreateCourse extends Comppnent {
                                 />
                             </div>
                             <div>
-                                <label for="estimatedTime">Estimated Time</label>
+                                <label htmlFor="estimatedTime">Estimated Time</label>
                                 <input id="estimatedTime" name="estimatedTime" type="text" value="">
 
                                 <label for="materialsNeeded">Materials Needed</label>
