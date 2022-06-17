@@ -79,6 +79,10 @@ class CreateCourse extends Comppnent {
     change = e => {
         const name = e.target.name;
         const value = e.target.value;
+
+        this.setState(() => {
+            
+        })
     }
 
             
