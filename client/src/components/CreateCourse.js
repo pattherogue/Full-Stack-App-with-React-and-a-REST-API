@@ -74,7 +74,12 @@ class CreateCourse extends Comppnent {
             />
         </div>
         );
-                }    
+    }    
+
+    change = e => {
+        
+    }
+
             
     
     }
