@@ -64,6 +64,7 @@ class CreateCourse extends Comppnent {
                                     id="materialsNeeded" 
                                     name="materialsNeeded"
                                     type="text"
+                                    onChange={this.change}
                                 />
                             </div>
                         </div>
