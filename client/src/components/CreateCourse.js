@@ -95,6 +95,10 @@ class CreateCourse extends Comppnent {
             estimatedTime,
             materialsNeeded
         } = this.state;
+
+        const course = {
+            
+        }
     }
             
     
