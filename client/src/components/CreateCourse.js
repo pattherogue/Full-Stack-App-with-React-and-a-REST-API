@@ -82,7 +82,7 @@ class CreateCourse extends Comppnent {
 
         this.setState(() => {
             return {
-                
+                [name]: value
             }
         })
     }
