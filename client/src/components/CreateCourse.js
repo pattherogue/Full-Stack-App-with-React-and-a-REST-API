@@ -91,6 +91,7 @@ class CreateCourse extends Comppnent {
         const { context } = this.props;
         const {
             title,
+            description,
             
         }
     }
