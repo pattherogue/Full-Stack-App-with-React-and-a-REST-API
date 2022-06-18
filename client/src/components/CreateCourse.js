@@ -97,6 +97,7 @@ class CreateCourse extends Comppnent {
         } = this.state;
 
         const course = {
+            title,
             
         }
     }
