@@ -102,7 +102,7 @@ class CreateCourse extends Comppnent {
             description,
             estimatedTime,
             materialsNeeded,
-            userId
+            userId: user.id
 
 
 
