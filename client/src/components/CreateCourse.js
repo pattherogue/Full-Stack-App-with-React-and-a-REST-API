@@ -108,8 +108,7 @@ class CreateCourse extends Comppnent {
         context.data.CreateCourse(
             course,
             user.emailAddress,
-
-
+            user.password
         )
     }
             
