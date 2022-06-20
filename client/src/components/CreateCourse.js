@@ -105,7 +105,10 @@ class CreateCourse extends Comppnent {
             userId: user.id
         };
 
-        context.data.CreateCourse()
+        context.data.CreateCourse(
+            course,
+            
+        )
     }
             
     
