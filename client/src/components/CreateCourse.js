@@ -89,6 +89,7 @@ class CreateCourse extends Comppnent {
 
     submit = () => {
         const { context } = this.props;
+        const user = context.authenticatedUser;
         const {
             title,
             description,
@@ -101,7 +102,8 @@ class CreateCourse extends Comppnent {
             description,
             estimatedTime,
             materialsNeeded,
-            
+            userId
+
 
 
 
