@@ -103,11 +103,7 @@ class CreateCourse extends Comppnent {
             estimatedTime,
             materialsNeeded,
             userId: user.id
-
-
-
-
-        }
+        };
     }
             
     
