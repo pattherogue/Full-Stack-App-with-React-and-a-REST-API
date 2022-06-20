@@ -104,6 +104,8 @@ class CreateCourse extends Comppnent {
             materialsNeeded,
             userId: user.id
         };
+
+        context.data.CreateCourse()
     }
             
     
