@@ -100,7 +100,9 @@ class CreateCourse extends Comppnent {
             title,
             description,
             estimatedTime,
+            materialsNeeded,
             
+
 
 
         }
