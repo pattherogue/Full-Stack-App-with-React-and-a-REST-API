@@ -110,6 +110,9 @@ class CreateCourse extends Comppnent {
             user.emailAddress,
             user.password
         )
+            .then(errors => {
+                
+            })
     }
             
     
