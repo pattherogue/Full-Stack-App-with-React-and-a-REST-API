@@ -117,7 +117,7 @@ class CreateCourse extends Comppnent {
                     this.props.history.push("/")
                 }
             })
-            .catch(erros => console.log())
+            .catch(erros => console.log(errors));
     }
             
     
