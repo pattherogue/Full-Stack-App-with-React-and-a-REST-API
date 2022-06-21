@@ -111,7 +111,9 @@ class CreateCourse extends Comppnent {
             user.password
         )
             .then(errors => {
-                
+                if (errors.length) {
+                    
+                }
             })
     }
             
