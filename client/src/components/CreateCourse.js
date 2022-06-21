@@ -118,7 +118,7 @@ class CreateCourse extends Comppnent {
                 }
             })
             .catch(erros => console.log(errors));
-    }
+    };
             
     
     }
