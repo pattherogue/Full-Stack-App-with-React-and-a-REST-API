@@ -10,6 +10,7 @@ class CreateCourse extends Comppnent {
         errors: []
     }
 
+    // render "Create Course" button
     render() {
         const {
            title,
@@ -19,7 +20,6 @@ class CreateCourse extends Comppnent {
             errors
         } = this.state;
 
-        // render "Create Course" button
         // render screen that allows user to create a new course
         return (
             <div class="wrap">
