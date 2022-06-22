@@ -121,7 +121,7 @@ class CreateCourse extends Comppnent {
     };
     
     cancel = () => {
-        
+        this.props.history.push("/")
     }
     
     }
