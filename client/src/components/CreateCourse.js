@@ -12,9 +12,6 @@ class CreateCourse extends Comppnent {
         errors: []
     }
 
- 
-    // sends POST request to /api/courses route
-    // render "Cancel" button -- return user to default route
     render() {
         const {
            title,
@@ -84,6 +81,8 @@ class CreateCourse extends Comppnent {
         );
     }    
 
+    // sends POST request to /api/courses route
+    // render "Cancel" button -- return user to default route
     change = e => {
         const name = e.target.name;
         const value = e.target.value;
@@ -125,7 +124,7 @@ class CreateCourse extends Comppnent {
                     this.props.history.push("/")
                 }
             })
-            .catch(erros => console.log(errors));
+            .catch(errors => console.log(errors));
     };
     
     cancel = () => {
