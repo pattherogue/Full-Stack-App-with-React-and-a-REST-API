@@ -124,7 +124,6 @@ class CreateCourse extends Comppnent {
         this.props.history.push("/")
     }
     
-    }
 }
 // provides "Create Course" screen
 // render screen that allows user to create a new course
