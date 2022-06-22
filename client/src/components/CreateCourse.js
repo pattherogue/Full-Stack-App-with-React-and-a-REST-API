@@ -82,7 +82,6 @@ class CreateCourse extends Comppnent {
     }    
 
     // sends POST request to /api/courses route
-  
     change = e => {
         const name = e.target.name;
         const value = e.target.value;
