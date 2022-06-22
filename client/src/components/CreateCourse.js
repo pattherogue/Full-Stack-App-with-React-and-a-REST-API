@@ -12,7 +12,7 @@ class CreateCourse extends Comppnent {
         errors: []
     }
 
-    // render screen that allows user to create a new course
+ 
     // sends POST request to /api/courses route
     // render "Cancel" button -- return user to default route
     render() {
@@ -25,6 +25,7 @@ class CreateCourse extends Comppnent {
         } = this.state;
 
         // render "Create Course" button
+        // render screen that allows user to create a new course
         return (
             <div class="wrap">
             <h2>Create Course</h2>
