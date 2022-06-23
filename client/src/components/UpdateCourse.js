@@ -10,6 +10,8 @@ export default class UpdateCourse extends Component {
         id: this.props.match.params.id,
         errors: [],
     }
+
+    
 }
 // provides "Update Course" screen
 // render form -- update one existing course
