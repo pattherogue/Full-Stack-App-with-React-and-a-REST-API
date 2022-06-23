@@ -4,6 +4,8 @@ export default class UpdateCourse extends Component {
     state = {
         title: '',
         description: '',
+        estimatedTime: '',
+        
     }
 }
 // provides "Update Course" screen
