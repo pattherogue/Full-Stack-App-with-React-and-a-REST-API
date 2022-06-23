@@ -7,8 +7,7 @@ export default class UpdateCourse extends Component {
         estimatedTime: '',
         materialsNeeded: '',
         id: this.props.match.params.id,
-        
-
+        errors: [],
     }
 }
 // provides "Update Course" screen
