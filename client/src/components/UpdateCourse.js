@@ -6,6 +6,7 @@ export default class UpdateCourse extends Component {
         description: '',
         estimatedTime: '',
         materialsNeeded: '',
+        id: this.props.match.params.id,
         
 
     }
