@@ -19,6 +19,10 @@ export default class UpdateCourse extends Component {
             materialsNeeded,
             errors
         } = this.state
+
+        return (
+            
+        )
     }
 }
 // provides "Update Course" screen
