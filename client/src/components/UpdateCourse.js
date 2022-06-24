@@ -14,7 +14,9 @@ export default class UpdateCourse extends Component {
     render() {
         const {
             title,
-                
+            description,
+            
+
         }
     }
 }
