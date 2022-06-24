@@ -11,7 +11,9 @@ export default class UpdateCourse extends Component {
         errors: [],
     }
 
-    
+    render() {
+        
+    }
 }
 // provides "Update Course" screen
 // render form -- update one existing course
