@@ -15,6 +15,7 @@ export default class UpdateCourse extends Component {
         const {
             title,
             description,
+            estimatedTime,
             
 
         }
