@@ -12,7 +12,9 @@ export default class UpdateCourse extends Component {
     }
 
     render() {
-        
+        const {
+            
+        }
     }
 }
 // provides "Update Course" screen
