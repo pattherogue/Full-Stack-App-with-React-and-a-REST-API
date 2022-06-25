@@ -27,7 +27,8 @@ export default class UpdateCourse extends Component {
                     <Form
                         cancel={this.cancel}
                         errors={errors}
-                        
+                        submit={this.submit}
+
                     >
                         <div class="main--flex">
                             <div>
