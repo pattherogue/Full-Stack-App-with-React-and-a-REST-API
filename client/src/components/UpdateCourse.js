@@ -30,7 +30,9 @@ export default class UpdateCourse extends Component {
                         submit={this.submit}
                         submitButtonText="Update Course"
                         elements={() => (
-                            
+                            <div>
+
+                            </div>
                         )}
 
                     >
