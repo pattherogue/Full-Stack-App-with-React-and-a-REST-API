@@ -31,7 +31,9 @@ export default class UpdateCourse extends Component {
                         submitButtonText="Update Course"
                         elements={() => (
                             <div>
-
+                                <React.Fragment>
+                                    
+                                </React.Fragment>
                             </div>
                         )}
 
