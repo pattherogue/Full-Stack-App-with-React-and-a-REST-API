@@ -32,7 +32,7 @@ export default class UpdateCourse extends Component {
                         elements={() => (
                             <div>
                                 <React.Fragment>
-                                    <div class="main--flex">
+                                    <div className="main--flex">
                                         <div>
                                             <label for="courseTitle">Course Title</label>
                                             <input id="courseTitle" name="courseTitle" type="text" value="Build a Basic Bookcase">
