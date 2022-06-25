@@ -29,6 +29,9 @@ export default class UpdateCourse extends Component {
                         errors={errors}
                         submit={this.submit}
                         submitButtonText="Update Course"
+                        elements={() => (
+                            
+                        )}
 
                     >
                         <div class="main--flex">
