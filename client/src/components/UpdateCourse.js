@@ -24,7 +24,9 @@ export default class UpdateCourse extends Component {
             <div>
                 <div class="wrap">
                     <h2>Update Course</h2>
-                    <form>
+                    <Form
+                        cancel={this.cancel}
+                    >
                         <div class="main--flex">
                             <div>
                                 <label for="courseTitle">Course Title</label>
