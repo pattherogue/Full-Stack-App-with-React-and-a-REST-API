@@ -41,6 +41,7 @@ export default class UpdateCourse extends Component {
                                                 type="text" 
                                                 value={title}
                                                 onChange={this.change}
+                                                placeholder={title}
                                             />
 
                                             <p>By Joe Smith</p>
