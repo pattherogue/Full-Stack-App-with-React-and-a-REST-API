@@ -35,7 +35,12 @@ export default class UpdateCourse extends Component {
                                     <div className="main--flex">
                                         <div>
                                             <label htmlFor="courseTitle">Course Title</label>
-                                            <input id="courseTitle" name="courseTitle" type="text" value="Build a Basic Bookcase">
+                                            <input 
+                                                id="title" 
+                                                name="courseTitle" 
+                                                type="text" 
+                                                value="Build a Basic Bookcase"
+                                            />
 
                                             <p>By Joe Smith</p>
 
