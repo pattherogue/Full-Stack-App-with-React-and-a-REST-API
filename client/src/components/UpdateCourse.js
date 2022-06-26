@@ -40,6 +40,7 @@ export default class UpdateCourse extends Component {
                                                 name="title" 
                                                 type="text" 
                                                 value={title}
+                                                onChange={this.change}
                                             />
 
                                             <p>By Joe Smith</p>
