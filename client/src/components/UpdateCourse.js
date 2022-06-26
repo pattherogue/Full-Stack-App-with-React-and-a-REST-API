@@ -37,7 +37,7 @@ export default class UpdateCourse extends Component {
                                             <label htmlFor="courseTitle">Course Title</label>
                                             <input 
                                                 id="title" 
-                                                name="courseTitle" 
+                                                name="title" 
                                                 type="text" 
                                                 value="Build a Basic Bookcase"
                                             />
