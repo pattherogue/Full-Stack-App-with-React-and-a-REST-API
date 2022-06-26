@@ -39,7 +39,7 @@ export default class UpdateCourse extends Component {
                                                 id="title" 
                                                 name="title" 
                                                 type="text" 
-                                                value="Build a Basic Bookcase"
+                                                value={title}
                                             />
 
                                             <p>By Joe Smith</p>
