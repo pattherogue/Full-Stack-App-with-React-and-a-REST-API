@@ -46,7 +46,7 @@ export default class UpdateCourse extends Component {
 
                                             <label htmlFor="description">Course Description</label>
                                             <textarea 
-                                                id="courseDescription" 
+                                                id="description" 
                                                 name="courseDescription"
                                             />
    
