@@ -34,7 +34,7 @@ export default class UpdateCourse extends Component {
                                 <React.Fragment>
                                     <div className="main--flex">
                                         <div>
-                                            <label for="courseTitle">Course Title</label>
+                                            <label htmlFor="courseTitle">Course Title</label>
                                             <input id="courseTitle" name="courseTitle" type="text" value="Build a Basic Bookcase">
 
                                             <p>By Joe Smith</p>
