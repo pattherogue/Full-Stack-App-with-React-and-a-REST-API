@@ -84,6 +84,10 @@ export default class UpdateCourse extends Component {
             </div>
         )
     }
+
+    change = e => {
+        
+    }
 }
 // provides "Update Course" screen
 // render form -- update one existing course
