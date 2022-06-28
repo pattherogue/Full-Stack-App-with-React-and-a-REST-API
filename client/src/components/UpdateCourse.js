@@ -53,10 +53,9 @@ export default class UpdateCourse extends Component {
                                                 onChange={this.change}
                                                 placeholder={description}
                                             />
-   
                                         </div>
                                         <div>
-                                            <label for="estimatedTime">Estimated Time</label>
+                                            <label htmlFor="estimatedTime">Estimated Time</label>
                                             <input id="estimatedTime" name="estimatedTime" type="text" value="14 hours">
 
                                             <label for="materialsNeeded">Materials Needed</label>
