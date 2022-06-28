@@ -80,6 +80,7 @@ export default class UpdateCourse extends Component {
                             </div>
                         )}
                     />
+                </div>
             </div>
         )
     }
