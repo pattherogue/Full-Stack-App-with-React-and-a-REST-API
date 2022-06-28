@@ -73,7 +73,6 @@ export default class UpdateCourse extends Component {
                                                 value={materialsNeeded}
                                                 onChange={this.change}
                                                 placeholder={materialsNeeded}
-                                                
                                             />
                                         </div>
                                     </div>
