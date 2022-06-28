@@ -79,8 +79,7 @@ export default class UpdateCourse extends Component {
                                 </React.Fragment>
                             </div>
                         )}
-
-                    >
+                    />
                         <div class="main--flex">
                             <div>
                                 <label for="courseTitle">Course Title</label>
