@@ -50,6 +50,7 @@ export default class UpdateCourse extends Component {
                                                 name="description"
                                                 type="textarea"
                                                 value={description}
+                                                onChange={this.change}
                                             />
    
                                         </div>
