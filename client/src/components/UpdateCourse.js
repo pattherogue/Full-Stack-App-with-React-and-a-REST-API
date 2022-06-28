@@ -49,6 +49,7 @@ export default class UpdateCourse extends Component {
                                                 id="description" 
                                                 name="description"
                                                 type="textarea"
+                                                value={description}
                                             />
    
                                         </div>
