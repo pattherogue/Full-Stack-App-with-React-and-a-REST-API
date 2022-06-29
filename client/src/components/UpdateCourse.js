@@ -98,6 +98,7 @@ export default class UpdateCourse extends Component {
 
     submit = () => {
         const { context } = this.props;
+        const authenticatedUser = context.authenticatedUser;
     }
 }
 // provides "Update Course" screen
