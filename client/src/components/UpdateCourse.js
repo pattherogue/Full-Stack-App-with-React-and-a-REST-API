@@ -100,6 +100,10 @@ export default class UpdateCourse extends Component {
         const { context } = this.props;
         const authenticatedUser = context.authenticatedUser;
         const id = this.props.match.params.id;
+
+        const {
+
+        } = this.state;
     }
 }
 // provides "Update Course" screen
