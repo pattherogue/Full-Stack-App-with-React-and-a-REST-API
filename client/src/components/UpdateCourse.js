@@ -91,9 +91,13 @@ export default class UpdateCourse extends Component {
 
         this.setState(() => {
             return {
-                
+
             }
         })
+    }
+
+    submit = () => {
+        
     }
 }
 // provides "Update Course" screen
