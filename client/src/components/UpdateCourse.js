@@ -90,7 +90,9 @@ export default class UpdateCourse extends Component {
         const value = e.target.value;
 
         this.setState(() => {
-            
+            return {
+                
+            }
         })
     }
 }
