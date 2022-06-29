@@ -87,6 +87,7 @@ export default class UpdateCourse extends Component {
 
     change = e => {
         const name = e.target.name;
+        const value = e.target.value;
     }
 }
 // provides "Update Course" screen
