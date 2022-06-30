@@ -109,6 +109,7 @@ export default class UpdateCourse extends Component {
         } = this.state;
 
         const course = {
+            title,
             
         }
     }
