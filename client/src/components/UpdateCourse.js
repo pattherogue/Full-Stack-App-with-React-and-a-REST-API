@@ -113,7 +113,6 @@ export default class UpdateCourse extends Component {
             description,
             estimatedTime,
             materialsNeeded
-
         }
     }
 }
