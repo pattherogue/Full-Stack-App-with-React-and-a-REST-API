@@ -102,7 +102,9 @@ export default class UpdateCourse extends Component {
         const id = this.props.match.params.id;
 
         const {
-
+            title,
+            description,
+            
         } = this.state;
     }
 }
