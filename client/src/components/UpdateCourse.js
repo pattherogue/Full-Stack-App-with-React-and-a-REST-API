@@ -107,6 +107,10 @@ export default class UpdateCourse extends Component {
             estimatedTime,
             materialsNeeded
         } = this.state;
+
+        const course = {
+            
+        }
     }
 }
 // provides "Update Course" screen
