@@ -110,6 +110,7 @@ export default class UpdateCourse extends Component {
 
         const course = {
             title,
+            description,
             
         }
     }
