@@ -121,6 +121,9 @@ export default class UpdateCourse extends Component {
             authenticatedUser.emailAddress,
             authenticatedUser.password
         )
+        .then(errors => {
+            
+        })
     }
 }
 // provides "Update Course" screen
