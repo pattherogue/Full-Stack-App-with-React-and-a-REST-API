@@ -119,9 +119,7 @@ export default class UpdateCourse extends Component {
             id,
             course,
             authenticatedUser.emailAddress,
-            
-
-
+            authenticatedUser.password
         )
     }
 }
