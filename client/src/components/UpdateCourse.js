@@ -123,7 +123,7 @@ export default class UpdateCourse extends Component {
         )
         .then(errors => {
             if (errors.length) {
-                
+                this.setState({ errors });
             }
         })
     }
