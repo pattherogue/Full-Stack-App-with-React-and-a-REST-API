@@ -122,7 +122,9 @@ export default class UpdateCourse extends Component {
             authenticatedUser.password
         )
         .then(errors => {
-            
+            if (errors.length) {
+                
+            }
         })
     }
 }
