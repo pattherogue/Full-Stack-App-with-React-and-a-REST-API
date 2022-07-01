@@ -118,7 +118,9 @@ export default class UpdateCourse extends Component {
         context.data.updateCourse(
             id,
             course,
+            authenticatedUser.emailAddress,
             
+
 
         )
     }
