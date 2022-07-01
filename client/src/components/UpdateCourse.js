@@ -114,6 +114,10 @@ export default class UpdateCourse extends Component {
             estimatedTime,
             materialsNeeded
         }
+
+        context.data.updateCourse(
+            
+        )
     }
 }
 // provides "Update Course" screen
