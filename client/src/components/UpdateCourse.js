@@ -6,7 +6,7 @@ import Axios from 'axios';
 
 
 
-// return users to "Course Detail" screen
+
 
 export default class UpdateCourse extends Component {
     state = {
@@ -142,10 +142,11 @@ export default class UpdateCourse extends Component {
             this.props.history.push('/error');
         })
     }
-    
+
     // render "Cancel" button
     cancel = () => {
-        this.props.history.push('/');
+        // return users to "Course Detail" screen
+        this.props.history.push(`/courses/${this.state.id}`);
     }
 }
 
