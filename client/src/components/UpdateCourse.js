@@ -129,7 +129,7 @@ export default class UpdateCourse extends Component {
             }
         })
         .catch( error => {
-            
+            console.log(error);
         })
     }
 }
