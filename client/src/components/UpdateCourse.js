@@ -128,6 +128,9 @@ export default class UpdateCourse extends Component {
                 this.props.history.push(`/courses/${id}`);
             }
         })
+        .catch( error => {
+            
+        })
     }
 }
 // provides "Update Course" screen
