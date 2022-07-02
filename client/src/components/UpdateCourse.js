@@ -133,6 +133,10 @@ export default class UpdateCourse extends Component {
             this.props.history.push('/error');
         })
     }
+
+    cancel = () => {
+        
+    }
 }
 // provides "Update Course" screen
 // render form -- update one existing course
