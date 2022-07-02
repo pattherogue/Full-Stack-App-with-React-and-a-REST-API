@@ -130,6 +130,7 @@ export default class UpdateCourse extends Component {
         })
         .catch( error => {
             console.log(error);
+            this.props.history.push('/error');
         })
     }
 }
