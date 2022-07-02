@@ -3,7 +3,7 @@ import Axios from 'axios';
 
 // provides "Update Course" screen
 
-// render "Update Course" button
+
 // send PUT request to /api/courses/:id
 // render "Cancel" button
 // return users to "Course Detail" screen
@@ -26,7 +26,8 @@ export default class UpdateCourse extends Component {
             materialsNeeded,
             errors
         } = this.state
-
+        
+        // render "Update Course" button
         return (
             <div>
                 <div class="wrap">
