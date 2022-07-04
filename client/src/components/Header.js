@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 export default class Header extends Componenet {
     render() {
-        
+        const { context } = this.props;
     }
 }
 // display top menu bar
