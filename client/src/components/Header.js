@@ -5,6 +5,10 @@ export default class Header extends Componenet {
     render() {
         const { context } = this.props;
         const authUser = context.authenticatedUser;
+
+        return (
+            
+        )
     }
 }
 // display top menu bar
