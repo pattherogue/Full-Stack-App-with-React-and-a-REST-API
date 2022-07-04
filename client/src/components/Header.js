@@ -2,7 +2,9 @@ import React, { Componenet } from 'react';
 import { NavLink } from 'react-router-dom';
 
 export default class Header extends Componenet {
-    
+    render() {
+        
+    }
 }
 // display top menu bar
 // sign in button
