@@ -1,3 +1,6 @@
+import React, { Componenet } from 'react';
+
+
 // display top menu bar
 // sign in button
 // sign up button ( if not authenticated user)
