@@ -9,7 +9,7 @@ export default class Header extends Componenet {
         return (
             <header>
                 <div className="wrap header--flex">
-                    <h1 class="header--logo"><a href="index.html">Courses</a></h1>
+                    <h1 className="header--logo"><a href="index.html">Courses</a></h1>
                     <nav>
                         <ul class="header--signedout">
                             <li><a href="sign-up.html">Sign Up</a></li>
