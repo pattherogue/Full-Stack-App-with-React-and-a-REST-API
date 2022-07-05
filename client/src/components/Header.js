@@ -14,7 +14,7 @@ export default class Header extends Componenet {
                         { authUser ?
                         <React.Fragment>
                              <ul className="header--signedin">
-                                <li><a href="sign-up.html">Sign Up</a></li>
+                                <li></li>
                                 <li><a href="sign-in.html">Sign In</a></li>
                             </ul>
                         </React.Fragment> 
