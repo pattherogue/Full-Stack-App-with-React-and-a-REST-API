@@ -13,7 +13,7 @@ export default class Header extends Componenet {
                     <nav>
                         { authUser ?
                         <React.Fragment>
-                             <ul class="header--signedout">
+                             <ul className="header--signedin">
                                 <li><a href="sign-up.html">Sign Up</a></li>
                                 <li><a href="sign-in.html">Sign In</a></li>
                             </ul>
