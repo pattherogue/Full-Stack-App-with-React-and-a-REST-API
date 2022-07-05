@@ -12,7 +12,9 @@ export default class Header extends Componenet {
                     <h1 className="header--logo"><a href="index.html">Courses</a></h1>
                     <nav>
                         { authUser ?
+                        <React.Fragment>
                             
+                        </React.Fragment> 
                     }
                         <ul class="header--signedout">
                             <li><a href="sign-up.html">Sign Up</a></li>
