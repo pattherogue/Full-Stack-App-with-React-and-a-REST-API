@@ -15,7 +15,7 @@ export default class Header extends Componenet {
                             <React.Fragment>
                                 <ul className="header--signedin">
                                     <li>{`Welcome, ${authUser.firstName} ${authUser.lastName}`} </li>
-                                    <li><NavLink to="signout">Sign Out</NavLink></li>
+                                    <li><NavLink to="/signout">Sign Out</NavLink></li>
                                 </ul>
                             </React.Fragment> 
                         ) : (
