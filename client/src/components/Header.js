@@ -21,7 +21,7 @@ export default class Header extends Componenet {
                         ) : (
                             <React.Fragment>
                                 <ul className="header--signedout">
-                                    <li><a href="sign-up.html">Sign Up</a></li>
+                                    <li><NavLink to="sign-up.html">Sign Up</NavLink></li>
                                     <li><a href="sign-in.html">Sign In</a></li>
                                 </ul>
                             </React.Fragment>
