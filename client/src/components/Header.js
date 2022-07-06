@@ -12,15 +12,15 @@ export default class Header extends Componenet {
                     <h1 className="header--logo"><a href="index.html">Courses</a></h1>
                     <nav>
                         { authUser ? (
-                        <React.Fragment>
-                             <ul className="header--signedin">
-                                <li>{`Welcome, ${authUser.firstName} ${authUser.lastName}`} </li>
-                                <li><NavLink to="signout">Sign Out</NavLink></li>
-                            </ul>
-                        </React.Fragment> 
+                            <React.Fragment>
+                                <ul className="header--signedin">
+                                    <li>{`Welcome, ${authUser.firstName} ${authUser.lastName}`} </li>
+                                    <li><NavLink to="signout">Sign Out</NavLink></li>
+                                </ul>
+                            </React.Fragment> 
                         ) : (
                             <React.Fragment>
-                                
+
                             </React.Fragment>
                         )
                     }
