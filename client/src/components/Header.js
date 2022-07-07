@@ -6,7 +6,7 @@ export default class Header extends Componenet {
     render() {
         const { context } = this.props;
         const authUser = context.authenticatedUser;
-
+        // sign in button
         return (
             <header>
                 <div className="wrap header--flex">
@@ -36,7 +36,7 @@ export default class Header extends Componenet {
     }
 }
 
-// sign in button
+
 // sign up button ( if not authenticated user)
 // user's name 
 // sign out button (if authenticated user)
