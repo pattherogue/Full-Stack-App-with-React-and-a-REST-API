@@ -13,6 +13,7 @@ export default class Header extends Componenet {
                     <h1 className="header--logo"><a href="index.html">Courses</a></h1>
                     <nav>
                         { authUser ? (
+                            // sign up button ( if not authenticated user)
                             <React.Fragment>
                                 <ul className="header--signedin">
                                     <li>{`Welcome, ${authUser.firstName} ${authUser.lastName}`} </li>
@@ -37,6 +38,5 @@ export default class Header extends Componenet {
 }
 
 
-// sign up button ( if not authenticated user)
 // user's name 
 // sign out button (if authenticated user)
