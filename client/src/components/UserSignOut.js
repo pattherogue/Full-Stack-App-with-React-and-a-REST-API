@@ -5,6 +5,7 @@ const UserSignOut = ({context}) => {
     // signs out autheticated user
     useEffect(() => context.actions.signOut());
     return (
+        // redirects user to default route 
         <Redirect to="/" />
     );
 }
@@ -12,4 +13,3 @@ const UserSignOut = ({context}) => {
 export default UserSignOut;
 
 
-// redirects user to default route 
