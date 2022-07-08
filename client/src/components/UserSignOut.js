@@ -3,6 +3,9 @@ import { Redirect } from 'react-router-dom';
 
 const UserSignOut = ({context}) => {
     useEffect(() => context.actions.signOut());
+    return (
+        
+    )
 }
 
 // signs out autheticated user
