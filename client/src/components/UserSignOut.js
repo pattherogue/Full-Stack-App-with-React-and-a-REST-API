@@ -8,5 +8,7 @@ const UserSignOut = ({context}) => {
     );
 }
 
+export default UserSignOut;
+
 // signs out autheticated user
 // redirects user to default route 
