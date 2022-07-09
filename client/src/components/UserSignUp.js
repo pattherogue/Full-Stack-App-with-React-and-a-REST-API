@@ -25,7 +25,7 @@ class UserSignUp extends Component {
         return(
             <div className="form--centered">
             <h2>Sign Up</h2>
-            <form
+            <Form
                 cancel={this.cancel}
                 errors={errors}
                 submit={this.submit}
