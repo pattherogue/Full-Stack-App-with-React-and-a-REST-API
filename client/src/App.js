@@ -14,6 +14,7 @@ import UserSignUp from './components/UserSignUp';
 
 const HeaderWithContext = HeaderWithContext(Header);
 const CourseWithContext = withContext(Course);
+const CourseDetailWithContext = withContext(CourseDetail);
 
 const App = () => (
   <Router>
