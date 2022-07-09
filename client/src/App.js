@@ -15,10 +15,11 @@ import UserSignUp from './components/UserSignUp';
 
 
 const App = () => (
-  <div>
-    <ul></ul>
-    <ul></ul>
-    <ul></ul>
-  </div>
+  <Router>
+    <div>
+     
+    </div>
+  </Router>
+
 );
 export default App;
