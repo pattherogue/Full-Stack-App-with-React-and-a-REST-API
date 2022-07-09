@@ -1,4 +1,5 @@
 import React, { Comppnent } from 'react';
+import Form from './Form';
 
 // provides "Create Course" screen
 class CreateCourse extends Comppnent {
