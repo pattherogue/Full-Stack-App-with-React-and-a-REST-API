@@ -12,13 +12,11 @@ import UpdateCourse from './components/UpdateCourse';
 import UserSignIn from './components/UserSignIn';
 import UserSignUp from './components/UserSignUp';
 
-
+const HeaderWithContext = HeaderWithContext(UserSignUp);
 
 const App = () => (
   <Router>
-    <div>
-     
-    </div>
+    
   </Router>
 
 );
