@@ -19,6 +19,7 @@ const UserSignUpWithContext = withContext(UserSignUp);
 const CreateCourseWithContext = withContext(CreateCourse);
 const UserSignInWithContext = withContext(UserSignIn);
 const UpdateCourseWithContext = withContext(UpdateCourse);
+const UserSignOutWithContext = withContext(UserSignOut);
 
 const App = () => (
   <Router>
