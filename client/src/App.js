@@ -25,7 +25,9 @@ const App = () => (
   <Router>
     <HeaderWithContext />
     <main>
-      
+      <Switch>
+        
+      </Switch>
     </main>
   </Router>
 
