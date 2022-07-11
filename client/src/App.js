@@ -19,10 +19,7 @@ const UserSignUpWithContext = withContext(UserSignUp);
 
 const App = () => (
   <Router>
-    <div>
-      
-    </div>
-    
+    <HeaderWithContext />
   </Router>
 
 );
