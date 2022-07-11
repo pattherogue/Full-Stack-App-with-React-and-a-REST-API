@@ -24,6 +24,9 @@ const UserSignOutWithContext = withContext(UserSignOut);
 const App = () => (
   <Router>
     <HeaderWithContext />
+    <main>
+      
+    </main>
   </Router>
 
 );
