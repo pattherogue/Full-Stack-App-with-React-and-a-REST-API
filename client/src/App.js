@@ -16,7 +16,8 @@ const HeaderWithContext = HeaderWithContext(Header);
 const CourseWithContext = withContext(Course);
 const CourseDetailWithContext = withContext(CourseDetail);
 const UserSignUpWithContext = withContext(UserSignUp);
-const CreateCourseWithContext = withContext(UserSignIn);
+const CreateCourseWithContext = withContext(CreateCourse);
+const UserSignInWithContext = withContext(UserSignIn);
 
 const App = () => (
   <Router>
