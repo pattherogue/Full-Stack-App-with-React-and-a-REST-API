@@ -8,6 +8,7 @@ export class Provider extends Component {
     
     constructor() {
         super();
+        this.data = new Data();
     }
 ]
 
