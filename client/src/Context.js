@@ -10,6 +10,10 @@ export class Provider extends Component {
         super();
         this.data = new Data();
         this.cookie = Cookies.get('authenticate4dUser');
+
+        this.state = {
+            
+        }
     }
 ]
 
