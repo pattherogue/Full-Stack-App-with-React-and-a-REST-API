@@ -19,5 +19,10 @@ export class Provider extends Component {
     render() {
         const { authenticatedUser } = this.state;
     }
+
+    const value = {
+        authenticatedUser,
+        
+    }
 ]
 
