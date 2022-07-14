@@ -25,7 +25,7 @@ export class Provider extends Component {
         data: this.data,
         actions: {
             signIn: this.signIn,
-            
+            signOut: this.signOut
         }
     }
 ]
