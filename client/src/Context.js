@@ -13,7 +13,7 @@ export class Provider extends Component {
 
         this.state = {
             authenticatedUser: this.cookie ? JSON.parse(this.cookie) : null
-        }
+        };
     }
 ]
 
