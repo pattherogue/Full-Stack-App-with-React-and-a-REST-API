@@ -22,6 +22,7 @@ export class Provider extends Component {
 
     const value = {
         authenticatedUser,
+        data: this.data,
         
     }
 ]
