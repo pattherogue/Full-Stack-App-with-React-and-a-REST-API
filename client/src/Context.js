@@ -27,10 +27,11 @@ export class Provider extends Component {
             signIn: this.signIn,
             signOut: this.signOut
         }
-    };
+    }
 
     return (
         
+     
     )
 ]
 
