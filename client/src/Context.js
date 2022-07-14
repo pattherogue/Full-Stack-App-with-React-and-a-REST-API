@@ -15,5 +15,9 @@ export class Provider extends Component {
             authenticatedUser: this.cookie ? JSON.parse(this.cookie) : null
         };
     }
+
+    render() {
+        
+    }
 ]
 
