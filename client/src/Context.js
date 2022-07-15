@@ -40,7 +40,7 @@ export class Provider extends Component {
         const user = await this.data.getUser(emailAddress, password);
 
         if (user !== null) {
-
+            user.password = password;
         }
     }
 
