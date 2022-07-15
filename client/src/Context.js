@@ -36,7 +36,9 @@ export class Provider extends Component {
         )
     }
 
-    signIn = async ()
+    signIn = async () => {
+        
+    }
 
 
 ]
