@@ -35,5 +35,9 @@ export class Provider extends Component {
             </Context.Provider>
         )
     }
+
+    signIn = async ()
+
+
 ]
 
