@@ -31,7 +31,7 @@ export class Provider extends Component {
 
         return (
             <Context.Provider value={value}>
-
+                {this.props.children}
         
         )
     }
