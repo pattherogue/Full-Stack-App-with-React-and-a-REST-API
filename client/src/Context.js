@@ -18,20 +18,22 @@ export class Provider extends Component {
 
     render() {
         const { authenticatedUser } = this.state;
-    }
+    
 
-    const value = {
-        authenticatedUser,
-        data: this.data,
-        actions: {
-            signIn: this.signIn,
-            signOut: this.signOut
+        const value = {
+            authenticatedUser,
+            data: this.data,
+            actions: {
+                signIn: this.signIn,
+                signOut: this.signOut
+            }
         }
-    }
 
-    return (
+        return (
+            <Context.Provider value={value}>
+
         
-     
-    )
+        )
+    }
 ]
 
