@@ -47,6 +47,10 @@ export class Provider extends Component {
                 }
             });
         }
+
+        const cookieOptions = {
+            
+        }
     }
 
 
