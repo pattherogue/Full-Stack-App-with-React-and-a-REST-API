@@ -43,7 +43,7 @@ export class Provider extends Component {
             user.password = password;
             this.setState(() => {
                 return {
-                    
+                  authenticatedUser: user  
                 }
             })
         }
