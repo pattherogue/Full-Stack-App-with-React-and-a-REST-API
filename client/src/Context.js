@@ -45,7 +45,7 @@ export class Provider extends Component {
                 return {
                   authenticatedUser: user  
                 }
-            })
+            });
         }
     }
 
