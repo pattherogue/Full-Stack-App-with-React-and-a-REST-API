@@ -52,7 +52,7 @@ export class Provider extends Component {
             expires: 1
         };
 
-        Cookies.set();
+        Cookies.set('authenticatedUser', JSON.stringify(user), cookieOptions);
     }
 
 
