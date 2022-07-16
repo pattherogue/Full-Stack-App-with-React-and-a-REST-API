@@ -49,8 +49,8 @@ export class Provider extends Component {
         }
 
         const cookieOptions = {
-            
-        }
+            expires: 1
+        };
     }
 
 
