@@ -60,7 +60,7 @@ export class Provider extends Component {
         this.setState({ authenticatedUser: null });
         Cookies.remove('authenticatedUser');
     }
-
-
 }
+
+export const Consumer = Context.Consumer;
 
