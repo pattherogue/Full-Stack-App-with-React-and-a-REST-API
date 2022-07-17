@@ -62,5 +62,5 @@ export class Provider extends Component {
     }
 
 
-]
+}
 
