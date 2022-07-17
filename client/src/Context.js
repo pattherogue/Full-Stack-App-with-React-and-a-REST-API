@@ -57,7 +57,7 @@ export class Provider extends Component {
     }
 
     signOut = () => {
-        
+        this.setState({});
     }
 
 
