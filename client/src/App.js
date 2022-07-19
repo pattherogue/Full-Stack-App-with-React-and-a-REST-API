@@ -25,11 +25,9 @@ const UserSignOutWithContext = withContext(UserSignOut);
 const App = () => (
   <Router>
     <HeaderWithContext />
-    <main>
       <Switch>
-          <Route exact path="/" component={CoursesWithContext} />
+        
       </Switch>
-    </main>
   </Router>
 
 );
