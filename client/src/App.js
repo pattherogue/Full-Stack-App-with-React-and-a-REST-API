@@ -5,6 +5,7 @@ import {
   Switch
 } from 'react-router-dom'
 
+import Header from "./components/Header";
 import CourseDetail from './components/CourseDetail';
 import Courses from './components/Courses';
 import CreateCourse from './components/CreateCourse';
