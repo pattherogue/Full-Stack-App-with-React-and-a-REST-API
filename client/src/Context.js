@@ -70,7 +70,7 @@ export default function withContext((Component) {
             <Context.Consumer>
                 {context => <Component {...props} context={context} />}
             </Context.Consumer>
-        )
+        );
     }
 })
 
