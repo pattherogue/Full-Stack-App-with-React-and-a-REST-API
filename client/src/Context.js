@@ -67,7 +67,9 @@ export const Consumer = Context.Consumer;
 export default function withContext((Component) {
     return function ContextComponent(props) {
         return (
-            
+            <Context.Consumer>
+                
+            </Context.Consumer>
         )
     }
 })
