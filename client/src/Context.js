@@ -68,7 +68,7 @@ export default function withContext((Component) {
     return function ContextComponent(props) {
         return (
             <Context.Consumer>
-                
+                {context => <Component {}}
             </Context.Consumer>
         )
     }
