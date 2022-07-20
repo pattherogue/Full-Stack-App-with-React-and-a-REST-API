@@ -30,6 +30,7 @@ const App = () => (
         <PrivateRoute path="/courses/create" component={CreateCourseWithContext} />
         <PrivateRoute path="/courses/:id/update" component={UpdateCourseWithContext} />
         <Route path="/courses/:id" component={CourseDetailWtihContext} />
+        <Route path="/signin" 
       </Switch>
   </Router>
 
