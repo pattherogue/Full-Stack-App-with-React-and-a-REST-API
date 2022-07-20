@@ -31,7 +31,7 @@ const App = () => (
         <PrivateRoute path="/courses/:id/update" component={UpdateCourseWithContext} />
         <Route path="/courses/:id" component={CourseDetailWtihContext} />
         <Route path="/signin" component={UserSignInWithContext} />
-        <Route path="/signout" component={{UserSignOutWithContext}} />
+        <Route path="/signout" component={UserSignOutWithContext} />
       </Switch>
   </Router>
 
