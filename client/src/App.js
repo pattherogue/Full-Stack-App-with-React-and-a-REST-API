@@ -26,7 +26,7 @@ const App = () => (
   <Router>
     <HeaderWithContext />
       <Switch>
-        <Route exact path="/" component={{}} />
+        <Route exact path="/" component={CourseWithContext} />
       </Switch>
   </Router>
 
