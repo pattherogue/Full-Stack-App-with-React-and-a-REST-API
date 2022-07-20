@@ -27,7 +27,7 @@ const App = () => (
     <HeaderWithContext />
       <Switch>
         <Route exact path="/" component={CourseWithContext} />
-        <PrivateRoute path="/courses/create" 
+        <PrivateRoute path="/courses/create" component={CreateCourseWithContext} />
       </Switch>
   </Router>
 
