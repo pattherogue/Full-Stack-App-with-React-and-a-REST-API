@@ -33,6 +33,7 @@ const App = () => (
         <Route path="/signin" component={UserSignInWithContext} />
         <Route path="/signout" component={UserSignOutWithContext} />
         <Route path="/error" component={UnhandledError} />
+        <Route path="/notfound"
       </Switch>
   </Router>
 
