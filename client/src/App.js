@@ -32,7 +32,7 @@ const App = () => (
         <Route path="/courses/:id" component={CourseDetailWtihContext} />
         <Route path="/signin" component={UserSignInWithContext} />
         <Route path="/signout" component={UserSignOutWithContext} />
-        <Route path="/error" component={}
+        <Route path="/error" component={UnhandledError} />
       </Switch>
   </Router>
 
