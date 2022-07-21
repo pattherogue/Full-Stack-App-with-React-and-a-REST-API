@@ -35,6 +35,7 @@ const App = () => (
         <Route path="/error" component={UnhandledError} />
         <Route path="/notfound" component={NotFound} />
         <Route path="/forbidden" component={Forbidden} />
+        <Route component={NotFound}
       </Switch>
   </Router>
 
