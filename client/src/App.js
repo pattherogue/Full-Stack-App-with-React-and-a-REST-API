@@ -13,6 +13,8 @@ import UpdateCourse from './components/UpdateCourse';
 import UserSignIn from './components/UserSignIn';
 import UserSignUp from './components/UserSignUp';
 
+import withCOntext from "./Context";
+
 const HeaderWithContext = HeaderWithContext(Header);
 const CourseWithContext = withContext(Course);
 const CourseDetailWithContext = withContext(CourseDetail);
