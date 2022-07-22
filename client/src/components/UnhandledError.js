@@ -1,3 +1,5 @@
 import React from 'react';
 
-export default function UnhandledError()
+export default function UnhandledError() {
+    
+}
