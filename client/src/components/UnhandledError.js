@@ -4,7 +4,7 @@ export default function UnhandledError() {
     return (
         <div className="wrap">
             <h2>Error</h2>
-            <p></p>
+            <p>Sorry! AN unexpected error has occured.</p>
         </div>
     )
 }
