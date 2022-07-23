@@ -34,7 +34,7 @@ const App = () => (
         <Route exact path="/" component={CourseWithContext} />
         <PrivateRoute path="/courses/create" component={CreateCourseWithContext} />
         <PrivateRoute path="/courses/:id/update" component={UpdateCourseWithContext} />
-        <Route path="/courses/:id" component={CourseDetailWtihContext} />
+        <Route path="/courses/:id" component={CourseDetailWithContext} />
         <Route path="/signin" component={UserSignInWithContext} />
         <Route path="/signout" component={UserSignOutWithContext} />
         <Route path="/error" component={UnhandledError} />
