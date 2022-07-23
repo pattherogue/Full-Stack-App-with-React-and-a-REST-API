@@ -11,6 +11,10 @@ export default class UpdateCourse extends Component {
         id: this.props.match.params.id,
         errors: [],
     }
+
+    async componentDidMount() {
+        
+    }
     // render form -- update one existing course
     render() {
         const {
