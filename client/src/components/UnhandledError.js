@@ -6,5 +6,5 @@ export default function UnhandledError() {
             <h2>Error</h2>
             <p>Sorry! AN unexpected error has occured.</p>
         </div>
-    )
+    );
 }
