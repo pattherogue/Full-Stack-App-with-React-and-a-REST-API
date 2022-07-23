@@ -7,4 +7,4 @@ export default function UnhandledError() {
             <p>Sorry! AN unexpected error has occured.</p>
         </div>
     );
-}
+};
