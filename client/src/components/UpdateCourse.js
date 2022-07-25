@@ -17,6 +17,8 @@ export default class UpdateCourse extends Component {
             console.log(err);
         });
     }
+
+    getCourse = async function()
     // render form -- update one existing course
     render() {
         const {
