@@ -15,7 +15,7 @@ export default class UpdateCourse extends Component {
     async componentDidMount() {
         await this.getCourse().catch(err => {
             console.log(err);
-        })
+        });
     }
     // render form -- update one existing course
     render() {
