@@ -23,6 +23,7 @@ export default class UpdateCourse extends Component {
         .then(response => {
             this.setState({
                 course: response.data,
+                owner: response.data.owner,
                 
             })
         })
