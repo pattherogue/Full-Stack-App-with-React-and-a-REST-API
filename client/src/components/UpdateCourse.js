@@ -26,7 +26,9 @@ export default class UpdateCourse extends Component {
                 owner: response.data.owner,
                 title: response.data.title,
                 description: response.data.description,
+                estimatedTime: response.data.estimatedTime,
                 
+
 
 
             })
