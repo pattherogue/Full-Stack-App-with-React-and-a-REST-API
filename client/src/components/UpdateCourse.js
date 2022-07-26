@@ -27,7 +27,8 @@ export default class UpdateCourse extends Component {
                 title: response.data.title,
                 description: response.data.description,
                 estimatedTime: response.data.estimatedTime,
-                
+                materialsNeeded: response.data.materialsNeeded
+
 
 
 
