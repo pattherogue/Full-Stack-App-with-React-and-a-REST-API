@@ -31,7 +31,7 @@ export default class UpdateCourse extends Component {
             });
         })
         .catch(err => {
-            
+            console.error(err);
         })
     }
     // render form -- update one existing course
