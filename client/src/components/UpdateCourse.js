@@ -28,11 +28,7 @@ export default class UpdateCourse extends Component {
                 description: response.data.description,
                 estimatedTime: response.data.estimatedTime,
                 materialsNeeded: response.data.materialsNeeded
-
-
-
-
-            })
+            });
         })
     }
     // render form -- update one existing course
