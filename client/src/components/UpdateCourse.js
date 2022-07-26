@@ -30,6 +30,9 @@ export default class UpdateCourse extends Component {
                 materialsNeeded: response.data.materialsNeeded
             });
         })
+        .catch(err => {
+            
+        })
     }
     // render form -- update one existing course
     render() {
