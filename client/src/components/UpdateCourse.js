@@ -32,6 +32,7 @@ export default class UpdateCourse extends Component {
         })
         .catch(err => {
             console.error(err);
+            this.props.history.push();
         })
     }
     // render form -- update one existing course
