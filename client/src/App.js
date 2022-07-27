@@ -11,6 +11,7 @@ import Courses from './components/Courses';
 import CreateCourse from './components/CreateCourse';
 import UpdateCourse from './components/UpdateCourse';
 import UserSignIn from './components/UserSignIn';
+import UserSignOut from './components/UserSignOut';
 import UserSignUp from './components/UserSignUp';
 import UnhandledError from './components/UnhandledError';
 import Forbidden from './componenets/Forbidden';
