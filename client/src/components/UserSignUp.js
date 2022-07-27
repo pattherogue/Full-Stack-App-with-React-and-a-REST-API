@@ -17,7 +17,7 @@ class UserSignUp extends Component {
             lastName,
             emailAddress,
             password,
-            error
+            errors
         } = this.states;
 
         // render form - allow user to sign up
