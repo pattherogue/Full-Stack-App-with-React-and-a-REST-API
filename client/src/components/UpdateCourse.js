@@ -34,6 +34,7 @@ export default class UpdateCourse extends Component {
             console.error(err);
             this.props.history.push("/notfound");
         });
+        console.log(this.state.course);
     }
     // render form -- update one existing course
     render() {
