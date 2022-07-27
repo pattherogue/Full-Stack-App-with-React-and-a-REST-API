@@ -19,7 +19,7 @@ import withContext from "./Context";
 import PrivateRoute from "./PrivateRoute";
 
 const HeaderWithContext = HeaderWithContext(Header);
-const CoursesWithContext = withContext(Course);
+const CoursesWithContext = withContext(Coursea);
 const CourseDetailWithContext = withContext(CourseDetail);
 const UserSignUpWithContext = withContext(UserSignUp);
 const CreateCourseWithContext = withContext(CreateCourse);
