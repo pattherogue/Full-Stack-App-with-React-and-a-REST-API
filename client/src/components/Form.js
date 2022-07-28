@@ -8,4 +8,8 @@ const form = (props) => {
         submitButtonText,
         elements
     } = props;
+
+    function handleSubmit(event) {
+        
+    }
 } 
