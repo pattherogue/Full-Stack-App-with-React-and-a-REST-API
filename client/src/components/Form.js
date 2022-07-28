@@ -1,5 +1,5 @@
 import React from 'react';
 
-const form = () => {
-    
+const form = (props) => {
+
 }
