@@ -11,5 +11,6 @@ const form = (props) => {
 
     function handleSubmit(event) {
         event.preventDefault();
+        submit();
     }
 } 
