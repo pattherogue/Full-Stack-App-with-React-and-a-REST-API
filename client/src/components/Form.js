@@ -10,6 +10,6 @@ const form = (props) => {
     } = props;
 
     function handleSubmit(event) {
-        
+        event.preventDefault();
     }
 } 
