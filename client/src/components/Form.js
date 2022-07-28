@@ -4,6 +4,6 @@ const form = (props) => {
     const {
         cancel,
         errors,
-        
-    }
+
+    } = props;
 } 
