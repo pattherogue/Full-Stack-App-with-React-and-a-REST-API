@@ -15,6 +15,6 @@ const form = (props) => {
     }
 
     function handleCancel(event) {
-
+        event.preventDefault();
     }
 } 
