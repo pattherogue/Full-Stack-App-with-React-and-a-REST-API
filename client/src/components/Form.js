@@ -14,7 +14,7 @@ const form = (props) => {
         submit();
     }
 
-    function handleCancel() {
-        
+    function handleCancel(event) {
+
     }
 } 
