@@ -20,6 +20,6 @@ const form = (props) => {
     }
 
     function ErrorsDisplay({ errors }) {
-
+        let ErrorsDisplay = null;
     }
 } 
