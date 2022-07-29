@@ -19,7 +19,7 @@ const form = (props) => {
         cancel();
     }
 
-    function ErrorsDisplay({errors}) {
+    function ErrorsDisplay({ errors }) {
 
     }
 } 
