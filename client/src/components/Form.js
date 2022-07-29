@@ -23,7 +23,9 @@ const form = (props) => {
         let ErrorsDisplay = null;
 
         if (errors.length) {
-            
+            ErrorsDisplay = (
+
+            );
         }
     }
 } 
