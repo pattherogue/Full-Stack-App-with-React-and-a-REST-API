@@ -25,7 +25,7 @@ const form = (props) => {
         if (errors.length) {
             ErrorsDisplay = (
                 <div>
-                    <h2 className="validation--errors--label"></h2>
+                    <h2 className="validation--errors--label">Validation Errors</h2>
                 </div>
             );
         }
