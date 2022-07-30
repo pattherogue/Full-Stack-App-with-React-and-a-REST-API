@@ -24,7 +24,9 @@ const form = (props) => {
 
         if (errors.length) {
             ErrorsDisplay = (
-
+                <div>
+                    
+                </div>
             );
         }
     }
