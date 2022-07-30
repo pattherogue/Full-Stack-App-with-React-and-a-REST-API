@@ -26,6 +26,9 @@ const form = (props) => {
             ErrorsDisplay = (
                 <div>
                     <h2 className="validation--errors--label">Validation Errors</h2>
+                    <div className="validation-errors">
+                        
+                    </div>
                 </div>
             );
         }
