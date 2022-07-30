@@ -28,7 +28,7 @@ const form = (props) => {
                     <h2 className="validation--errors--label">Validation Errors</h2>
                     <div className="validation-errors">
                         <ul>
-                            {errors.map() => <li></li>}
+                            {errors.map(error, i) => <li></li>}
                         </ul>        
                     </div>
                 </div>
