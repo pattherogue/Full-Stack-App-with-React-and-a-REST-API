@@ -39,7 +39,7 @@ const form = (props) => {
 
     return (
         <div>
-            
+            <ErrorsDisplay/>
         </div>
     )
 } 
