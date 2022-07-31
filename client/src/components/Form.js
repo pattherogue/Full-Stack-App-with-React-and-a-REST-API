@@ -43,7 +43,7 @@ const form = (props) => {
             <form onSubmit={handleSubmit}>
                 {elements()}
                 <div className="pad-bottom">
-                    
+                    <button className="button"
                 </div>
             </form>
         </div>
