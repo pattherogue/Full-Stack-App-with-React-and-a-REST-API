@@ -40,6 +40,9 @@ const form = (props) => {
     return (
         <div>
             <ErrorsDisplay errors={errors} />
+            <form onSubmit={handleSubmit}>
+                
+            </form>
         </div>
     )
 } 
