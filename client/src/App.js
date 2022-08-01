@@ -14,8 +14,6 @@ import UserSignIn from './components/UserSignIn';
 import UserSignOut from './components/UserSignOut';
 import UserSignUp from './components/UserSignUp';
 import UnhandledError from './components/UnhandledError';
-import Forbidden from './componenets/Forbidden';
-import NotFound from './components/NotFound';
 
 import withContext from "./Context";
 import PrivateRoute from "./PrivateRoute";
