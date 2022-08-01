@@ -4,8 +4,8 @@ const express = require('express');
 const router = express.Router();
 const { authenticateUser } = require('../middleware/auth-user');
 const { asyncHandler } = require('../middleware/asyncHandler');
-const { Users } = require('../models');
-const { Courses } = require('../models');
+const { Users, Courses } = require('../models');
+
 
 /* /api/courses GET route */
 router.get('/', asyncHandler (async (req, res) => {
