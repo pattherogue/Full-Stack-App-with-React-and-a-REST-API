@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "axios": "^0.27.2",
-    "cors": "^2.8.5",
-    "react-markdown": "^8.0.3",
-    "react-router-dom": "^6.3.0"
-  }
-}
-
