@@ -3,8 +3,8 @@
 const express = require('express');
 const { Users } = require('../models');
 const { authenticateUser } = require('../middleware/auth-user');
-const router = express.Router();
 const { asyncHandler } = require('../middleware/asyncHandler');
+const router = express.Router();
 
 /* GET route */
 /* return all  propertires and values */
