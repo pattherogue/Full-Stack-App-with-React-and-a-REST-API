@@ -47,5 +47,7 @@ const form = (props) => {
                 </div>
             </form>
         </div>
-    )
+    );
 } 
+
+export default form
