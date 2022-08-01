@@ -64,7 +64,9 @@ class CourseDetail extends Component {
                                     <h4 className="course--name">{this.state.title}</h4>
                                     <p>By {this.state.firstName} {this.state.lastName}</p>
                                     <p> {this.state.description} </p>
+                                    <ReactMarkdown>{course.description}</ReactMarkdown>
                                 </div>
+
                                 <div>
                                     <h3 className="course--detail--title">Estimated Time</h3>
                                     <p> {this.state.estimatedTime} </p>
