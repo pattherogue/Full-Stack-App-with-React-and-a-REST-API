@@ -94,4 +94,4 @@ class CourseDetail extends Component {
 }
 
 
-export default CourseDetails
+export default CourseDetail
