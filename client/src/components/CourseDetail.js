@@ -44,7 +44,8 @@ class CourseDetail extends Component {
 
     render() {
         const { context } = this.props;
-        
+        const { course, id, owner } = this.state;
+
         return (
             // render "Delete Course" button
             // send "DELETE" request to /api/courses/:id
