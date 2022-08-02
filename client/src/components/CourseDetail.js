@@ -29,12 +29,14 @@ class CourseDetail extends Component {
                 } else {
                     return response.json()
                 }
-                // retrieve detail from course from /api/courses/:id
-                this.setState({
-                    course: data.course,
-                    courseOwner: data.course.Owner,
-                });
             })
+                .then(data => {
+                    // retrieve detail from course from /api/courses/:id
+                    this.setState({
+                        course: data.course,
+                        courseOwner: data.course.Owner,
+                    })
+                })
             .catch(error => {
                 console.log('Error fetching and parsing data', error);
             });
