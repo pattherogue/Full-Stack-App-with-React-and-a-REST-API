@@ -25,8 +25,9 @@ class CourseDetail extends Component {
                     this.props.history.push('/notfound');
                 } else if (response.status === 500) {
                     this.props.history.push('/error');
-                } else {
                     throw new Error();
+                } else {
+            
                 }
                 // retrieve detail from course from /api/courses/:id
                 this.setState({
