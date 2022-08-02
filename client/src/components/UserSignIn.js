@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Form from './Form';
 
 // provide "Sign In" screen
-class UserSignIn extends Commponent {
+class UserSignIn extends Component {
     state = {
         emailAddress: '',
         password: '',
