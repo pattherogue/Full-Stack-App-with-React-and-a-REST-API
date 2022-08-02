@@ -52,7 +52,7 @@ export default class UpdateCourse extends Component {
             <div>
                 <div class="wrap">
                     <h2>Update Course</h2>
-                    <Form
+                    <div
                         cancel={this.cancel}
                         errors={errors}
                         submit={this.submit}
