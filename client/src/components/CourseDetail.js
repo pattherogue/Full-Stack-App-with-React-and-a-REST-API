@@ -27,7 +27,7 @@ class CourseDetail extends Component {
                     this.props.history.push('/error');
                     throw new Error();
                 } else {
-            
+                    return response.json()
                 }
                 // retrieve detail from course from /api/courses/:id
                 this.setState({
