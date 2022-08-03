@@ -1,3 +1,3 @@
 export default class Data {
-    api()
+    api(path,)
 }
