@@ -1,3 +1,3 @@
 export default class Data {
-    api(path, method = 'GET', body = null,)
+    api(path, method = 'GET', body = null, requiresAuth = false, )
 }
