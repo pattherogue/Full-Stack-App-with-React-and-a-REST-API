@@ -3,6 +3,7 @@ export default class Data {
         const url = config.apiBaeUrl + path;
 
         const options = {
+            method,
             
         }
     }
