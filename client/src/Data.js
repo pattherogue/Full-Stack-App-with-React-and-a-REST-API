@@ -10,7 +10,7 @@ export default class Data {
         };
 
         if (body !== null) {
-            options.body = 
+            options.body = JSON.stringify(body);
         }
     }
 }
