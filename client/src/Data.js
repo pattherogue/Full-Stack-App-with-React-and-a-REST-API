@@ -8,5 +8,9 @@ export default class Data {
                 'Content-Type': 'application/json; charset=utf-8',
             },
         };
+
+        if (body !== null) {
+            
+        }
     }
 }
