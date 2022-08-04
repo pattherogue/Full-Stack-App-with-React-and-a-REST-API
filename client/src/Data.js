@@ -14,7 +14,7 @@ export default class Data {
         }
 
         if (requiresAuth) {
-            const encodedCredentials = bota(`${}`)
+            const encodedCredentials = bota(`${credentials.emailAddress}:${}`)
         }
     }
 }
