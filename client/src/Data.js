@@ -4,7 +4,9 @@ export default class Data {
 
         const options = {
             method,
-            
-        }
+            headers: {
+                'Content-Type': 'application/json; charset=utf-8',
+            },
+        };
     }
 }
