@@ -16,6 +16,8 @@ export default class Data {
         if (requiresAuth) {
             const encodedCredentials = bota(`${credentials.emailAddress}:${credentials.password}`);
             options.headers['Authorization'] = `Basic ${encodedCredentials}`;
-        };
+        }
+
+        return fetch(url, options);
     }
 }
