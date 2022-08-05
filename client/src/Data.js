@@ -20,4 +20,8 @@ export default class Data {
 
         return fetch(url, options);
     }
+
+    async getUser(emailAddress, password) {
+        
+    }
 }
