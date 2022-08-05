@@ -22,6 +22,6 @@ export default class Data {
     }
 
     async getUser(emailAddress, password) { 
-        const response = await this.api(`/users`, 'GET',  );
+        const response = await this.api(`/users`, 'GET', null,  );
     }
 }
