@@ -33,6 +33,6 @@ export default class Data {
     }
 
     async createUser(user) {
-
+        const respomse = await this.api();
     }
 }
