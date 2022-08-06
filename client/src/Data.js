@@ -25,8 +25,8 @@ export default class Data {
         const response = await this.api(`/users`, 'GET', null, true, { emailAddress, password });
         if (respomse.status === 200) {
             return response.json().then(data => data);
-        } else if () {
-            
+        } else if (response.status === 401) {
+
         }
     }
 }
