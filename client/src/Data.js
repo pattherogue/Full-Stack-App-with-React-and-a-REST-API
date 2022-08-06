@@ -27,8 +27,8 @@ export default class Data {
             return response.json().then(data => data);
         } else if (response.status === 401) {
             return null;
+        } else {
+        throw new Error();
         }
-    } else {
-        
     }
 }
