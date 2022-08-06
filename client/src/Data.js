@@ -32,7 +32,7 @@ export default class Data {
         }
     }
 
-    async createUser() {
-        
+    async createUser(user) {
+
     }
 }
