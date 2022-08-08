@@ -6,10 +6,16 @@ const privateRoute = ({ component: Component, ...rest }) => {
     return (
         <Consumer>
             {context => (
+                <Route
+                    {...rest}
+                    render={props => context.authenticatedUser ? (
+                        <Component {...props} />
+                    ) : (
+                        <Redirect to={{
+                            
+                        }}
+                    )}
 
-            ) : (
-                
-            )}
         </Consumer>
     )
 }
