@@ -69,6 +69,8 @@ export default class Data {
     }
 
     async updateCourse(id, course, emailAddress, password) {
-         
+        const response = await this.api(
+            
+        ) 
     }
 }
