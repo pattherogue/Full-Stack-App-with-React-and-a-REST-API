@@ -100,6 +100,16 @@ export default class Data {
                 emailAddress,
                 password
             }
-        )
+        );
+        if (response.status === 204) {
+            return [];
+        } else if (response.status === 403) {
+            return response.json().then(data => {
+                console.log(data.errors);
+                return data.errors
+            });
+        } else {
+            throw new Error();
+        }
     }
 }
