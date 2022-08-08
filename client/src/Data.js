@@ -57,5 +57,8 @@ export default class Data {
                 password
             }
         );
+        if (respomse.status === 201) {
+            
+        }
     }
 }
