@@ -25,7 +25,7 @@ export default class Data {
 
     async getUser(emailAddress, password) { 
         const response = await this.api(`/users`, 'GET', null, true, { emailAddress, password });
-        if (respomse.status === 200) {
+        if (response.status === 200) {
             return response.json().then(data => data);
         } else if (response.status === 401) {
             return null;
@@ -35,7 +35,7 @@ export default class Data {
     }
 
     async createUser(user) {
-        const respomse = await this.api('/users', 'POST', user);
+        const response = await this.api('/users', 'POST', user);
         if (response.status === 201) {
             return [];
         }
@@ -59,7 +59,7 @@ export default class Data {
                 password
             }
         );
-        if (respomse.status === 201) {
+        if (response.status === 201) {
             return [];
         } else if (response.status === 400) {
             return response.json().then(data => {
