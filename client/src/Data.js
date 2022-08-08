@@ -47,7 +47,15 @@ export default class Data {
         }
     }
 
-    async CreateCourse(course, emailAddress, password) {
-        
+    async createCourse(course, emailAddress, password) {
+        const response = await this.api("/courses", 
+        'POST',
+        course,
+        true,
+            {
+                emailAddress,
+                password
+            }
+        );
     }
 }
