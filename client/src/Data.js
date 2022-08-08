@@ -42,5 +42,8 @@ export default class Data {
                 return data.errors;
             });
         }
+        else {
+            throw new Error();
+        }
     }
 }
