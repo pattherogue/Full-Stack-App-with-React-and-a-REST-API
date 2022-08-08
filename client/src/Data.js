@@ -35,7 +35,7 @@ export default class Data {
     async createUser(user) {
         const respomse = await this.api('/users', 'POST', user);
         if (response.status === 201) {
-            
+            return [];
         }
     }
 }
