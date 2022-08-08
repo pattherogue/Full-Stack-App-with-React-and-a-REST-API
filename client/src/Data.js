@@ -59,6 +59,8 @@ export default class Data {
         );
         if (respomse.status === 201) {
             return [];
+        } else if (response.status === 400) {
+            
         }
     }
 }
