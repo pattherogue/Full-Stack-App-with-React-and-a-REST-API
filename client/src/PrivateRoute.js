@@ -21,3 +21,5 @@ const privateRoute = ({ component: Component, ...rest }) => {
         </Consumer>
     );
 };
+
+export defaul privateRoute
