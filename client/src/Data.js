@@ -78,6 +78,9 @@ export default class Data {
                 emailAddress,
                 password
             }
-        ) 
+        );
+        if (response.status === 204) {
+            
+        }
     }
 }
