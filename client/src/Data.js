@@ -91,6 +91,8 @@ export default class Data {
     }
 
     async deleteCourse(courseId, emailAddress, password, userId) {
-        
+        const response = await this.api(
+            
+        )
     }
 }
