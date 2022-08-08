@@ -13,7 +13,6 @@ import UpdateCourse from './components/UpdateCourse';
 import UserSignIn from './components/UserSignIn';
 import UserSignOut from './components/UserSignOut';
 import UserSignUp from './components/UserSignUp';
-import UnhandledError from './components/UnhandledError';
 
 import withContext from "./Context";
 import PrivateRoute from "./PrivateRoute";
