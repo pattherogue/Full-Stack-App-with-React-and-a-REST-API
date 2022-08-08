@@ -38,7 +38,9 @@ export default class Data {
             return [];
         }
         else if (response.status === 400) {
-            
+            return response.json().then(data => {
+                
+            })
         }
     }
 }
