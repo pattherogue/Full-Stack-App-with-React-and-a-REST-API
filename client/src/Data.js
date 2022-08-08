@@ -1,3 +1,5 @@
+import config from './config';
+
 export default class Data {
     api(path, method = 'GET', body = null, requiresAuth = false, credentials = null) {
         const url = config.apiBaeUrl + path;
@@ -14,7 +16,7 @@ export default class Data {
         }
 
         if (requiresAuth) {
-            const encodedCredentials = bota(`${credentials.emailAddress}:${credentials.password}`);
+            const encodedCredentials = btoa(`${credentials.emailAddress}:${credentials.password}`);
             options.headers['Authorization'] = `Basic ${encodedCredentials}`;
         }
 
