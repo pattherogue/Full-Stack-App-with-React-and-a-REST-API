@@ -47,7 +47,7 @@ export default class Data {
         }
     }
 
-    async CreateCourse() {
+    async CreateCourse(course, emailAddress, password) {
         
     }
 }
