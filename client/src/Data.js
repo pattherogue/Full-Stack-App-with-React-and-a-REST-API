@@ -58,7 +58,7 @@ export default class Data {
             }
         );
         if (respomse.status === 201) {
-            
+            return [];
         }
     }
 }
