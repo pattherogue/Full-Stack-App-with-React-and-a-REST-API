@@ -67,4 +67,8 @@ export default class Data {
             throw new Error();
         }
     }
+
+    async updateCourse(id, course, emailAddress, password) {
+         
+    }
 }
