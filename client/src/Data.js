@@ -83,8 +83,14 @@ export default class Data {
             return [];
         } else if (response.status === 400) {
             return response.json().then(data => {
-                return data.errrors
+                return data.errors
             });
+        } else {
+            throw new Error();
         }
+    }
+
+    async deleteCourse(courseId, emailAddress, password, userId) {
+        
     }
 }
