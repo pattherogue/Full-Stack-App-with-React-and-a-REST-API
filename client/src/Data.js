@@ -81,6 +81,8 @@ export default class Data {
         );
         if (response.status === 204) {
             return [];
+        } else if (response.status === 400) {
+            
         }
     }
 }
