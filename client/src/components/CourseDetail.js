@@ -17,7 +17,8 @@ class CourseDetail extends Component {
    
     componentDidMount() {
         const id = this.props.match.params.id;
-        axios.get(`http://localhost:5000/api/courses/${this.state.id}`)
+            this.setState({ loading: true });
+        axios.get(`http://localhost:5000/api/courses/${id}`)
             .then(response => {
                 if (response.status === 403) {
                     this.props.history.push('/forbidden');
