@@ -55,6 +55,10 @@ class CourseDetail extends Component {
             <div>
                 <div className="actions--bar">
                     <div className="wrap">
+                        {(
+                            autheticatedUser && 
+                        )}
+                    
                         <React.Fragment>
                             <a className="button" href={`/courses/${this.state.id}/update`}>Update Course</a>
                             <a className="button" href={`/courses/${this.state.id}/delete`}>Delete Course</a>
