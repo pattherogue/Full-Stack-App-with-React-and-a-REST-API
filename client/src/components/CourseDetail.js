@@ -46,6 +46,7 @@ class CourseDetail extends Component {
     render() {
         const { context } = this.props;
         const { course, id, owner } = this.state;
+        const authenticatedUser = context.authenticatedUser;
 
         return (
             // render "Delete Course" button
