@@ -56,7 +56,7 @@ class CourseDetail extends Component {
                 <div className="actions--bar">
                     <div className="wrap">
                         {(
-                            autheticatedUser && 
+                            autheticatedUser && course.userId ===
                         )}
                     
                         <React.Fragment>
