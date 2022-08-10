@@ -57,7 +57,7 @@ class CourseDetail extends Component {
                     <div className="wrap">
                         {(
                             autheticatedUser && course.userId === authenticatedUser.userId
-                        )}
+                        )} ?
                     
                         <React.Fragment>
                             <a className="button" href={`/courses/${this.state.id}/update`}>Update Course</a>
