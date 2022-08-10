@@ -16,7 +16,7 @@ import UserSignUp from './components/UserSignUp';
 import withContext from "./Context";
 import PrivateRoute from "./PrivateRoute";
 
-const HeaderWithContext = HeaderWithContext(Header);
+const HeaderWithContext = withContext(Header);
 const CoursesWithContext = withContext(Courses);
 const CourseDetailWithContext = withContext(CourseDetail);
 const UserSignUpWithContext = withContext(UserSignUp);
