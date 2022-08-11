@@ -52,6 +52,7 @@ class UserSignUp extends Component {
 
                         <input
                             id="emailAddress"
+                            name="emailAdress"
                         />
 
                         <input
