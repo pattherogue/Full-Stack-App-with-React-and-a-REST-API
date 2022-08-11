@@ -44,6 +44,7 @@ const form = (props) => {
                 {elements()}
                 <div className="pad-bottom">
                     <button className="button" type="submit">{submitButtonText}</button>
+                    <button className="button button-secondary" onClick={handleCancel}></button>
                 </div>
             </form>
         </div>
