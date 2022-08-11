@@ -60,7 +60,7 @@ class CourseDetail extends Component {
                         ) ? (
                                 <React.Fragment>
                                     <a className="button" href={`/courses/${id}/update`}>Update Course</a>
-                                    <a className="button" href={`/courses/${this.state.id}/delete`}>Delete Course</a>
+                                    <a className="button" href={`/courses/${id}/delete`}>Delete Course</a>
                                     <a className="button button-secondary" href="/">Return to List</a>
                                 </React.Fragment>
                             ) : (
