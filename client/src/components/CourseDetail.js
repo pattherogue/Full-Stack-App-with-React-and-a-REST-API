@@ -76,8 +76,8 @@ class CourseDetail extends Component {
                             <div className="main--flex">
                                 <div>
                                     <h3 className="course--detail--title">Course</h3>
-                                    <h4 className="course--name">{this.state.title}</h4>
-                                    <p>By {owner.firstName} {this.state.lastName}</p>
+                                    <h4 className="course--name">{course.title}</h4>
+                                    <p>By {owner.firstName} {owner.lastName}</p>
                                     <p> {this.state.description} </p>
                                     <ReactMarkdown>{course.description}</ReactMarkdown>
                                 </div>
