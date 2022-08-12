@@ -18,7 +18,7 @@ class UserSignUp extends Component {
             emailAddress,
             password,
             errors
-        } = this.states;
+        } = this.state;
 
         // render form - allow user to sign up
         // render "Sign Up" button
@@ -42,6 +42,7 @@ class UserSignUp extends Component {
                         />
 
                         <input
+                        
                             id="lastName"
                             name="lastName"
                             type="text"
