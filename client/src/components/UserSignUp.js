@@ -55,6 +55,7 @@ class UserSignUp extends Component {
                             name="emailAdress"
                             type="text"
                             value={emailAddress}
+                            onChange={this.change}
                         />
 
                         <input
