@@ -63,6 +63,7 @@ class UserSignUp extends Component {
                             id="password"
                             name="password"
                             type="password"
+                            value={password}
                             onChange={this.change}
                             placeholder="Password"
                         />
