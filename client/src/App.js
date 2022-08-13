@@ -7,8 +7,6 @@ import {
 
 import Courses from './components/Courses';
 import CourseDetail from './components/CourseDetail';
-
-
 import UserSignIn from './components/UserSignIn';
 import UserSignUp from './components/UserSignUp';
 import CreateCourse from './components/CreateCourse';
