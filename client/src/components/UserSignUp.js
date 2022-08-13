@@ -72,7 +72,7 @@ class UserSignUp extends Component {
                 )}
             />
 
-            <p>Already have a user account? Click here to <a href="_blank">sign in</a>!</p>
+            <p>Already have a user account? Click here to <a href="/signin">sign in</a>!</p>
         </div>
         )
 }
