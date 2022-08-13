@@ -10,8 +10,9 @@ import CourseDetail from './components/CourseDetail';
 import CreateCourse from './components/CreateCourse';
 import UpdateCourse from './components/UpdateCourse';
 import UserSignIn from './components/UserSignIn';
-import UserSignOut from './components/UserSignOut';
 import UserSignUp from './components/UserSignUp';
+import UserSignOut from './components/UserSignOut';
+
 
 import withContext from "./Context";
 import PrivateRoute from "./PrivateRoute";
