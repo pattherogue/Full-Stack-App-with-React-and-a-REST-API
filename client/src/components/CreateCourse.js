@@ -1,8 +1,8 @@
-import React, { Comppnent } from 'react';
+import React, { Component } from 'react';
 import Form from './Form';
 
 // provides "Create Course" screen
-class CreateCourse extends Comppnent {
+class CreateCourse extends Component {
     state = {
         title: '',
         description: '',
