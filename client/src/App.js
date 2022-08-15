@@ -1,7 +1,8 @@
 import React from 'react';
 import {
   BrowserRouter as Router,
-  Route
+  Route,
+  Routes
 } from 'react-router-dom';
 
 
@@ -30,7 +31,7 @@ const UserSignOutWithContext = withContext(UserSignOut);
 const App = () => (
   <Router>
     <HeaderWithContext />
-      <Route>
+      <Routes>
         <Route exact path="/" component={CoursesWithContext} />
         <PrivateRoute path="/courses/create" component={CreateCourseWithContext} />
         <PrivateRoute path="/courses/:id/update" component={UpdateCourseWithContext} />
@@ -38,7 +39,7 @@ const App = () => (
         <Route path="/signin" component={UserSignInWithContext} />
         <Route path="/signup" component={UserSignUpWithContext} />
         <Route path="/signout" component={UserSignOutWithContext} />
-      </Route>
+      </Routes>
   </Router>
 
 );
