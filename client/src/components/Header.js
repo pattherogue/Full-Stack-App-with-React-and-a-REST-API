@@ -1,7 +1,7 @@
-import React, { Componenet } from 'react';
+import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 
-export default class Header extends Componenet {
+export default class Header extends Component {
     // display top menu bar
     render() {
         const { context } = this.props;
