@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from './Context';
 
+import './styles/reset.css';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider>
