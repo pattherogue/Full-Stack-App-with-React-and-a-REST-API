@@ -38,7 +38,7 @@ const App = () => (
         <Route path="/courses/:id" element={<CourseDetailWithContext />} />
         <Route path="/signin" element={<UserSignInWithContext />} />
         <Route path="/signup" element={<UserSignUpWithContext />} />
-        <Route path="/signout" component={UserSignOutWithContext} />
+        <Route path="/signout" element={<UserSignOutWithContext />} />
       </Routes>
   </Router>
 
