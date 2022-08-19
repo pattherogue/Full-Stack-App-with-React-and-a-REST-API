@@ -32,7 +32,7 @@ const App = () => (
   <Router>
     <HeaderWithContext />
       <Routes>
-        <Route exact path="/" component={CoursesWithContext} />
+        <Route exact path="/" element={<CoursesWithContext />} />
         <Route path="/courses/create" component={CreateCourseWithContext} />
         <Route path="/courses/:id/update" component={UpdateCourseWithContext} />
         <Route path="/courses/:id" component={CourseDetailWithContext} />
