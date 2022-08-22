@@ -12,11 +12,8 @@ class Courses extends Component {
             .then((response) => {
                 this.setState({
                     courses: response,
-                })
-                .catch(error => {
-                    console.log('Error fetching and parsing data', error);
-                })
-            });
+                });
+        });
     }
 
     
