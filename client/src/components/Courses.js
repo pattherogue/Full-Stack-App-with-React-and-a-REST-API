@@ -14,7 +14,7 @@ class Courses extends Component {
                     courses: response,
                 });
         });
-    }
+    };
 
     
 
