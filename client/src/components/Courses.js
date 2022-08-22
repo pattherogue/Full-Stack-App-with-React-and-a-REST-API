@@ -8,10 +8,10 @@ class Courses extends Component {
     // retrieve list of courses from /api/courses
     componentDidMount() {
         fetch("http://localhost:5000/api/courses")
-            .then(response => response.json())
-            .then(responseData => {
+            .then(data => data.json())
+            .then(response => {
                 this.setState({
-                    courses: responseData.data,
+                    courses: response,
                 })
                 .catch(error => {
                     console.log('Error fetching and parsing data', error);
@@ -22,7 +22,7 @@ class Courses extends Component {
     
 
     render() {
-        console.log(this.state.courses);
+      
         const courses = this.state.courses;
 
         // render list of courses
