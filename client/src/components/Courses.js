@@ -8,7 +8,7 @@ class Courses extends Component {
     // retrieve list of courses from /api/courses
     componentDidMount() {
         fetch("http://localhost:5000/api/courses")
-            .then(data => data.json())
+            .then((data) => data.json())
             .then(response => {
                 this.setState({
                     courses: response,
