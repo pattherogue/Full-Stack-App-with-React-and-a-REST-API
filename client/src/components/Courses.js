@@ -7,7 +7,7 @@ class Courses extends Component {
     // provide the "Courses" screen
     // retrieve list of courses from /api/courses
     componentDidMount() {
-        fetch("http://localhost:5000/ap/courses")
+        fetch("http://localhost:5000/api/courses")
             .then(response => response.json())
             .then(responseData => {
                 this.setState({
