@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Navigate } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import { Consumer } from './Context';
 
 const privateRoute = ({ component: Component, ...rest }) => {
@@ -11,7 +11,7 @@ const privateRoute = ({ component: Component, ...rest }) => {
                     render={props => context.authenticatedUser ? (
                         <Component {...props} />
                     ) : (
-                        <Navigate to={{
+                        <Switch to={{
                             pathname: '/signin',
                             state: { from: props.location },
                         }} />

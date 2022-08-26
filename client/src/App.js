@@ -2,7 +2,7 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Routes
+  Switch
 } from 'react-router-dom';
 
 
@@ -17,7 +17,7 @@ import UserSignOut from './components/UserSignOut';
 
 
 import withContext from "./Context";
-// import PrivateRoute from "./PrivateRoute";
+import PrivateRoute from "./PrivateRoute";
 
 const HeaderWithContext = withContext(Header);
 const CoursesWithContext = withContext(Courses);
@@ -31,15 +31,15 @@ const UserSignOutWithContext = withContext(UserSignOut);
 const App = () => (
   <Router>
     <HeaderWithContext />
-      <Routes>
+      <Switch>
         <Route exact path="/" element={<CoursesWithContext />} />
-        <Route path="/courses/create" element={<CreateCourseWithContext />} />
+        <PrivateRoute path="/courses/create" element={<CreateCourseWithContext />} />
         <Route path="/courses/:id/update" element={<UpdateCourseWithContext />} />
-        <Route path="/courses/:id" element={<CourseDetailWithContext />} />
+        <PrivateRoute path="/courses/:id" element={<CourseDetailWithContext />} />
         <Route path="/signin" element={<UserSignInWithContext />} />
         <Route path="/signup" element={<UserSignUpWithContext />} />
         <Route path="/signout" element={<UserSignOutWithContext />} />
-      </Routes>
+      </Switch>
   </Router>
 
 );
