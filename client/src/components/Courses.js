@@ -13,8 +13,11 @@ class Courses extends Component {
                 this.setState({
                     courses: response,
                 });
+        })
+        .catch((error) => {
+            console.log('Error fetching data', error);
         });
-    };
+    }
 
     
 
