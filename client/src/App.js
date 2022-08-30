@@ -32,13 +32,13 @@ const App = () => (
   <Router>
     <HeaderWithContext />
       <Switch>
-        <Route exact path="/" element={<CoursesWithContext />} />
-        <PrivateRoute exact path="/courses/create" element={<CreateCourseWithContext />} />
-        <PrivateRoute exact path="/courses/:id/update" element={<UpdateCourseWithContext />} />
-        <Route path="/courses/:id" element={<CourseDetailWithContext />} />
-        <Route path="/signin" element={<UserSignInWithContext />} />
-        <Route path="/signup" element={<UserSignUpWithContext />} />
-        <Route path="/signout" element={<UserSignOutWithContext />} />
+        <Route exact path="/" component={CoursesWithContext} />
+        <PrivateRoute exact path="/courses/create" component={CreateCourseWithContext } />
+        <PrivateRoute exact path="/courses/:id/update" component={UpdateCourseWithContext } />
+        <Route path="/courses/:id" component={CourseDetailWithContext } />
+        <Route path="/signin" component={UserSignInWithContext } />
+        <Route path="/signup" component={UserSignUpWithContext } />
+        <Route path="/signout" component={UserSignOutWithContext } />
       </Switch>
   </Router>
 
