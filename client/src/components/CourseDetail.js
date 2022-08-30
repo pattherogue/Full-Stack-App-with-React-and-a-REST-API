@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import ReactMarkdown from 'react-markdown'
+import { useParams } from 'react-router';
 
 class CourseDetail extends Component {
 
@@ -8,15 +9,18 @@ class CourseDetail extends Component {
         super();
         this.state = {
             course: [],
-            id: this.props.match.params.id,
             courseOwner: []
         };
+
+        
     }
+
+    /* id: this.props.match.params.id, */
 
     // provide the "Course Detail" screen
    
     componentDidMount() {
-        const id = this.props.match.params.id;
+        const { id } = useParams();
             this.setState({ loading: true });
         axios.get(`http://localhost:5000/api/courses/${id}`)
             .then(response => {
