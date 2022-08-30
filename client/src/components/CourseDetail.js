@@ -8,8 +8,10 @@ class CourseDetail extends Component {
     constructor() {
         super();
         this.state = {
-            course: [],
-            courseOwner: []
+            course: {},
+            id: this.props.match.params.id,
+            owner: {}
+            
         };
 
         
@@ -20,7 +22,7 @@ class CourseDetail extends Component {
     // provide the "Course Detail" screen
    
     componentDidMount() {
-        const { id } = useParams();
+        const id = this.props.match.params.id;
             this.setState({ loading: true });
         axios.get(`http://localhost:5000/api/courses/${id}`)
             .then(response => {
@@ -39,7 +41,7 @@ class CourseDetail extends Component {
                     // retrieve detail from course from /api/courses/:id
                     this.setState({
                         course: data.course,
-                        courseOwner: data.course.Owner,
+                        owner: data.course.Owner,
                     })
                 })
             .catch(error => {
