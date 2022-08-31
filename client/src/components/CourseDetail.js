@@ -9,6 +9,9 @@ import { Context } from '../Context';
     const [ course, getCourse ] = useState({
         course: [],
         title: " ",
+        description: " ",
+        
+
     })
 
 
