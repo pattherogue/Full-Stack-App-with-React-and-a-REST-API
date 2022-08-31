@@ -2,7 +2,7 @@ import React, { Component, useState, useEffect, useContext } from 'react';
 import axios from 'axios';
 import ReactMarkdown from 'react-markdown'
 import { useParams } from 'react-router';
-import { Context } from './Context';
+import { Context } from '../Context';
 
 export default function CourseDetail() {
 
@@ -46,7 +46,7 @@ export default function CourseDetail() {
                 <div className="actions--bar">
                     <div className="wrap">
                         {(
-                            authenticatedUser && course.userId === authenticatedUser.userId
+                            authUser && course.userId === authUser.userId
                         ) ? (
                                 <React.Fragment>
                                     <a className="button" href={`/courses/${id}/update`}>Update Course</a>
