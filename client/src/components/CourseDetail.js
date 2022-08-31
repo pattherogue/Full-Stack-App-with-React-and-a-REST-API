@@ -27,38 +27,16 @@ export default function CourseDetail() {
 
     // provide the "Course Detail" screen
    
-    componentDidMount() {
-        const id = this.props.match.params.id;
-            this.setState({ loading: true });
+    useEffect(() => {
         axios.get(`http://localhost:5000/api/courses/${id}`)
-            .then(response => {
-                if (response.status === 403) {
-                    this.props.history.push('/forbidden');
-                } else if (response.status === 404) {
-                    this.props.history.push('/notfound');
-                } else if (response.status === 500) {
-                    this.props.history.push('/error');
-                    throw new Error();
-                } else {
-                    return response.json()
-                }
+            .then(course => {
+                // retrieve detail from course from /api/courses/:id
+                getCourse(course.data)
             })
-                .then(data => {
-                    // retrieve detail from course from /api/courses/:id
-                    this.setState({
-                        course: data.course,
-                        owner: data.course.Owner,
-                    })
-                })
             .catch(error => {
                 console.log('Error fetching and parsing data', error);
             });
-    }
-
-    render() {
-        const { context } = this.props;
-        const { course, id, owner } = this.state;
-        const authenticatedUser = context.authenticatedUser;
+    }), [id];
 
         return (
             // render "Delete Course" button
@@ -115,6 +93,6 @@ export default function CourseDetail() {
 
 
 
-}
+
 
 
