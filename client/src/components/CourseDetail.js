@@ -1,20 +1,9 @@
 import React, { Component, useState, useEffect, useContext } from 'react';
 import axios from 'axios';
 import ReactMarkdown from 'react-markdown'
-import { useParams, useHistory } from 'react-router';
+import { useParams } from 'react-router';
 import { Context } from '../Context';
-class CourseDetail extends Component {
 
-    constructor() {
-        super();
-        this.state = {
-            course: {},
-            owner: {}
-            
-        };
-
-        
-    }
 
     const { id } = useParams();
     /* id: this.props.match.params.id, */
@@ -112,4 +101,3 @@ class CourseDetail extends Component {
 }
 
 
-export default CourseDetail
