@@ -6,6 +6,14 @@ import { Context } from '../Context';
 
 
     const { id } = useParams();
+    const [ course, getCourse ] = useState({
+        course: [],
+        
+    })
+
+
+
+
     /* id: this.props.match.params.id, */
 
     // provide the "Course Detail" screen
