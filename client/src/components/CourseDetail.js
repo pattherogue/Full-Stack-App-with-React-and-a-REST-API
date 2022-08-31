@@ -2,14 +2,13 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import ReactMarkdown from 'react-markdown'
 import { useParams } from 'react-router';
-
+import { Context } from '../Context';
 class CourseDetail extends Component {
 
     constructor() {
         super();
         this.state = {
             course: {},
-            id: this.props.match.params.id,
             owner: {}
             
         };
@@ -17,6 +16,7 @@ class CourseDetail extends Component {
         
     }
 
+    const { id } = useParams();
     /* id: this.props.match.params.id, */
 
     // provide the "Course Detail" screen
