@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component, useState, useEffect, useContext } from 'react';
 import axios from 'axios';
 import ReactMarkdown from 'react-markdown'
-import { useParams } from 'react-router';
+import { useParams, useHistory } from 'react-router';
 import { Context } from '../Context';
 class CourseDetail extends Component {
 
