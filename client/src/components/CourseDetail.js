@@ -8,7 +8,7 @@ import { Context } from '../Context';
     const { id } = useParams();
     const [ course, getCourse ] = useState({
         course: [],
-        
+        title: " ",
     })
 
 
