@@ -7,7 +7,7 @@ import { Context } from '../Context';
 export default function CourseDetail() {
 
 
-    const { context } = props;
+    let context = useContext(Context);
     const { id } = useParams();
     const authUser = context.authenticatedUser;
     const [ course, getCourse ] = useState({
