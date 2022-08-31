@@ -36,7 +36,7 @@ export default function CourseDetail() {
             .catch(error => {
                 console.log('Error fetching and parsing data', error);
             });
-    }), [id];
+    }, [id]);
 
         return (
             // render "Delete Course" button
