@@ -12,9 +12,10 @@ import { Context } from '../Context';
         description: " ",
         estimatedTime: " ",
         materialsNeeded: " ",
-        
+        firstName: " ",
+        lastName: " "
 
-    })
+    });
 
 
 
