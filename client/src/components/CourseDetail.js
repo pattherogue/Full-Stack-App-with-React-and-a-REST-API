@@ -10,6 +10,7 @@ import { Context } from '../Context';
         course: [],
         title: " ",
         description: " ",
+        estimatedTime: " ",
         
 
     })
