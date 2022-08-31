@@ -4,7 +4,10 @@ import ReactMarkdown from 'react-markdown'
 import { useParams } from 'react-router';
 import { Context } from '../Context';
 
+export default function CourseDetail() {
 
+
+    const { context } = props;
     const { id } = useParams();
     const [ course, getCourse ] = useState({
         course: [],
@@ -14,7 +17,6 @@ import { Context } from '../Context';
         materialsNeeded: " ",
         firstName: " ",
         lastName: " "
-
     });
 
 
