@@ -9,6 +9,7 @@ export default function CourseDetail() {
 
     const { context } = props;
     const { id } = useParams();
+    const authUser = context.authenticatedUser;
     const [ course, getCourse ] = useState({
         course: [],
         title: " ",
