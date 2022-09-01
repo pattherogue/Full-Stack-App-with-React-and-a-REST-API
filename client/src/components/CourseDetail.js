@@ -68,7 +68,7 @@ export default function CourseDetail() {
                                     <h3 className="course--detail--title">Course</h3>
                                     <h4 className="course--name">{course.title}</h4>
                                     <p>By {course.firstName} {course.lastName}</p>
-                                    <p> {this.state.description} </p>
+                                    <p> {course.description} </p>
                                     <ReactMarkdown>{course.description}</ReactMarkdown>
                                 </div>
 
