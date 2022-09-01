@@ -7,18 +7,16 @@ class Courses extends Component {
     };
     // provide the "Courses" screen
     // retrieve list of courses from /api/courses
-    componentDidMount() {
-        fetch("http://localhost:5000/api/courses")
-            .then((data) => data.json())
-            .then((response) => {
-                this.setState({
-                    courses: response,
-                });
-        })
-        .catch((error) => {
+    useEffect(()=> {
+        axios.get("http://localhost:5000/api/courses")
+            .then(courses => {
+                setCourses(courses.data)
+            })
+            .catch((error) => {
             console.log('Error fetching data', error);
-        });
-    }
+            });
+    }, []);
+        
 
     
 
