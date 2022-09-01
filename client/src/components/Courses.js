@@ -20,7 +20,7 @@ export default function Courses() {
 
     
 
-    render() {
+    return (
       
         const courses = this.state.courses;
 
@@ -49,6 +49,6 @@ export default function Courses() {
                 </div>
             
         
-    };
+    );
 }
 
