@@ -80,7 +80,7 @@ export default function CourseDetail() {
                                         </ReactMarkdown>
                                     <h3 className="course--detail--title">Materials Needed</h3>
                                         <ReactMarkdown>
-                                            {this.state.materialsNeeded}
+                                            {course.materialsNeeded}
                                         </ReactMarkdown>
 
                                 </div>
