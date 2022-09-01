@@ -74,7 +74,7 @@ export default function CourseDetail() {
 
                                 <div>
                                     <h3 className="course--detail--title">Estimated Time</h3>
-                                    <p> {this.state.estimatedTime} </p>
+                                    <p> {course.estimatedTime} </p>
                                         <ReactMarkdown>
                                             {course.estimatedTime}
                                         </ReactMarkdown>
