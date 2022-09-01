@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
-class Courses extends Component {
+export default function Courses() {
     state = {
         courses: []
     };
@@ -37,7 +37,6 @@ class Courses extends Component {
         });
 
             // component render link to "Create Course" screen
-            return (
                 <div className="wrap main--grid">
                     {coursesList}
                     <a class="course--module course--add--module" href="/courses/create">
@@ -48,9 +47,8 @@ class Courses extends Component {
                         </span>
                     </a>
                 </div>
-            ) 
+            
         
-    }
+    };
 }
 
-export default Courses;
