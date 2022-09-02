@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 
@@ -12,7 +12,7 @@ export default function Courses() {
                 setCourses(courses.data)
             })
             .catch((error) => {
-            console.log('Error fetching data', error);
+                console.log('Error fetching data', error);
             });
     }, []);
         
