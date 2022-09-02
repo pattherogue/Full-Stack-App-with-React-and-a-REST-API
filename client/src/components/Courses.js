@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 export default function Courses() {
@@ -21,20 +22,17 @@ export default function Courses() {
     
 
     return (
-      
-        const courses = this.state.courses;
-
         // render list of courses
-        const coursesList = courses.map((course) => {
+        {courses.map(course => {
             
             // link to respective "Course Detail" screen
             return (
-                <a key={course.id} className="course--module course--link" href={`/courses/${course.id}`}>
+                <Link key={course.id} className="course--module course--link" href={`/courses/${course.id}`}>
                     <h2 className="course--label">Course</h2>
                     <h3 className="course--title">{course.title}</h3>
-                </a>
-            )
-        });
+                </Link>
+            );
+        })}
 
             // component render link to "Create Course" screen
                 <div className="wrap main--grid">
