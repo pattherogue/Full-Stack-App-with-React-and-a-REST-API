@@ -3,9 +3,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 export default function Courses() {
-    state = {
-        courses: []
-    };
+    const [ courses, setCourses ] = useState([]);
     // provide the "Courses" screen
     // retrieve list of courses from /api/courses
     useEffect(()=> {
