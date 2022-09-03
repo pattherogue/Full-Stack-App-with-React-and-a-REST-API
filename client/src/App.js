@@ -28,10 +28,10 @@ const App = () => (
   <Router>
     <HeaderWithContext />
     <Switch>
-      <Route exact path="/" component={Course} />
+      <Route exact path="/" component={Courses} />
       <PrivateRoute exact path="/courses/create" component={CreateCourse} />
-      <PrivateRoute exact path="/courses/:id/update" component={UpdateCourseWithContext} />
-      <Route path="/courses/:id" component={CourseDetailWithContext} />
+      <PrivateRoute exact path="/courses/:id/update" component={UpdateCourse} />
+      <Route path="/courses/:id" component={CourseDetail} />
       <Route path="/signin" component={UserSignInWithContext} />
       <Route path="/signup" component={UserSignUpWithContext} />
       <Route path="/signout" component={UserSignOutWithContext} />
