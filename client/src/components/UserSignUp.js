@@ -32,6 +32,7 @@ class UserSignUp extends Component {
                 submitButtonText="Sign Up"
                 elements={() => (
                     <React.Fragment>
+                        <label htmlFor="firstName">First Name</label>
                         <input
                             id="firstName"
                             name="firstName"
@@ -40,9 +41,8 @@ class UserSignUp extends Component {
                             onChange={this.change}
                             placeholder="First Name"
                         />
-
+                        <label htmlFor="lastName">Last Name</label>
                         <input
-                    
                             id="lastName"
                             name="lastName"
                             type="text"
