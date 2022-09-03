@@ -50,7 +50,7 @@ class UserSignUp extends Component {
                             onChange={this.change}
                             placeholder="Last Name"
                         />
-
+                        <label htmlFor='emailAddress'>Email Address</label>
                         <input
                             id="emailAddress"
                             name="emailAdress"
