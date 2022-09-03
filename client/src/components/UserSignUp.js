@@ -59,7 +59,7 @@ class UserSignUp extends Component {
                             onChange={this.change}
                             placeholder="Email"
                         />
-
+                        <label htmlFor="password">Password</label>
                         <input
                             id="password"
                             name="password"
