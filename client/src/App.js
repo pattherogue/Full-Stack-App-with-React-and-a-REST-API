@@ -20,12 +20,8 @@ import withContext from "./Context";
 import PrivateRoute from "./PrivateRoute"; 
 
 const HeaderWithContext = withContext(Header);
-const CoursesWithContext = withContext(Courses);
-const CourseDetailWithContext = withContext(CourseDetail);
 const UserSignUpWithContext = withContext(UserSignUp);
-const CreateCourseWithContext = withContext(CreateCourse);
 const UserSignInWithContext = withContext(UserSignIn);
-const UpdateCourseWithContext = withContext(UpdateCourse);
 const UserSignOutWithContext = withContext(UserSignOut);
 
 const App = () => (
