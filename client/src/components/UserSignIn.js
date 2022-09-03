@@ -49,7 +49,7 @@ class UserSignIn extends Component {
                     )}
                 />
 
-                <p>Don't have a user account? Click here to <Link href="/signup">sign up</Link>!</p>
+                <p>Don't have a user account? Click here to <Link to="/signup">sign up</Link>!</p>
                 
             </div>
         )

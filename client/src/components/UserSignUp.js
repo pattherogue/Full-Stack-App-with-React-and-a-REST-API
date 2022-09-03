@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Form from './Form';
+import { Link } from 'react-router-dom';
 
 class UserSignUp extends Component {
     state = {
@@ -72,7 +73,7 @@ class UserSignUp extends Component {
                 )}
             />
 
-            <p>Already have a user account? Click here to <a href="/signin">sign in</a>!</p>
+            <p>Already have a user account? Click here to <Link to="/signin">sign in</Link>!</p>
         </div>
         )
 }
