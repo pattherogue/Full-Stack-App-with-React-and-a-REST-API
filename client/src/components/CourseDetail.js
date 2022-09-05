@@ -2,11 +2,11 @@ import React, { useState, useEffect, useContext } from 'react';
 import axios from 'axios';
 import ReactMarkdown from 'react-markdown';
 import { Context } from '../Context';
-import { Link, useParams, useHistory } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 export default function CourseDetail() {
 
-    let hstory = useHistory();
+
     let context = useContext(Context);
     const { id } = useParams();
     const authUser = context.authenticatedUser;
