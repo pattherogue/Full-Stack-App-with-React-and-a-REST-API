@@ -37,10 +37,7 @@ export default function CourseDetail() {
     }, [id]);
 
     const deleteCourse = () => {
-        actions.deleteCourse(id)
-            .then(response => {
-                
-            })
+     
     }
 
         return (
