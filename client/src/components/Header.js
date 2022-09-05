@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default class Header extends Component {
     // display top menu bar
@@ -19,15 +19,15 @@ export default class Header extends Component {
                                 <ul className="header--signedin">
                                     
                                     <li>{`Welcome, ${authUser.firstName} ${authUser.lastName}`} </li>
-                                    <li><NavLink to="/signout">Sign Out</NavLink></li>
+                                    <li><Link to="/signout">Sign Out</Link></li>
                                 </ul>
                             </React.Fragment> 
                         ) : (
                             // sign out button (if authenticated user)
                             <React.Fragment>
                                 <ul className="header--signedout">
-                                    <li><NavLink to="/signup">Sign Up</NavLink></li>
-                                    <li><NavLink to="/signin">Sign In</NavLink></li>
+                                    <li><Link to="/signup">Sign Up</Link></li>
+                                    <li><Link to="/signin">Sign In</Link></li>
                                 </ul>
                             </React.Fragment>
                         )
