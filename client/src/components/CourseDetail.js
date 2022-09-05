@@ -36,6 +36,10 @@ export default function CourseDetail() {
             });
     }, [id]);
 
+    const deleteCourse = () => {
+        
+    }
+
         return (
             // render "Delete Course" button
             // send "DELETE" request to /api/courses/:id
@@ -46,7 +50,7 @@ export default function CourseDetail() {
                         {(authUser && authUser.id === course.userId) ? (
                             <React.Fragment>
                                 <Link className="button" to={`/courses/${id}/update`}>Update Course</Link>
-                                <Link className="button" to={`/courses/${id}/delete`}>Delete Course</Link>
+                                <Link className="button" to="#" onClick={{deleteCourse}}>Delete Course</Link>
                                 <Link className="button button-secondary" to="/">Return to List</Link>
                             </React.Fragment>
                             ):
