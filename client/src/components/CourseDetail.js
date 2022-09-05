@@ -47,9 +47,9 @@ export default function CourseDetail() {
                             authUser && course.userId === authUser.userId
                         ) ? (
                                 <React.Fragment>
-                                    <Link className="button" href={`/courses/${id}/update`}>Update Course</Link>
-                                    <Link className="button" href={`/courses/${id}/delete`}>Delete Course</Link>
-                                    <Link className="button button-secondary" href="/">Return to List</Link>
+                                    <Link className="button" to={`/courses/${id}/update`}>Update Course</Link>
+                                    <Link className="button" to={`/courses/${id}/delete`}>Delete Course</Link>
+                                    <Link className="button button-secondary" to="/">Return to List</Link>
                                 </React.Fragment>
                             ) : (
                                 null
