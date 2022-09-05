@@ -27,7 +27,7 @@ export default function Courses() {
                     
                     // link to respective "Course Detail" screen
                     return (
-                        <Link className="course--module course--link" to={`/courses/${course.id}`}>
+                        <Link className="course--module course--link" to={`/courses/${course.id}`} key={course.id}>
                             <h2 className="course--label">Course</h2>
                             <h3 className="course--title">{course.title}</h3>
                         </Link>
