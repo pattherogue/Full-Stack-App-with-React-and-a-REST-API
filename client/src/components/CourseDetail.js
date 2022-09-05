@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useContext } from 'react';
 import axios from 'axios';
-import ReactMarkdown from 'react-markdown'
+import ReactMarkdown from 'react-markdown';
 import { useParams } from 'react-router';
 import { Context } from '../Context';
+import { Link } from 'react-router-dom';
 
 export default function CourseDetail() {
 
@@ -49,9 +50,9 @@ export default function CourseDetail() {
                             authUser && course.userId === authUser.userId
                         ) ? (
                                 <React.Fragment>
-                                    <a className="button" href={`/courses/${id}/update`}>Update Course</a>
-                                    <a className="button" href={`/courses/${id}/delete`}>Delete Course</a>
-                                    <a className="button button-secondary" href="/">Return to List</a>
+                                    <Link className="button" href={`/courses/${id}/update`}>Update Course</Link>
+                                    <Link className="button" href={`/courses/${id}/delete`}>Delete Course</Link>
+                                    <Link className="button button-secondary" href="/">Return to List</Link>
                                 </React.Fragment>
                             ) : (
                                 null
