@@ -43,7 +43,7 @@ export default function CourseDetail() {
             authUser.emailAddress,
             authUser.password
         );
-        history.pushState("/");
+        history.push("/");
     }
 
         return (
