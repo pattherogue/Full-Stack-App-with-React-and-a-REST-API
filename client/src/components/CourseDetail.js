@@ -36,8 +36,13 @@ export default function CourseDetail() {
             });
     }, [id]);
 
-    const deleteCourse = () => {
-     
+    const deleteCourse = async() => {
+        await context.data.deleteCourse(
+            id,
+            authUser.emailAddress,
+            authUser.password
+        );
+        
     }
 
         return (
