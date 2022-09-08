@@ -2,12 +2,13 @@ import React, { useState, useEffect, useContext } from 'react';
 import axios from 'axios';
 import ReactMarkdown from 'react-markdown';
 import { Context } from '../Context';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useParams, useHistory } from 'react-router-dom';
 
 export default function CourseDetail() {
 
 
     let context = useContext(Context);
+    const history = useHistory();
     const { id } = useParams();
     const authUser = context.authenticatedUser;
     const [ course, getCourse ] = useState({
@@ -42,7 +43,7 @@ export default function CourseDetail() {
             authUser.emailAddress,
             authUser.password
         );
-        
+        history.pushState("/");
     }
 
         return (
