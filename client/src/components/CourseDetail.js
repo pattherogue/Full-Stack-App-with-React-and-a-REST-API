@@ -11,13 +11,16 @@ export default function CourseDetail() {
     let history = useHistory();
     const { id } = useParams();
     const [ course, getCourse ] = useState({
-        course: [],
+        id: " ",
         title: " ",
         description: " ",
         estimatedTime: " ",
         materialsNeeded: " ",
-        firstName: " ",
-        lastName: " "
+        user: {
+            firstName: " ",
+            lastName: " "
+        },
+     
     });
 
     const authUser = context.authenticatedUser;
