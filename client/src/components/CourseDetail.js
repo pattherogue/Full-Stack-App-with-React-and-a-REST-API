@@ -8,7 +8,7 @@ export default function CourseDetail() {
 
 
     let context = useContext(Context);
-    const history = useHistory();
+    let history = useHistory();
     const { id } = useParams();
     const [ course, getCourse ] = useState({
         course: [],
