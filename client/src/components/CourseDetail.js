@@ -10,7 +10,6 @@ export default function CourseDetail() {
     let context = useContext(Context);
     const history = useHistory();
     const { id } = useParams();
-    const authUser = context.authenticatedUser;
     const [ course, getCourse ] = useState({
         course: [],
         title: " ",
@@ -21,7 +20,7 @@ export default function CourseDetail() {
         lastName: " "
     });
 
-
+    const authUser = context.authenticatedUser;
     /* id: this.props.match.params.id, */
 
     // provide the "Course Detail" screen
