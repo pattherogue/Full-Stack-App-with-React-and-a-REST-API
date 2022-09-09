@@ -17,6 +17,7 @@ export default function CourseDetail() {
         estimatedTime: " ",
         materialsNeeded: " ",
         user: {
+            id: " ",
             firstName: " ",
             lastName: " "
         },
