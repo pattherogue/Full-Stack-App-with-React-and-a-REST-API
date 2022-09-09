@@ -32,7 +32,7 @@ class UserSignIn extends Component {
                             <input
                                 id="emailAddress"
                                 name="emailAddress"
-                                type="text"
+                                type="email"
                                 value={emailAddress}
                                 onChange={this.change}
                             />
