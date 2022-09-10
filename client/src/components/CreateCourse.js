@@ -34,12 +34,12 @@ class CreateCourse extends Component {
                     <React.Fragment>
                         <div className="main--flex">
                             <div>
-                                <label htmlFor="courseTitle">Course Title</label>
+                                <label htmlFor="title">Course Title</label>
                                 <input 
                                     id="title" 
                                     name="title" 
                                     type="text"
-                                    onChange={this.onChange} 
+                                    onChange={this.change} 
                                     value={title}
                                 />
 
