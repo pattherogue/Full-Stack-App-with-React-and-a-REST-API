@@ -54,7 +54,7 @@ class UserSignUp extends Component {
                         <label htmlFor='emailAddress'>Email Address</label>
                         <input
                             id="emailAddress"
-                            name="emailAdress"
+                            name="emailAddress"
                             type="email"
                             value={emailAddress}
                             onChange={this.change}
