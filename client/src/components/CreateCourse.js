@@ -28,7 +28,7 @@ class CreateCourse extends Component {
             <Form
                 cancel={this.cancel}
                 errors={errors}
-                sumit={this.submit}
+                submit={this.submit}
                 submitButtonText="Create Course"
                 elements={() => (
                     <React.Fragment>
