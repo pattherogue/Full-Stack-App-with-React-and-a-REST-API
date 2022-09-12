@@ -94,8 +94,7 @@ class CreateCourse extends Component {
 
     submit = () => {
         const { context } = this.props;
-        const { authenticatedUser } = context;
-        const userId = authenticatedUser.userId
+        const { id, firstName, lastName, emailAddress, password } = context.authenticatedUser;
         const {
             title,
             description,
@@ -108,13 +107,13 @@ class CreateCourse extends Component {
             description,
             estimatedTime,
             materialsNeeded,
-            userId
+            userId: id
         };
 
         context.data.createCourse(
             course,
-            authenticatedUser.emailAddress,
-            authenticatedUser.password
+            emailAddress,
+            password
         )
             .then(errors => {
                 if (errors.length) {
