@@ -6,7 +6,8 @@ import { useHistory } from "react-router-dom";
 function createCourse() {
     let history = useHistory();
     const context = useContext(Context);
-    
+    const authUser = context.authenticatedUser;
+
 }
 
 
