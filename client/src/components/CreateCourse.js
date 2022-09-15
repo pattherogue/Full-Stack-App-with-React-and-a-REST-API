@@ -3,6 +3,12 @@ import Form from './Form';
 import { Context } from '../Context';
 import { useHistory } from "react-router-dom";
 
+function createCourse() {
+    let history = useHistory();
+    const context = useContext(Context);
+    
+}
+
 
 // provides "Create Course" screen
 class CreateCourse extends Component {
