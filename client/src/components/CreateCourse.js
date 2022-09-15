@@ -105,6 +105,7 @@ class CreateCourse extends Component {
     submit = () => {
         
         const emailAddress = authUser.emailAddress;
+        const password = authUser.password;
 
         const userId = authenticatedUser.userId;
 
