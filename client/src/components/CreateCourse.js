@@ -8,11 +8,20 @@ function createCourse() {
     const context = useContext(Context);
     const authUser = context.authenticatedUser;
 
-}
+
+    // render "Create Course" button
+ 
+        const {
+           title,
+            description,
+            estimatedTime,
+            materialsNeeded,
+            errors
+        } = useState([]);
 
 
 // provides "Create Course" screen
-class CreateCourse extends Component {
+
     state = {
         title: '',
         description: '',
@@ -21,16 +30,52 @@ class CreateCourse extends Component {
         errors: []
     }
 
-    // render "Create Course" button
-    render() {
-        const {
-           title,
+    // sends POST request to /api/courses route
+    change = e => {
+        const name = e.target.name;
+        const value = e.target.value;
+
+        this.setState(() => {
+            return {
+                [name]: value
+            }
+        })
+    }
+
+    submit = () => {
+        
+        const emailAddress = authUser.emailAddress;
+        const password = authUser.password;
+        const userId = authUser.id;
+
+        const course = {
+            title,
             description,
             estimatedTime,
             materialsNeeded,
-            errors
-        } = this.state;
+            userId
+        };
 
+        context.data.createCourse(
+            course,
+            emailAddress,
+            password
+        )
+            .then(errors => {
+                if (errors.length) {
+                    this.setState({ errors })
+                } else {
+                    this.props.history.push("/")
+                }
+            })
+            .catch(errors => console.log(errors));
+    };
+    
+    // render "Cancel" button -- return user to default route
+    cancel = () => {
+        this.props.history.push("/")
+    }
+    
         // render screen that allows user to create a new course
         return (
             <div class="wrap">
@@ -90,52 +135,8 @@ class CreateCourse extends Component {
         );
     }    
 
-    // sends POST request to /api/courses route
-    change = e => {
-        const name = e.target.name;
-        const value = e.target.value;
-
-        this.setState(() => {
-            return {
-                [name]: value
-            }
-        })
-    }
-
-    submit = () => {
-        
-        const emailAddress = authUser.emailAddress;
-        const password = authUser.password;
-        const userId = authUser.id;
-
-        const course = {
-            title,
-            description,
-            estimatedTime,
-            materialsNeeded,
-            userId
-        };
-
-        context.data.createCourse(
-            course,
-            emailAddress,
-            password
-        )
-            .then(errors => {
-                if (errors.length) {
-                    this.setState({ errors })
-                } else {
-                    this.props.history.push("/")
-                }
-            })
-            .catch(errors => console.log(errors));
-    };
     
-    // render "Cancel" button -- return user to default route
-    cancel = () => {
-        this.props.history.push("/")
-    }
-    
-}
+
+
 
 export default CreateCourse
