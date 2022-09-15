@@ -104,14 +104,8 @@ class CreateCourse extends Component {
 
     submit = () => {
         
-        const { context } = this.props;
-        const { authenticatedUser } = context;
-        const {
-            title,
-            description,
-            estimatedTime,
-            materialsNeeded, 
-        } = this.state;
+        const emailAddress = authUser.emailAddress;
+
         const userId = authenticatedUser.userId;
 
         const course = {
