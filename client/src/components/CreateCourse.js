@@ -118,8 +118,8 @@ class CreateCourse extends Component {
 
         context.data.createCourse(
             course,
-            authenticatedUser.emailAddress,
-            authenticatedUser.password
+            emailAddress,
+            password
         )
             .then(errors => {
                 if (errors.length) {
