@@ -106,8 +106,7 @@ class CreateCourse extends Component {
         
         const emailAddress = authUser.emailAddress;
         const password = authUser.password;
-
-        const userId = authenticatedUser.userId;
+        const userId = authUser.id;
 
         const course = {
             title,
