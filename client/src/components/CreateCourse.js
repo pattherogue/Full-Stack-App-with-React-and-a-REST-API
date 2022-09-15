@@ -13,8 +13,6 @@ class CreateCourse extends Component {
         errors: []
     }
 
-    let context = useContext(Context);
-
     // render "Create Course" button
     render() {
         const {
@@ -97,6 +95,7 @@ class CreateCourse extends Component {
     }
 
     submit = () => {
+        
         const { context } = this.props;
         const { authenticatedUser } = context;
         const {
