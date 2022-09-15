@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component, useContext } from 'react';
 import Form from './Form';
 import { Context } from '../Context';
+
 
 // provides "Create Course" screen
 class CreateCourse extends Component {
@@ -11,6 +12,8 @@ class CreateCourse extends Component {
         materialsNeeded: '',
         errors: []
     }
+
+    let context = useContext(Context);
 
     // render "Create Course" button
     render() {
