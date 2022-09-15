@@ -3,7 +3,7 @@ import Form from './Form';
 import { Context } from '../Context';
 import { useHistory } from "react-router-dom";
 
-function createCourse() {
+function CreateCourse() {
     let history = useHistory();
     const context = useContext(Context);
     const authUser = context.authenticatedUser;
@@ -22,7 +22,7 @@ function createCourse() {
 
 // provides "Create Course" screen
 
-    state = {
+    const state = {
         title: '',
         description: '',
         estimatedTime: '',
@@ -31,7 +31,7 @@ function createCourse() {
     }
 
     // sends POST request to /api/courses route
-    change = e => {
+    const change = e => {
         const name = e.target.name;
         const value = e.target.value;
 
@@ -42,7 +42,7 @@ function createCourse() {
         })
     }
 
-    submit = () => {
+    const submit = () => {
         
         const emailAddress = authUser.emailAddress;
         const password = authUser.password;
@@ -72,7 +72,7 @@ function createCourse() {
     };
     
     // render "Cancel" button -- return user to default route
-    cancel = () => {
+   const cancel = () => {
         this.props.history.push("/")
     }
     
