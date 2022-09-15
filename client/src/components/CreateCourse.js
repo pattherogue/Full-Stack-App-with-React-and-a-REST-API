@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Form from './Form';
+import { Context } from '../Context';
 
 // provides "Create Course" screen
 class CreateCourse extends Component {
