@@ -30,6 +30,10 @@ function CreateCourse() {
     function change(e) {
         const name = e.target.name;
         const value = e.target.value;
+
+        if (name === "title") {
+            setTitle(value);
+        }
     }
 
    /*n const change = e => {
