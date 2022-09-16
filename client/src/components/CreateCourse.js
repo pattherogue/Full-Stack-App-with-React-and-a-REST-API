@@ -13,6 +13,7 @@ function CreateCourse() {
     const [title,  setTitle] = useState("");
     const [description, setDescription] = useState("");
     const [estimatedTime, setTime] = useState("");
+    const [materialsNeeded, setMaterialsNeeded] = useState("");
     const [errors, setErrors] = useState("");
 
 
@@ -37,6 +38,8 @@ function CreateCourse() {
             setDescription(value);
         } else if (name === "estimatedTime") {
             setTime(value);
+        } else if (name === "materialsNeeded") {
+            set
         }
     }
 
