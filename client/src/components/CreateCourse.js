@@ -13,7 +13,7 @@ function CreateCourse() {
     const [title,  setTitle] = useState("");
     const [description, setDescription] = useState("");
     const [estimatedTime, setTime] = useState("");
-    
+    const [errors, setErrors] = useState("");
 
 
 // provides "Create Course" screen
