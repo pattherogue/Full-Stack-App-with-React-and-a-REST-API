@@ -12,6 +12,7 @@ function CreateCourse() {
     // render "Create Course" button
     const [title,  setTitle] = useState("");
     const [description, setDescription] = useState("");
+    const [estimatedTime, setTime] = useState("");
     
 
 
