@@ -1,4 +1,4 @@
-import React, { Component, useContext, useState } from 'react';
+import React, { useContext, useState } from 'react';
 import Form from './Form';
 import { Context } from '../Context';
 import { useHistory } from "react-router-dom";
