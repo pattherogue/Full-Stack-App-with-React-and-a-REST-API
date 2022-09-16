@@ -10,14 +10,8 @@ function CreateCourse() {
 
 
     // render "Create Course" button
- 
-        const {
-           title,
-            description,
-            estimatedTime,
-            materialsNeeded,
-            errors
-        } = useState([]);
+    const [title,  setTitle] = useState("");
+    
 
 
 // provides "Create Course" screen
