@@ -33,6 +33,8 @@ function CreateCourse() {
 
         if (name === "title") {
             setTitle(value);
+        } else if (name === "description") {
+            setDescription(value);
         }
     }
 
