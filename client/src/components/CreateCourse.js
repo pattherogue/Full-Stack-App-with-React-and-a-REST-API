@@ -115,7 +115,7 @@ function CreateCourse() {
                                     id="description" 
                                     name="description"
                                     type="text"
-                                    onChange={this.change}
+                                    onChange={change}
                                     value={description}
 
                                 />
