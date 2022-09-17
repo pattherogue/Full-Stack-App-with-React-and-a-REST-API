@@ -106,7 +106,7 @@ function CreateCourse() {
                                     id="title" 
                                     name="title" 
                                     type="text"
-                                    onChange={this.change} 
+                                    onChange={change} 
                                     value={title}
                                 />
 
