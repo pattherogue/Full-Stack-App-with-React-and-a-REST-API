@@ -93,9 +93,9 @@ function CreateCourse() {
             <div class="wrap">
             <h2>Create Course</h2>
             <Form
-                cancel={this.cancel}
+                cancel={cancel}
                 errors={errors}
-                submit={this.submit}
+                submit={submit}
                 submitButtonText="Create Course"
                 elements={() => (
                     <React.Fragment>
