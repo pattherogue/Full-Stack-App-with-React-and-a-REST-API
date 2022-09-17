@@ -37,7 +37,7 @@ function CreateCourse() {
         } else if (name === "description") {
             setDescription(value);
         } else if (name === "estimatedTime") {
-            setTime(value);
+            setEstimatedTime(value);
         } else if (name === "materialsNeeded") {
             setMaterialsNeeded(value);
         }
