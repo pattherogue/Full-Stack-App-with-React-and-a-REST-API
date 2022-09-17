@@ -77,7 +77,7 @@ function CreateCourse() {
                 if (errors.length) {
                     setErrors(errors)
                 } else {
-                    this.props.history.push("/")
+                    history.push("/")
                 }
             })
             .catch(errors => console.log(errors));
