@@ -19,13 +19,13 @@ function CreateCourse() {
 
 // provides "Create Course" screen
 
-    const state = {
+   /* const state = {
         title: '',
         description: '',
         estimatedTime: '',
         materialsNeeded: '',
         errors: []
-    }
+    } */
 
     // sends POST request to /api/courses route
     function change(e) {
