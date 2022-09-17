@@ -135,7 +135,7 @@ function CreateCourse() {
                                     id="materialsNeeded" 
                                     name="materialsNeeded"
                                     type="text"
-                                    onChange={this.change}
+                                    onChange={change}
                                     value={materialsNeeded}
                                 />
                             </div>
