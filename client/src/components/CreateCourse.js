@@ -126,7 +126,7 @@ function CreateCourse() {
                                     id="estimatedTime" 
                                     name="estimatedTime" 
                                     type="text" 
-                                    onChange={this.change}
+                                    onChange={change}
                                     value={estimatedTime}
                                 />
 
