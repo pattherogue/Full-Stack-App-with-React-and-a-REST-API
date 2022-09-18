@@ -12,8 +12,9 @@ export default function CourseDetail() {
     
     const [course, setCourse] = useState({});
     const [user, setUser] = useState({
-        firstName:
-    })
+        firstName: "",
+        lastName: ""
+    });
     
     
     
