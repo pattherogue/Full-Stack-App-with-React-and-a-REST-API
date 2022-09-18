@@ -15,9 +15,7 @@ export default function CourseDetail() {
         firstName: "",
         lastName: ""
     });
-    
-    
-    
+    const [errors, setErrors] = useState([]);
     const { id } = useParams();
    
 
