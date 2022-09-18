@@ -151,4 +151,4 @@ function CreateCourse() {
 
 
 
-export default CreateCourse
+export default CreateCourse;
