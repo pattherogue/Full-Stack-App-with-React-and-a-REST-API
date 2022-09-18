@@ -28,7 +28,7 @@ function CreateCourse() {
     } */
 
     // sends POST request to /api/courses route
-    function change(e) {
+    const change = (e) => {
         const name = e.target.name;
         const value = e.target.value;
 
@@ -41,7 +41,7 @@ function CreateCourse() {
         } else if (name === "materialsNeeded") {
             setMaterialsNeeded(value);
         }
-    }
+    };
 
    /*n const change = e => {
         const name = e.target.name;
