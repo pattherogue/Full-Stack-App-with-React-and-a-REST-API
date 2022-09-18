@@ -11,7 +11,9 @@ export default function CourseDetail() {
     const authUser = context.authenticatedUser
     
     const [course, setCourse] = useState({});
-    
+    const [user, setUser] = useState({
+        firstName:
+    })
     
     
     
