@@ -10,24 +10,13 @@ export default function CourseDetail() {
     let context = useContext(Context);
     const authUser = context.authenticatedUser
     
+    const [course, setCourse] = useState({});
     
     
     
     
     const { id } = useParams();
-    const [ course, getCourse ] = useState({
-        id: " ",
-        title: " ",
-        description: " ",
-        estimatedTime: " ",
-        materialsNeeded: " ",
-        user: {
-            id: " ",
-            firstName: " ",
-            lastName: " "
-        },
-     
-    });
+   
 
 
     /* id: this.props.match.params.id, */
