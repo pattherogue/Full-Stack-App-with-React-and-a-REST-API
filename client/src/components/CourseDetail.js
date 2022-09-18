@@ -6,9 +6,14 @@ import { Link, useParams, useHistory } from 'react-router-dom';
 
 export default function CourseDetail() {
 
-
-    let context = useContext(Context);
     let history = useHistory();
+    let context = useContext(Context);
+    const authUser = context.authenticatedUser
+    
+    
+    
+    
+    
     const { id } = useParams();
     const [ course, getCourse ] = useState({
         id: " ",
