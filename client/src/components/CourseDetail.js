@@ -20,7 +20,7 @@ export default function CourseDetail() {
    
 
 
-    /* id: this.props.match.params.id, */
+
 
     // provide the "Course Detail" screen
    
