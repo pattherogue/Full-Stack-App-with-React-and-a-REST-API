@@ -29,7 +29,7 @@ export default function CourseDetail() {
      
     });
 
-    const authUser = context.authenticatedUser;
+
     /* id: this.props.match.params.id, */
 
     // provide the "Course Detail" screen
