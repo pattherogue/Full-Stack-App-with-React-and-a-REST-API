@@ -17,7 +17,10 @@ export default function CourseDetail() {
             description: "",
             estimatedTime: "",
             materialsNeeded: "",
-            
+            user : {
+                id: "",
+                
+            }
 
         }
     );
