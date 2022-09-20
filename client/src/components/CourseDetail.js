@@ -10,7 +10,7 @@ export default function CourseDetail() {
     let context = useContext(Context);
     const authUser = context.authenticatedUser
     
-    const [course, setCourse] = useState({});
+    const [course, getCourse] = useState({});
     const [user, setUser] = useState({
         firstName: "",
         lastName: ""
