@@ -13,6 +13,7 @@ export default function CourseDetail() {
     const [course, getCourse] = useState(
         {
             id: "",
+            title: "",
         }
     );
     /*const [user, setUser] = useState({
