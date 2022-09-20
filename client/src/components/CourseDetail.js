@@ -20,9 +20,8 @@ export default function CourseDetail() {
             user : {
                 id: "",
                 firstName: "",
-                
+                lastName: ""
             }
-
         }
     );
     /*const [user, setUser] = useState({
