@@ -19,6 +19,7 @@ export default function CourseDetail() {
             materialsNeeded: "",
             user : {
                 id: "",
+                firstName: "",
                 
             }
 
