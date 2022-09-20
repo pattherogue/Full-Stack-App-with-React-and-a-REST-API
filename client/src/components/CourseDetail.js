@@ -12,7 +12,7 @@ export default function CourseDetail() {
     
     const [course, getCourse] = useState(
         {
-        
+            id: "",
         }
     );
     /*const [user, setUser] = useState({
