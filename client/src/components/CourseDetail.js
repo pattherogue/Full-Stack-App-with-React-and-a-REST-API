@@ -15,7 +15,8 @@ export default function CourseDetail() {
             id: "",
             title: "",
             description: "",
-            
+            estimatedTime: "",
+
         }
     );
     /*const [user, setUser] = useState({
