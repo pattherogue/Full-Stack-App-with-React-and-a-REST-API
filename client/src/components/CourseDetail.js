@@ -11,10 +11,10 @@ export default function CourseDetail() {
     const authUser = context.authenticatedUser
     
     const [course, getCourse] = useState({});
-    const [user, setUser] = useState({
+    /*const [user, setUser] = useState({
         firstName: "",
         lastName: ""
-    });
+    }); */
     const [errors, setErrors] = useState([]);
     const { id } = useParams();
    
