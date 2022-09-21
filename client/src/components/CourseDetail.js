@@ -64,7 +64,7 @@ export default function CourseDetail() {
             <div>
                 <div className="actions--bar">
                     <div className="wrap">
-                        {(authUser && authUser.id === course.user.id) ? (
+                        {(authUser && authUser.id === course.User.id) ? (
                             <React.Fragment>
                                 <Link className="button" to={`/courses/${id}/update`}>Update Course</Link>
                                 <Link className="button" to="#" onClick={{deleteCourse}}>Delete Course</Link>
