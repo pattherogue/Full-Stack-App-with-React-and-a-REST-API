@@ -24,10 +24,7 @@ export default function CourseDetail() {
             }
         }
     );
-    /*const [user, setUser] = useState({
-        firstName: "",
-        lastName: ""
-    }); */
+    
     const [errors, setErrors] = useState([]);
     const { id } = useParams();
    
