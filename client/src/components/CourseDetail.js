@@ -24,7 +24,7 @@ export default function CourseDetail() {
             }
         }
     );
-    
+
     const [errors, setErrors] = useState([]);
     const { id } = useParams();
    
@@ -101,7 +101,7 @@ export default function CourseDetail() {
                         </form>
                 </div>
             </div>
-        )
+        );
     }
 
 
