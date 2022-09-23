@@ -64,7 +64,7 @@ export default function CourseDetail() {
         }
     })
     .catch((err) => {
-        
+        console.log(err);
     })
         return (
             // render "Delete Course" button
