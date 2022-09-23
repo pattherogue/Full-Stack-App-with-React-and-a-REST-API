@@ -45,8 +45,8 @@ export default function CourseDetail() {
             });
     }, [id]);
 
-    const deleteCourse = async() => {
-        await context.data.deleteCourse(
+    const updateCourse = async() => {
+        await context.data.updateCourse(
             id,
             authUser.emailAddress,
             authUser.password
