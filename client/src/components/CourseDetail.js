@@ -65,7 +65,9 @@ export default function CourseDetail() {
     })
     .catch((err) => {
         console.log(err);
-    })
+        history.push('/error');
+    });
+    
         return (
             // render "Delete Course" button
             // send "DELETE" request to /api/courses/:id
