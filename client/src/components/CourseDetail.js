@@ -58,6 +58,8 @@ export default function CourseDetail() {
     .then( errors => {
         if (errors) {
             setErrors(errors);
+        } else {
+            
         }
     })
         return (
