@@ -59,8 +59,12 @@ export default function CourseDetail() {
         if (errors) {
             setErrors(errors);
         } else {
-            console.log('Course updated');    
+            console.log('Course updated');
+            history.push('/');    
         }
+    })
+    .catch((err) => {
+        
     })
         return (
             // render "Delete Course" button
