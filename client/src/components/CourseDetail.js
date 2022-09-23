@@ -54,7 +54,7 @@ export default function CourseDetail() {
         history.push("/");
     }
 
-    context.data.updateCourse()
+    context.data.updateCourse(id, )
 
         return (
             // render "Delete Course" button
