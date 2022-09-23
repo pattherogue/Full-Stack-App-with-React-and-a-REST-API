@@ -54,7 +54,7 @@ export default function CourseDetail() {
         history.push("/");
     }
 
-    context.data.updateCourse(id, )
+    context.data.updateCourse(id, course, authUser.emailAddress, authUser.password)
 
         return (
             // render "Delete Course" button
