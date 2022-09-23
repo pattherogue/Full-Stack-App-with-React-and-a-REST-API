@@ -55,7 +55,9 @@ export default function CourseDetail() {
     }
 
     context.data.updateCourse(id, course, authUser.emailAddress, authUser.password)
-
+    .then( errors => {
+        
+    })
         return (
             // render "Delete Course" button
             // send "DELETE" request to /api/courses/:id
