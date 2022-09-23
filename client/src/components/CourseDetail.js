@@ -59,7 +59,7 @@ export default function CourseDetail() {
         if (errors) {
             setErrors(errors);
         } else {
-            
+            console.log('Course updated');    
         }
     })
         return (
