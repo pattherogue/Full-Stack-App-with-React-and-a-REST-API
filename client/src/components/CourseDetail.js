@@ -57,7 +57,7 @@ export default function CourseDetail() {
     context.data.updateCourse(id, course, authUser.emailAddress, authUser.password)
     .then( errors => {
         if (errors) {
-            
+            setErrors(errors);
         }
     })
         return (
