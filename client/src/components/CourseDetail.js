@@ -54,7 +54,7 @@ export default function CourseDetail() {
                 if(errors) {
                     console.log(`Course not deleted: ${errors}`);
                 } else {
-                    
+                    console.log('Course deleted');
                 }
             })
     }
