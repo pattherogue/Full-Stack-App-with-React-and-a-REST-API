@@ -51,7 +51,9 @@ export default function CourseDetail() {
 
         context.data.deleteCourse(id, emailAdress, password)
             .then( errors => {
-                
+                if(errors) {
+                    
+                }
             })
     }
 
