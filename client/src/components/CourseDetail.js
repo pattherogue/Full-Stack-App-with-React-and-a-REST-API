@@ -46,8 +46,8 @@ export default function CourseDetail() {
     }, [id]);
 
     function deleteCourse() {
-        let emailAdress = authUser.emailAddress,
-        let password = authUser.password
+        let emailAdress = authUser.emailAddress;
+        let password = authUser.password;
     }
 
     context.data.updateCourse(id, course, authUser.emailAddress, authUser.password)
