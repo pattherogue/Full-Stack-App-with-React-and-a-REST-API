@@ -55,6 +55,7 @@ export default function CourseDetail() {
                     console.log(`Course not deleted: ${errors}`);
                 } else {
                     console.log('Course deleted');
+                    history.push('/');
                 }
             })
     }
