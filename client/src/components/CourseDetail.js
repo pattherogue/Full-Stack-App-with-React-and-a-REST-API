@@ -58,6 +58,9 @@ export default function CourseDetail() {
                     history.push('/');
                 }
             })
+            .catch((err) => {
+                
+            })
     }
 
     context.data.updateCourse(id, course, authUser.emailAddress, authUser.password)
