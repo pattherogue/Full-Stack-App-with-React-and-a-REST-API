@@ -64,20 +64,6 @@ export default function CourseDetail() {
             });
     }
 
-    context.data.updateCourse(id, course, authUser.emailAddress, authUser.password)
-    .then( errors => {
-        if (errors) {
-            setErrors(errors);
-        } else {
-            console.log('Course updated');
-            history.push('/');    
-        }
-    })
-    .catch((err) => {
-        console.log(err);
-        history.push('/error');
-    });
-
         return (
             // render "Delete Course" button
             // send "DELETE" request to /api/courses/:id
