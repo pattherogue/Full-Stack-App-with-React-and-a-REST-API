@@ -45,13 +45,9 @@ export default function CourseDetail() {
             });
     }, [id]);
 
-    const deleteCourse = async() => {
-        await context.data.deleteCourse(
-            id,
-            authUser.emailAddress,
-            authUser.password
-        );
-        history.push("/");
+    function deleteCourse() {
+        let emailAdress = authUser.emailAddress,
+        let password = authUser.password
     }
 
     context.data.updateCourse(id, course, authUser.emailAddress, authUser.password)
@@ -67,7 +63,7 @@ export default function CourseDetail() {
         console.log(err);
         history.push('/error');
     });
-    
+
         return (
             // render "Delete Course" button
             // send "DELETE" request to /api/courses/:id
