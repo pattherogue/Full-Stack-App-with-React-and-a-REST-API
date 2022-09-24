@@ -59,7 +59,7 @@ export default function CourseDetail() {
                 }
             })
             .catch((err) => {
-                
+                console.log(err);
             })
     }
 
