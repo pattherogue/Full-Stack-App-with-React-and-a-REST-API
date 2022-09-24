@@ -53,6 +53,8 @@ export default function CourseDetail() {
             .then( errors => {
                 if(errors) {
                     console.log(`Course not deleted: ${errors}`);
+                } else {
+                    
                 }
             })
     }
