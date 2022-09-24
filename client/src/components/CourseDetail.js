@@ -49,7 +49,7 @@ export default function CourseDetail() {
         let emailAdress = authUser.emailAddress;
         let password = authUser.password;
 
-        context.data.deleteCourse()
+        context.data.deleteCourse(id, emailAdress, pasword)
     }
 
     context.data.updateCourse(id, course, authUser.emailAddress, authUser.password)
