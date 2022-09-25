@@ -8,6 +8,7 @@ import Axios from 'axios';
 export default function UpdateCourse {
     let history = useHistory();
     let context = useContext(Context);
+    const { id } = useParams();
 
     async componentDidMount() {
         await this.getCourse().catch(err => {
