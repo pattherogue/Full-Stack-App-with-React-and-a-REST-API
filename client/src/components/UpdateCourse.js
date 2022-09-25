@@ -7,6 +7,7 @@ import Axios from 'axios';
 // provides "Update Course" screen
 export default function UpdateCourse {
     let history = useHistory();
+    let context = useContext(Context);
 
     async componentDidMount() {
         await this.getCourse().catch(err => {
