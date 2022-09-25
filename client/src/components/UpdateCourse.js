@@ -22,6 +22,7 @@ export default function UpdateCourse {
         .then(course => {
             setTitle(course.data.title);
             setDescription(course.data.description);
+            setEstimatedTime(course.data.estimatedTime);
         }
     })
         response => {
