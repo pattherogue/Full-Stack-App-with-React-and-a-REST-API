@@ -15,6 +15,7 @@ export default function UpdateCourse {
     const [estimatedTime, setEstimatedTime] = useState('');
     const [materialsNeeded, setMaterialsNeeded] = useState('');
     const [errors, setErrors] = useState([]);
+    const authUser = context.authenticatedUser;
     
     
     async componentDidMount() {
