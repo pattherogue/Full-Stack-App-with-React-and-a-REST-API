@@ -5,15 +5,8 @@ import Form from './Form';
 import Axios from 'axios';
 
 // provides "Update Course" screen
-export default class UpdateCourse extends Component {
-    state = {
-        title: '',
-        description: '',
-        estimatedTime: '',
-        materialsNeeded: '',
-        id: this.props.match.params.id,
-        errors: [],
-    }
+export default function UpdateCourse {
+    let history = useHistory();
 
     async componentDidMount() {
         await this.getCourse().catch(err => {
