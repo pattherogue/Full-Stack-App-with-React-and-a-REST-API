@@ -24,9 +24,10 @@ export default function UpdateCourse {
             setDescription(course.data.description);
             setEstimatedTime(course.data.estimatedTime);
             setMaterialsNeeded(course.data.materialsNeeded);
-
-        }
-    })
+        })
+        .catch(err => {
+            
+        })
         response => {
             this.setState({
                 course: response.data,
