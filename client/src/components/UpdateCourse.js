@@ -23,6 +23,8 @@ export default function UpdateCourse {
             setTitle(course.data.title);
             setDescription(course.data.description);
             setEstimatedTime(course.data.estimatedTime);
+            setMaterialsNeeded(course.data.materialsNeeded);
+
         }
     })
         response => {
