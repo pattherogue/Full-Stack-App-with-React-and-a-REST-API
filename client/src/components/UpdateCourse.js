@@ -11,6 +11,8 @@ export default function UpdateCourse {
     const { id } = useParams();
 
     const [title, setTitle] = useState('');
+    const [description, setDecription] = useState('');
+
     
     
     async componentDidMount() {
