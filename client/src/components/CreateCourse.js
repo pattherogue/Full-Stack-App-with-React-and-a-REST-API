@@ -85,7 +85,7 @@ function CreateCourse() {
     
     // render "Cancel" button -- return user to default route
    const cancel = () => {
-        this.props.history.push("/")
+        history.push("/")
     }
     
         // render screen that allows user to create a new course
