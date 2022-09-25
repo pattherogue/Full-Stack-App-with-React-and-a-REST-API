@@ -12,7 +12,7 @@ export default function UpdateCourse {
 
     const [title, setTitle] = useState('');
     const [description, setDecription] = useState('');
-
+    const [estimatedTime, setEstimatedTime] = useState(''); 
     
     
     async componentDidMount() {
