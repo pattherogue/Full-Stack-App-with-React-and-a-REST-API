@@ -14,6 +14,7 @@ export default function UpdateCourse {
     const [description, setDecription] = useState('');
     const [estimatedTime, setEstimatedTime] = useState('');
     const [materialsNeeded, setMaterialsNeeded] = useState('');
+    const [errors, setErrors] = useState([]);
     
     
     async componentDidMount() {
