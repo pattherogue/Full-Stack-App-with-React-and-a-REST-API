@@ -17,16 +17,13 @@ export default function UpdateCourse {
     const [errors, setErrors] = useState([]);
     const authUser = context.authenticatedUser;
     
-    
-    async componentDidMount() {
-        await this.getCourse().catch(err => {
-            console.log(err);
-        });
-    }
-
-    getCourse = async function(id = this.props.match.params.id) {
-        await Axios.get(`http://localhost:5000/api/courses/${id}`)
-        .then(response => {
+    useEffect(() => {
+        Axios.get(`http://localhost:5000/api/courses/${id}`)
+        .then(course => {
+            
+        }
+    })
+        response => {
             this.setState({
                 course: response.data,
                 owner: response.data.owner,
