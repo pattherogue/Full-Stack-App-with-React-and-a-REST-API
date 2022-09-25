@@ -21,6 +21,7 @@ export default function UpdateCourse {
         Axios.get(`http://localhost:5000/api/courses/${id}`)
         .then(course => {
             setTitle(course.data.title);
+            setDescription(course.data.description);
         }
     })
         response => {
