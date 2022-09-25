@@ -10,6 +10,9 @@ export default function UpdateCourse {
     let context = useContext(Context);
     const { id } = useParams();
 
+    const [title, setTitle] = useState('');
+    
+    
     async componentDidMount() {
         await this.getCourse().catch(err => {
             console.log(err);
