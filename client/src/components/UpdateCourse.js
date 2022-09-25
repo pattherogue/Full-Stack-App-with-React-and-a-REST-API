@@ -20,7 +20,7 @@ export default function UpdateCourse {
     useEffect(() => {
         Axios.get(`http://localhost:5000/api/courses/${id}`)
         .then(course => {
-            
+            setTitle(course.data.title);
         }
     })
         response => {
