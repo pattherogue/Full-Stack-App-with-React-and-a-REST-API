@@ -26,8 +26,9 @@ export default function UpdateCourse {
             setMaterialsNeeded(course.data.materialsNeeded);
         })
         .catch(err => {
-            
-        })
+            console.log('Parsing data and fetching error', err)
+        });
+
         response => {
             this.setState({
                 course: response.data,
