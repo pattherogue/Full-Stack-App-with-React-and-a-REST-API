@@ -129,6 +129,8 @@ export default function UpdateCourse {
 
         if(name === "courseTitle") {
             setTitle(value);
+        } else if (name === "courseDescription") {
+            setDescription(value);
         }
     }
     
