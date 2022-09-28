@@ -131,6 +131,12 @@ export default function UpdateCourse {
             setTitle(value);
         } else if (name === "courseDescription") {
             setDescription(value);
+        } else if (name === "estimatedTime") {
+            setEstimatedTime(value);
+        } else if (name === "materialsNeeded") {
+            setMaterialsNeeded(value);
+        } else {
+            return;
         }
     }
     
