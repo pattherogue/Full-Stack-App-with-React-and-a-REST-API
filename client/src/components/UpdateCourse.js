@@ -28,6 +28,7 @@ export default function UpdateCourse {
         .catch(err => {
             console.log('Parsing data and fetching error', err)
         });
+    }, [id, history];
 
         response => {
             this.setState({
