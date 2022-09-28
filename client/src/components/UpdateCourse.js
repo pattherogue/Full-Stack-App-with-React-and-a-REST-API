@@ -48,14 +48,14 @@ export default function UpdateCourse {
     }; */
 
     // render form -- update one existing course
-    render() {
+   /*  render() {
         const {
             title,
             description,
             estimatedTime,
             materialsNeeded,
             errors
-        } = this.state
+        } = this.state */
 
         // render "Update Course" button
         return (
