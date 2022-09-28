@@ -86,9 +86,9 @@ export default function UpdateCourse {
                                             <textarea 
                                                 id="description" 
                                                 name="description"
-                                                type="textarea"
+                                                type="text"
                                                 value={description}
-                                                onChange={this.change}
+                                                onChange={change}
                                                 placeholder={description}
                                             />
                                         </div>
