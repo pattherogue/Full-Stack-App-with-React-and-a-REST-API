@@ -78,7 +78,7 @@ export default function UpdateCourse {
                                                 name="title" 
                                                 type="text" 
                                                 value={title}
-                                                onChange={this.change}
+                                                onChange={change}
                                                 placeholder={title}
                                             />
 
