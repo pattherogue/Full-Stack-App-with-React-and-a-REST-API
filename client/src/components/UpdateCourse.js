@@ -30,7 +30,7 @@ export default function UpdateCourse {
         });
     }, [id, history]);
 
-        response => {
+       /* response => {
             this.setState({
                 course: response.data,
                 owner: response.data.owner,
@@ -45,7 +45,7 @@ export default function UpdateCourse {
             this.props.history.push("/notfound");
         });
         console.log(this.state.course);
-    };
+    }; */
 
     // render form -- update one existing course
     render() {
