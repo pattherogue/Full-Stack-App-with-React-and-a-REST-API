@@ -99,7 +99,7 @@ export default function UpdateCourse {
                                                 name="estimatedTime" 
                                                 type="text" 
                                                 value={estimatedTime}
-                                                onChange={this.change}
+                                                onChange={change}
                                                 placeholder={estimatedTime}
                                             />
 
@@ -109,7 +109,7 @@ export default function UpdateCourse {
                                                 name="materialsNeeded"
                                                 type="textarea"
                                                 value={materialsNeeded}
-                                                onChange={this.change}
+                                                onChange={change}
                                                 placeholder={materialsNeeded}
                                             />
                                         </div>
