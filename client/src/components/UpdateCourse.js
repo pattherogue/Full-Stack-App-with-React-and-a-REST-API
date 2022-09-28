@@ -174,9 +174,9 @@ export default function UpdateCourse {
     }
 
     // render "Cancel" button
-    cancel = () => {
+    function cancel() {
         // return users to "Course Detail" screen
-        this.props.history.push(`/courses/${this.state.id}`);
+        history.push('/');
     }
 }
 
