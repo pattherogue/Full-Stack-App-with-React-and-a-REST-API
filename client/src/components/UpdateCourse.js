@@ -127,11 +127,9 @@ export default function UpdateCourse {
         const name = e.target.name;
         const value = e.target.value;
 
-        this.setState(() => {
-            return {
-                [ name ]: value
-            }
-        })
+        if(name === "courseTitle") {
+            setTitle(value);
+        }
     }
     
     // send PUT request to /api/courses/:id
