@@ -63,9 +63,9 @@ export default function UpdateCourse {
                 <div class="wrap">
                     <h2>Update Course</h2>
                     <div
-                        cancel={this.cancel}
+                        cancel={cancel}
                         errors={errors}
-                        submit={this.submit}
+                        submit={submit}
                         submitButtonText="Update Course"
                         elements={() => (
                             <div>
