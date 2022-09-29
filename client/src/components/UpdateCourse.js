@@ -144,6 +144,7 @@ export default function UpdateCourse {
     function submit() {
         const userId = authUser.id;
         const emailAddress = authUser.emailAddress;
+        const password = authUser.password;
         const {
             title,
             description,
