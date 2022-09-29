@@ -162,7 +162,7 @@ export default function UpdateCourse {
         )
         .then(errors => {
             if (errors) {
-                this.setState({ errors });
+                setErrors(errors);
             } else {
                 this.props.history.push(`/courses/${id}`);
             }
