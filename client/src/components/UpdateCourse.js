@@ -169,8 +169,8 @@ export default function UpdateCourse {
         })
         .catch( err => {
             console.log(err);
-            this.props.history.push('/error');
-        })
+            history.push('/error');
+        });
     }
 
     // render "Cancel" button
