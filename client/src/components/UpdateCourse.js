@@ -161,7 +161,7 @@ export default function UpdateCourse {
             password
         )
         .then(errors => {
-            if (errors.length) {
+            if (errors) {
                 this.setState({ errors });
             } else {
                 this.props.history.push(`/courses/${id}`);
