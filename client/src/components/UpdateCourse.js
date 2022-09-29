@@ -145,19 +145,14 @@ export default function UpdateCourse {
         const userId = authUser.id;
         const emailAddress = authUser.emailAddress;
         const password = authUser.password;
-        const {
-            title,
-            description,
-            estimatedTime,
-            materialsNeeded
-        } = this.state;
 
         const course = {
             title,
             description,
             estimatedTime,
-            materialsNeeded
-        }
+            materialsNeeded,
+            userId
+        };
 
         context.data.updateCourse(
             id,
