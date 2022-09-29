@@ -158,7 +158,7 @@ export default function UpdateCourse {
             id,
             course,
             emailAddress,
-            authenticatedUser.password
+            password
         )
         .then(errors => {
             if (errors.length) {
