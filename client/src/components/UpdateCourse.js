@@ -143,6 +143,7 @@ export default function UpdateCourse {
     // send PUT request to /api/courses/:id
     function submit() {
         const userId = authUser.id;
+        const emailAddress = authUser.emailAddress;
         const {
             title,
             description,
