@@ -167,8 +167,8 @@ export default function UpdateCourse {
                 console.log('Course has been updated');
             }
         })
-        .catch( error => {
-            console.log(error);
+        .catch( err => {
+            console.log(err);
             this.props.history.push('/error');
         })
     }
