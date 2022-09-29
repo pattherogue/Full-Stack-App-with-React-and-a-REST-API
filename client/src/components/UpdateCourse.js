@@ -164,7 +164,7 @@ export default function UpdateCourse {
             if (errors) {
                 setErrors(errors);
             } else {
-                this.props.history.push(`/courses/${id}`);
+                history.push('/');
             }
         })
         .catch( error => {
