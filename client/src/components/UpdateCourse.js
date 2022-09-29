@@ -141,7 +141,7 @@ export default function UpdateCourse {
     }
     
     // send PUT request to /api/courses/:id
-    submit = () => {
+    function submit() {
         const { context } = this.props;
         const authenticatedUser = context.authenticatedUser;
         const id = this.props.match.params.id;
