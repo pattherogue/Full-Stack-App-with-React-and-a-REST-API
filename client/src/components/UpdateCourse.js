@@ -157,7 +157,7 @@ export default function UpdateCourse {
         context.data.updateCourse(
             id,
             course,
-            authenticatedUser.emailAddress,
+            emailAddress,
             authenticatedUser.password
         )
         .then(errors => {
