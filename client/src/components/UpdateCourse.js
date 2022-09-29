@@ -164,7 +164,7 @@ export default function UpdateCourse {
             if (errors) {
                 setErrors(errors);
             } else {
-                history.push('/');
+                console.log('Course has been updated');
             }
         })
         .catch( error => {
