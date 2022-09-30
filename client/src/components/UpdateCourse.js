@@ -81,7 +81,7 @@ export default function UpdateCourse {
                                                 onChange={change}
                                                 placeholder={title}
                                             />
-                                            <p></p>
+                                            <p>By {authUser.firstName} {authUser.lastName}</p>
 
                                             <label htmlFor="description">Course Description</label>
                                             <textarea 
