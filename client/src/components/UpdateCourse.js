@@ -81,6 +81,7 @@ export default function UpdateCourse {
                                                 onChange={change}
                                                 placeholder={title}
                                             />
+                                            <p></p>
 
                                             <label htmlFor="description">Course Description</label>
                                             <textarea 
