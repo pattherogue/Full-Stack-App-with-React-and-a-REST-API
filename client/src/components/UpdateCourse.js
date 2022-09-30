@@ -62,7 +62,7 @@ export default function UpdateCourse {
             <div>
                 <div class="wrap">
                     <h2>Update Course</h2>
-                    <div
+                    <Form
                         cancel={cancel}
                         errors={errors}
                         submit={submit}
