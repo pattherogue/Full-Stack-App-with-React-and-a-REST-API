@@ -11,7 +11,7 @@ export default function UpdateCourse {
     const { id } = useParams();
 
     const [title, setTitle] = useState('');
-    const [description, setDecription] = useState('');
+    const [description, setDescription] = useState('');
     const [estimatedTime, setEstimatedTime] = useState('');
     const [materialsNeeded, setMaterialsNeeded] = useState('');
     const [errors, setErrors] = useState([]);
@@ -165,6 +165,7 @@ export default function UpdateCourse {
                 setErrors(errors);
             } else {
                 console.log('Course has been updated');
+                history.push('/');
             }
         })
         .catch( err => {
