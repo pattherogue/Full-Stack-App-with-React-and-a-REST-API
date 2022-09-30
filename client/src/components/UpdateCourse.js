@@ -5,7 +5,7 @@ import Form from './Form';
 import Axios from 'axios';
 
 // provides "Update Course" screen
-export default function UpdateCourse {
+export default function UpdateCourse() {
     let history = useHistory();
     let context = useContext(Context);
     const { id } = useParams();
