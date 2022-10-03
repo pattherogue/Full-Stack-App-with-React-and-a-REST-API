@@ -30,23 +30,6 @@ export default function UpdateCourse() {
         });
     }, [id, history]);
 
-       /* response => {
-            this.setState({
-                course: response.data,
-                owner: response.data.owner,
-                title: response.data.title,
-                description: response.data.description,
-                estimatedTime: response.data.estimatedTime,
-                materialsNeeded: response.data.materialsNeeded
-            });
-        })
-        .catch(err => {
-            console.error(err);
-            this.props.history.push("/notfound");
-        });
-        console.log(this.state.course);
-    }; */
-
     // render form -- update one existing course
    /*  render() {
         const {
