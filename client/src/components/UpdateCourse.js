@@ -140,6 +140,14 @@ export default function UpdateCourse() {
             return;
         }
     }
+
+
+    // render "Cancel" button
+    function cancel() {
+        // return users to "Course Detail" screen
+        history.push('/');
+    }
+
     
     // send PUT request to /api/courses/:id
     function submit() {
@@ -175,10 +183,4 @@ export default function UpdateCourse() {
         });
     }
 
-    // render "Cancel" button
-    function cancel() {
-        // return users to "Course Detail" screen
-        history.push('/');
-    }
-}
 
