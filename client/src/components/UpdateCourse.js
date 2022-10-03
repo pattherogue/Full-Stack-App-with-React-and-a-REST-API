@@ -51,7 +51,6 @@ export default function UpdateCourse() {
                         submit={submit}
                         submitButtonText="Update Course"
                         elements={() => (
-                            <div>
                                 <React.Fragment>
                                     <div className="main--flex">
                                         <div>
@@ -99,7 +98,6 @@ export default function UpdateCourse() {
                                         </div>
                                     </div>
                                 </React.Fragment>
-                            </div>
                         )}
                     />
                 </div>
