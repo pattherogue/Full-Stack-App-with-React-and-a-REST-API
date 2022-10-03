@@ -31,15 +31,6 @@ export default function UpdateCourse() {
     }, [id, history]);
 
     // render form -- update one existing course
-   /*  render() {
-        const {
-            title,
-            description,
-            estimatedTime,
-            materialsNeeded,
-            errors
-        } = this.state */
-
         // render "Update Course" button
         return (
             <div>
@@ -103,7 +94,7 @@ export default function UpdateCourse() {
                 </div>
             </div>
         )
-    }
+    
 
     function change (e) {
         const name = e.target.name;
@@ -164,4 +155,4 @@ export default function UpdateCourse() {
         });
     }
 
-
+}
