@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import { useParams, useHistory } from 'react-router-dom;'
 import { Context } from '../Context';
 import Form from './Form';
-import Axios from 'axios';
+import axios from 'axios';
 
 // provides "Update Course" screen
 export default function UpdateCourse() {
@@ -18,7 +18,7 @@ export default function UpdateCourse() {
     const authUser = context.authenticatedUser;
     
     useEffect(() => {
-        Axios.get(`http://localhost:5000/api/courses/${id}`)
+        axios.get(`http://localhost:5000/api/courses/${id}`)
         .then(course => {
             setTitle(course.data.title);
             setDescription(course.data.description);
