@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-import { useParams, useHistory } from 'react-router-dom;'
+import { useParams, useHistory } from 'react-router-dom'
 import { Context } from '../Context';
 import Form from './Form';
 import axios from 'axios';
