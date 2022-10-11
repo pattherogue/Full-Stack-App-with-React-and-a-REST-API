@@ -16,6 +16,11 @@ function CreateCourse() {
     const [materialsNeeded, setMaterialsNeeded] = useState("");
     const [errors, setErrors] = useState("");
 
+    // render "Cancel" button -- return user to default route
+    const cancel = () => {
+    history.push("/")
+}
+
     // sends POST request to /api/courses route
     const change = (e) => {
         const name = e.target.name;
@@ -61,10 +66,7 @@ function CreateCourse() {
             .catch(errors => console.log(errors));
     };
     
-    // render "Cancel" button -- return user to default route
-   const cancel = () => {
-        history.push("/")
-    }
+ 
     // provides "Create Course" screen
         // render screen that allows user to create a new course
         return (
