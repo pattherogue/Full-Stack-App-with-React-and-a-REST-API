@@ -42,18 +42,7 @@ function CreateCourse() {
             setMaterialsNeeded(value);
         }
     };
-
-   /*n const change = e => {
-        const name = e.target.name;
-        const value = e.target.value;
-
-        this.setState(() => {
-            return {
-                [name]: value
-            }
-        })
-    } */
-
+    
     const submit = () => {
         
         const emailAddress = authUser.emailAddress;
