@@ -18,15 +18,6 @@ function CreateCourse() {
 
 
 // provides "Create Course" screen
-
-   /* const state = {
-        title: '',
-        description: '',
-        estimatedTime: '',
-        materialsNeeded: '',
-        errors: []
-    } */
-
     // sends POST request to /api/courses route
     const change = (e) => {
         const name = e.target.name;
@@ -42,7 +33,7 @@ function CreateCourse() {
             setMaterialsNeeded(value);
         }
     };
-    
+
     const submit = () => {
         
         const emailAddress = authUser.emailAddress;
