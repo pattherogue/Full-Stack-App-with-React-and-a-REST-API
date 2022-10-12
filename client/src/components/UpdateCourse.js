@@ -72,7 +72,6 @@ export default function UpdateCourse() {
                                                 type="text" 
                                                 value={estimatedTime}
                                                 onChange={change}
-                                                placeholder={estimatedTime}
                                             />
 
                                             <label htmlFor="materialsNeeded">Materials Needed</label>
