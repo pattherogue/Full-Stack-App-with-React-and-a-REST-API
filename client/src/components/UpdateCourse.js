@@ -52,7 +52,6 @@ export default function UpdateCourse() {
                                                 type="text" 
                                                 value={title}
                                                 onChange={change}
-                                                placeholder={title}
                                             />
                                             <p>By {authUser.firstName} {authUser.lastName}</p>
 
