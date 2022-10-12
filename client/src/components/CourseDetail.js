@@ -25,7 +25,7 @@ export default function CourseDetail() {
         }
     );
 
-    const [errors, setErrors] = useState([]);
+   
     const { id } = useParams();
    
 
@@ -50,9 +50,9 @@ export default function CourseDetail() {
         let password = authUser.password;
 
         context.data.deleteCourse(id, emailAdress, password)
-            .then( errors => {
-                if(errors) {
-                    console.log(`Course not deleted: ${errors}`);
+            .then( error => {
+                if(error) {
+                    console.log('Course not deleted');
                 } else {
                     console.log('Course deleted');
                     history.push('/');
