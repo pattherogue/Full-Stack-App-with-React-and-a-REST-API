@@ -62,7 +62,6 @@ export default function UpdateCourse() {
                                                 type="text"
                                                 value={description}
                                                 onChange={change}
-                                                placeholder={description}
                                             />
                                         </div>
                                         <div>
