@@ -81,7 +81,6 @@ export default function UpdateCourse() {
                                                 type="textarea"
                                                 value={materialsNeeded}
                                                 onChange={change}
-                                                placeholder={materialsNeeded}
                                             />
                                         </div>
                                     </div>
