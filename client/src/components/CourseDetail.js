@@ -46,10 +46,10 @@ export default function CourseDetail() {
     }, [id]);
 
     function deleteCourse() {
-        let emailAdress = authUser.emailAddress;
+        let emailAddress = authUser.emailAddress;
         let password = authUser.password;
 
-        context.data.deleteCourse(id, emailAdress, password)
+        context.data.deleteCourse(id, emailAddress, password)
             .then( error => {
                 if(error) {
                     console.log('Course not deleted');
