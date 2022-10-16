@@ -74,7 +74,7 @@ export default function CourseDetail() {
                         {(authUser && authUser.id === course.User?.id) ? (
                             <React.Fragment>
                                 <Link className="button" to={`/courses/${id}/update`}>Update Course</Link>
-                                <button className="button" to="#" onClick={{deleteCourse}}>Delete Course</button>
+                                <button className="button" to="#" onClick={(deleteCourse)}>Delete Course</button>
                                 <Link className="button button-secondary" to="/">Return to List</Link>
                             </React.Fragment>
                             ):
