@@ -45,14 +45,14 @@ export default function CourseDetail() {
             });
     }, [id]);
 
-    function deleteCourse() {
+    function delCourse() {
         let emailAddress = authUser.emailAddress;
         let password = authUser.password;
 
         context.data.deleteCourse(id, emailAddress, password)
-            .then( error => {
-                if(error) {
-                    console.log('Course not deleted');
+            .then( errors => {
+                if(errors) {
+                    console.log(`Course not deleted: ${errors}`);
                 } else {
                     console.log('Course deleted');
                     history.push('/');
@@ -74,7 +74,7 @@ export default function CourseDetail() {
                         {(authUser && authUser.id === course.User?.id) ? (
                             <React.Fragment>
                                 <Link className="button" to={`/courses/${id}/update`}>Update Course</Link>
-                                <button className="button" to="#" onClick={(deleteCourse)}>Delete Course</button>
+                                <button className="button" to="#" onClick={(delCourse)}>Delete Course</button>
                                 <Link className="button button-secondary" to="/">Return to List</Link>
                             </React.Fragment>
                             ):
