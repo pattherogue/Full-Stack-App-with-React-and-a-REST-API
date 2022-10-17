@@ -34,7 +34,7 @@ export default function UpdateCourse() {
         // render "Update Course" button
         return (
             <div>
-                <div class="wrap">
+                <div className="wrap">
                     <h2>Update Course</h2>
                     <Form
                         cancel={cancel}
