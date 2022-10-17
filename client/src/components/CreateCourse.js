@@ -70,7 +70,7 @@ function CreateCourse() {
     // provides "Create Course" screen
         // render screen that allows user to create a new course
         return (
-            <div class="wrap">
+            <div className="wrap">
             <h2>Create Course</h2>
             <Form
                 cancel={cancel}
