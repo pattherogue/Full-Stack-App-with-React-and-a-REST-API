@@ -40,8 +40,8 @@ export default function CourseDetail() {
                 // retrieve detail from course from /api/courses/:id
                 getCourse(course.data)
             })
-            .catch(error => {
-                console.log('Error fetching and parsing data', error);
+            .catch(err => {
+                console.log('Error fetching and parsing data', err);
             });
     }, [id]);
 
