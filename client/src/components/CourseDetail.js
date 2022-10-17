@@ -51,8 +51,8 @@ export default function CourseDetail() {
 
         context.data.deleteCourse(id, emailAddress, password)
             .then(errors => {
-                if(errors) {
-                    console.log(`Course not deleted: ${errors}`);
+                if(errors.length) {
+                    console.log('Course not deleted');
                 } else {
                     console.log('Course deleted');
                     history.push('/');
