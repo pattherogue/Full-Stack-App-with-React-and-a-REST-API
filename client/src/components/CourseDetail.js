@@ -50,7 +50,7 @@ export default function CourseDetail() {
         let password = authUser.password;
 
         context.data.deleteCourse(id, emailAddress, password)
-            .then( errors => {
+            .then(errors => {
                 if(errors) {
                     console.log(`Course not deleted: ${errors}`);
                 } else {
