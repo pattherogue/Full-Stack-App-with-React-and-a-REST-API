@@ -140,7 +140,7 @@ export default function UpdateCourse() {
             password
         )
         .then(errors => {
-            if (errors) {
+            if (errors.length > 0) {
                 setErrors(errors);
             } else {
                 console.log('Course has been updated');
