@@ -55,10 +55,10 @@ export default function UpdateCourse() {
                                             />
                                             <p>By {authUser.firstName} {authUser.lastName}</p>
 
-                                            <label htmlFor="description">Course Description</label>
+                                            <label htmlFor="courseDescription">Course Description</label>
                                             <textarea 
-                                                id="description" 
-                                                name="description"
+                                                id="courseDescription" 
+                                                name="courseDescription"
                                                 type="text"
                                                 value={description}
                                                 onChange={change}
