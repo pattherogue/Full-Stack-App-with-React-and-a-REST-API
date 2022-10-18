@@ -47,8 +47,8 @@ export default function UpdateCourse() {
                                         <div>
                                             <label htmlFor="courseTitle">Course Title</label>
                                             <input 
-                                                id="title" 
-                                                name="title" 
+                                                id="courseTitle" 
+                                                name="courseTitle" 
                                                 type="text" 
                                                 value={title}
                                                 onChange={change}
