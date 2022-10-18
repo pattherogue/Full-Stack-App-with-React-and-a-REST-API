@@ -95,6 +95,8 @@ export default function UpdateCourse() {
     function change (e) {
         const name = e.target.name;
         const value = e.target.value;
+        console.log(name)
+        console.log(value)
 
         if(name === "courseTitle") {
             setTitle(value);
