@@ -20,10 +20,10 @@ const Form = (props) => {
     }
 
     function ErrorsDisplay({ errors }) {
-        let ErrorsDisplay = null;
+        let errorsDisplay = null;
 
         if (errors.length) {
-            ErrorsDisplay = (
+            errorsDisplay = (
                 <div>
                     <h2 className="validation--errors--label">Validation Errors</h2>
                     <div className="validation-errors">
