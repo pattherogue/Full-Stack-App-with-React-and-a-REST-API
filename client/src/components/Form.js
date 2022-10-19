@@ -19,6 +19,19 @@ const Form = (props) => {
         cancel();
     }
 
+    return (
+        <div>
+            <ErrorsDisplay errors={errors} />
+            <form onSubmit={handleSubmit}>
+                {elements()}
+                <div className="pad-bottom">
+                    <button className="button" type="submit">{submitButtonText}</button>
+                    <button className="button button-secondary" onClick={handleCancel}>Cancel</button>
+                </div>
+            </form>
+        </div>
+    );
+
     function ErrorsDisplay({ errors }) {
         let errorsDisplay = null;
 
@@ -36,19 +49,6 @@ const Form = (props) => {
         }
         return errorsDisplay;
     }
-
-    return (
-        <div>
-            <ErrorsDisplay errors={errors} />
-            <form onSubmit={handleSubmit}>
-                {elements()}
-                <div className="pad-bottom">
-                    <button className="button" type="submit">{submitButtonText}</button>
-                    <button className="button button-secondary" onClick={handleCancel}>Cancel</button>
-                </div>
-            </form>
-        </div>
-    );
 } 
 
 export default Form;
