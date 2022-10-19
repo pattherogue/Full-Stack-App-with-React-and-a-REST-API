@@ -34,7 +34,7 @@ const Form = (props) => {
                 </div>
             );
         }
-        return ErrorsDisplay;
+        return errorsDisplay;
     }
 
     return (
