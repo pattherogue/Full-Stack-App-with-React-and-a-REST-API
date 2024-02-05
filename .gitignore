@@ -1,3 +1,5 @@
 
 Full-Stack-App-wit-React-and-a-REST-API/
 node_modules/
+build/
+.env
